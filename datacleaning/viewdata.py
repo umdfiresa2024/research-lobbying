@@ -24,9 +24,9 @@ plt.scatter(df["log_lobby"], df["log_Percent_Diff"])
 # Plot the line of best fit on top of the scatter plot
 plt.plot(x_values, y_values, color='red', label='Line of Best Fit')
 
-plt.xlabel("Log(Lobby + 1)")
-plt.ylabel("Log(Abs(% Difference) + 1)")
-plt.title("Scatter Plot with Log-Transformed Axes")
+plt.xlabel("Log(Lobby Amount)")
+plt.ylabel("Log(Abs(% Stock Price Change))")
+plt.title("Scatter Plot of Lobby $ vs % Price Difference")
 plt.grid(True)
 plt.legend()  # Add a legend to display the line label
 plt.show()
