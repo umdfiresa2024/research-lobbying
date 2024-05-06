@@ -27,9 +27,6 @@ print(len(df))
 
 # Load trained model
 settings = parse_settings("settings.cfg")
-input_size = 1
-hidden_size = 256
-output_size = 1
 model_path = "stock_price_predictor.pth"
 model = StockPricePredictor(
     settings["input_size"], settings["hidden_size"], settings["output_size"])
