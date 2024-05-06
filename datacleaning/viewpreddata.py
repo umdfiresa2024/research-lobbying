@@ -53,7 +53,7 @@ plt.plot(df["log_lobby"], df["pred_log_dValue"],
 
 plt.xlabel("Log Lobby Amount")
 plt.ylabel("Log Abs Stock Price Change")
-plt.title(f"Lobby Amount vs Stock Value in 2009-2010, n={len(df)}")
+plt.title(f"Lobby Amount vs Predicted Stock Value in 2009-2010, n={len(df)}")
 plt.grid(True)
 plt.legend()  # Add a legend to display the line label
 plt.show()
