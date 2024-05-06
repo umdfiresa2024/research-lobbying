@@ -4,6 +4,7 @@ import pandas as pd
 
 
 df = pd.read_csv("./data_with_price.csv")
+df = df[df["outlier"] == 0]
 
 # Calculate percentage difference
 df["Percent_Diff"] = (df["Price_After"] - df["Price_Before"]
