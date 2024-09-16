@@ -1,6 +1,9 @@
 ---
-title: "Research Question"
-format: html
+title: "
+Q1: How can we best predict each firm’s lobbying spending on the Waxman-Markey bill?
+Q2: How do certain characteristics of a company predict how much money they'll spend on lobbying for the Waxman-Markey bill?
+"
+format: gfm
 editor: visual
 ---
 
@@ -23,7 +26,7 @@ Step 3. Upload the dataframe that you have created in Spring 2024 into the repos
 Step 4. Open the dataframe into the RStudio Environment.
 
 ```{r}
-df<-read.csv("data.csv")
+df<-read.csv("main_data.csv")
 ```
 
 Step 5. Use the **head** and **kable** function showcase the first 10 rows of the dataframe to the reader.
@@ -34,11 +37,11 @@ kable(head(df))
 
 ## Question 1: What is the frequency of this data frame?
 
-Answer:
+Answer: N/A
 
 ## Question 2: What is the cross-sectional (geographical) unit of this data frame?
 
-Answer:
+Answer: Company
 
 Step 6. Use the **names** function to display all the variables (column) in the dataframe.
 
@@ -48,21 +51,27 @@ names(df)
 
 ## Question 3: Which column represents the explanatory variable of interest?
 
-Answer:
+Answer: US_revenue_share, carbon_intensity, naics2, naics3, naics4
 
 ## Question 4: Which column represents the outcome variable of interest?
 
-Answer:
+Answer: lobby
 
 Step 7: Fit a regression model $y=\beta_0 + \beta_1 x + \epsilon$ where $y$ is the outcome variable and $x$ is the treatment variable. Use the **summary** function to display the results.
 
 ```{r}
-model1<-lm(nox_emit ~ nbp, data=df)
+model1<-lm(lobby ~ US_revenue_share + carbon_intensity + as.factor(naics2), data=df)
 
 summary(model1)
 ```
 
 ## Question 5: What is the equation that describes the linear regression above? Please include an explanation of the variables and subscripts.
+
+$$
+lobby_i = \beta_0 + \beta_1 \times RevShare_i + \beta_2 \times CarbonIntensity_i + \sigma_{naic} + \epsilon_i
+$$
+
+where $i$ represents each company 
 
 ## Question 6: What fixed effects can be included in the regression? What does each fixed effects control for? Please include a new equation that incorporates the fixed effects.
 
