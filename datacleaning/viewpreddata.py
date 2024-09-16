@@ -48,8 +48,8 @@ plt.figure(figsize=(8, 6))
 plt.scatter(df["log_lobby"], df["log_dValue"])
 
 # Plot the line of best fit
-plt.plot(df["log_lobby"], df["pred_log_dValue"],
-         color='red', label='Line of Best Fit')
+plt.scatter(df["log_lobby"], df["pred_log_dValue"],
+            color='red')
 
 plt.xlabel("Log Lobby Amount")
 plt.ylabel("Log Abs Stock Price Change")
