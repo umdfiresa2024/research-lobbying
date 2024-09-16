@@ -1,36 +1,71 @@
 ---
-title: "Preliminary Research Results"
-author: "2024 FIRE198 Sustainability Analytics"
-format: gfm
+title: "Research Question"
+format: html
 editor: visual
 ---
 
-## Team Members
-
-Write names of team members here.
-
-## Research Question
-
-Write research question here.
-
-## Background
-
-Write research relevance and literature review here.
-
-## Data
-
-Explain data source here.
-
-Clean data here.
+Step 1. Install necessary packages.
 
 ```{r}
-
+install.packages("tidyverse")
+install.packages("kableExtra")
 ```
 
-## Preliminary Results
-
-Use your final dataset to visualize how the treatment variable impacts the outcome variable here.
+Step 2. Declare that you will use these packages in this session.
 
 ```{r}
-
+library("tidyverse")
+library("kableExtra")
 ```
+
+Step 3. Upload the dataframe that you have created in Spring 2024 into the repository.
+
+Step 4. Open the dataframe into the RStudio Environment.
+
+```{r}
+df<-read.csv("data.csv")
+```
+
+Step 5. Use the **head** and **kable** function showcase the first 10 rows of the dataframe to the reader.
+
+```{r}
+kable(head(df))
+```
+
+## Question 1: What is the frequency of this data frame?
+
+Answer:
+
+## Question 2: What is the cross-sectional (geographical) unit of this data frame?
+
+Answer:
+
+Step 6. Use the **names** function to display all the variables (column) in the dataframe.
+
+```{r}
+names(df)
+```
+
+## Question 3: Which column represents the explanatory variable of interest?
+
+Answer:
+
+## Question 4: Which column represents the outcome variable of interest?
+
+Answer:
+
+Step 7: Fit a regression model $y=\beta_0 + \beta_1 x + \epsilon$ where $y$ is the outcome variable and $x$ is the treatment variable. Use the **summary** function to display the results.
+
+```{r}
+model1<-lm(nox_emit ~ nbp, data=df)
+
+summary(model1)
+```
+
+Step 9: Change the document format to gfm
+
+Step 10: Render the document
+
+Step 11: Push the document back to GitHub and observe your beautiful document in your repository!
+
+Step 12: If your team has a complete dataframe that includes both the treated and outcome variable, you are done with the assignment. If not, make a research plan in Notion to collect data on the outcome and treatment variable and combine it into one dataframe.
