@@ -1,0 +1,162 @@
+---
+title: "Preliminary Machine Learning Results"
+format: html
+editor: visual
+---
+
+## Step 1: Upload and clean data
+
+Keep the script that uploads your team's data into RStudio.
+
+```{r}
+df<-read.csv("")
+```
+
+-   Remove columns with NAs and columns that are not useful as explanatory variables.
+
+-   Turn character variables into factors.
+
+The code chunk below provides an example from a previous team. Please modify the code chunk below for your team's data.
+
+```{r}
+library("tidyverse")
+
+summary(df)
+
+#remove columns that are not needed
+#remove NA values
+#convert categorical variables into factors
+df2<-df %>%
+  dplyr::select(-Rnded_lat, -Rnded_lon, -lonxhrs, -hours, -sus2, 
+                -lon, -lat, -date) %>%
+  filter(!is.na(report_days)) %>%
+  mutate(mmsi=as.factor(mmsi)) 
+  
+glimpse(df2)
+
+#make sure that each observation is unique
+sapply(lapply(df2, unique), length)
+```
+
+## Step 2: Split data in to test and train group
+
+The code chunk below provides an example from a previous team. Please modify the code chunk below for your team's data.
+
+```{r}
+set.seed(12)
+
+shuffled<-df2 %>%sample_frac(size=1, replace=FALSE)
+
+train<-shuffled %>%
+  slice(1:5000)
+
+test<-shuffled %>%
+  slice(5001:7343)
+```
+
+## Step 3: Run linear model and calculate test RMSE
+
+The code chunk below provides an example from a previous team. Please modify the code chunk below for your team's data.
+
+```{r}
+
+model1<-glm(sus1 ~ ., data=train)
+
+summary(model1)
+
+predict_test<-predict(model1, test, type="response")
+
+rmse_test_lm1<-sqrt(mean(test$sus1-predict_test)^2)
+
+rmse_test_lm1
+```
+
+## Step 4: Run linear model and calculate test RMSE with
+
+The code chunk below provides an example from a previous team. Please modify the code chunk below for your team's data.
+
+```{r}
+library("leaps")
+
+Best_Subset <-
+  regsubsets(sus1~.,
+             data = train,
+             nbest = 1,      
+             nvmax = 5,    # limit on number of variables
+             force.in = NULL, force.out = NULL,
+             method = "seqrep")
+
+summary_best_subset <- summary(Best_Subset)
+summary_best_subset$which[which.max(summary_best_subset$adjr2),]
+```
+
+```{r}
+model2<-glm(sus1 ~ mmsi + anchor + days + report_days, data=train)
+
+summary(model2)
+
+predict_test<-predict(model2, test, type="response")
+
+rmse_test_lm2<-sqrt(mean(test$sus1-predict_test)^2)
+
+rmse_test_lm2
+```
+
+## Step 5: Run rpart package
+
+The code chunk below provides an example from a previous team. Please modify the code chunk below for your team's data.
+
+```{r}
+library("rpart")
+model3<-rpart(sus1 ~., train)
+
+summary(model3)
+
+library("rpart.plot")
+
+rpart.plot(model3,fallen.leaves = T)
+
+library("vip")
+
+v1<-vip(model3)
+v1
+
+predict_test<-predict(model3, test)
+
+rmse_test_rpart<-sqrt(mean(test$sus1-predict_test)^2)
+
+rmse_test_rpart
+```
+
+## Step 5: Random Forest model
+
+The code chunk below provides an example from a previous team. Please modify the code chunk below for your team's data.
+
+```{r}
+library("ranger")
+
+model4 <- ranger(sus1 ~ ., data=train, importance='impurity')
+v1 <- vip(model4)
+v1
+
+predict_test<-predict(model4, test)
+
+rmse_test_rf<-sqrt(mean(test$sus1-predict_test$predictions)^2)
+
+rmse_test_rf
+
+```
+
+### Which model produces the lowest RMSE?
+
+\[write your answer here\]
+
+### Use the *predict* function to generate the predicted outcome variable.
+
+```{r}
+
+```
+
+### **Discuss some limitations of the machine learning model to predict the outcome variable.**
+
+\[write your answer here\]
