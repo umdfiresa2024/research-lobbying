@@ -1,9 +1,4 @@
-﻿Data Extracted from EPA's FLIGHT Tool (http://ghgdata.epa.gov/ghgp),,,,,,,,,,,,
-The data was reported to EPA by facilities as of 08/18/2023,,,,,,,,,,,,
-All emissions data is presented in units of metric tons of carbon dioxide equivalent using GWP's from IPCC's AR4,,,,,,,,,,,,
-Search Parameters: year=2010; GHGs=ALL; data type=All Emitters; ,,,,,,,,,,,,
-,,,,,,,,,,,,
-REPORTING YEAR,FACILITY NAME,GHGRP ID,REPORTED ADDRESS,LATITUDE,LONGITUDE,CITY NAME,COUNTY NAME,STATE,ZIP CODE,PARENT COMPANIES,GHG QUANTITY (METRIC TONS CO2e),SUBPARTS
+﻿REPORTING YEAR,FACILITY NAME,GHGRP ID,REPORTED ADDRESS,LATITUDE,LONGITUDE,CITY NAME,COUNTY NAME,STATE,ZIP CODE,PARENT COMPANIES,GHG QUANTITY (METRIC TONS CO2e),SUBPARTS
 2010,23rd and 3rd,1000112,730 3rd Avenue,40.663,-74,BROOKLYN,Kings,NY,11232,New York Power Authority (100%),82960,"C,D"
 2010,29-6 #2 Central Delivery Point,1006394,,36.7452,-107.4455,Blanco,Rio Arriba,NM,87412,Williams Partners L.P. (100%),25177,C (Abbr)
 2010,30-5 Central Delivery Point Compressor Station,1002885,,36.8118,-107.4036,Aztec,Rio Arriba,NM,87410,Williams Partners L.P. (100%),38883,C (Abbr)

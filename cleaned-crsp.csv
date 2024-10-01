@@ -1,0 +1,5811 @@
+Index,Ticker,Company
+0,A,Agilent technologies
+1,AA,Alcoa
+2,AACC,Asset acceptance capital corp
+3,AAI,Airtran holdings
+4,AAME,Atlantic american corp
+5,AAON,Aaon
+6,AAP,Advance auto parts
+7,AAPL,Apple
+8,AATI,Advanced analogic tchnlgs
+9,AAU,Almaden minerals ltd
+10,AAV,Advantage oil & gas ltd
+11,AAWW,Atlas air worldwide holdings
+12,AAXJ,Ishares trust
+13,AB,Alliancebernstein holding l p
+14,ABAT,Advanced battery technols
+15,ABAX,Abaxis
+16,ABB,A b b ltd
+17,ABBC,Abington bancorp inc pa
+18,ABC,Amerisourcebergen corp
+19,ABCB,Ameris bancorp
+20,ABCO,Advisory board co
+21,ABCW,Anchor bancorp wisconsin
+22,ABD,A c c o brands corp
+23,ABFS,Arkansas best corp del
+24,ABG,Asbury automotive group
+25,ABIO,Arca biopharma
+26,ABL,American biltrite
+27,ABM,A b m industries
+28,ABMD,Abiomed
+29,ABR,Arbor realty trust
+30,ABT,Abbott laboratories
+31,ABTL,Autobytel
+32,ABV,Companhia de bebidas das amers
+33,ABVA,Alliance bankshares corp
+34,ABVT,Abovenet
+35,ABX,Barrick gold corp
+36,ACAD,Acadia pharmaceuticals
+37,ACAS,American capital ltd
+38,ACAT,Arctic cat
+39,ACC,American campus communities
+40,ACCL,Accelrys
+41,ACE,Ace ltd new
+42,ACET,Aceto corp
+43,ACFC,Atlantic coast fed corp
+44,ACFN,Acorn energy
+45,ACG,Alliancebernstein income fd
+46,ACGL,Arch capital group ltd new
+47,ACGY,Acergy s a
+48,ACH,Aluminum corp china ltd
+49,ACHN,Achillion pharmaceuticals
+50,ACI,Arch coal
+51,ACIW,A c i worldwide
+52,ACL,Alcon
+53,ACLI,American commercial lines
+54,ACLS,Axcelis technologies
+55,ACM,A e c o m technology corp
+56,ACMR,Ac moore arts and crafts
+57,ACN,Accenture plc ireland
+58,ACO,Amcol international corp
+59,ACOR,Acorda therapeutics
+60,ACPW,Active power
+61,ACTG,Acacia research corp
+62,ACTI,Actividentity corp
+63,ACTS,Actions semiconductor co ltd
+64,ACU,Acme united corp
+65,ACUR,Acura pharmaceuticals
+66,ACV,Alberto culver co new
+67,ACWI,Ishares trust
+68,ACWX,Ishares trust
+69,ACXM,Acxiom corp
+70,ACY,Aerocentury corp
+71,ADAM,A d a m
+72,ADAT,Authentidate holding corp
+73,ADBE,Adobe systems
+74,ADC,Agree realty corp
+75,ADCT,A d c telecommunications
+76,ADEP,Adept technology
+77,ADES,Ada es
+78,ADGF,Adams golf
+79,ADI,Analog devices
+80,ADK,Adcare health systems
+81,ADLR,Adolor corp
+82,ADM,Archer daniels midland co
+83,ADP,Automatic data processing
+84,ADPI,American dental partners
+85,ADRA,Bldrs index funds trust
+86,ADRD,Bldrs index funds trust
+87,ADRE,Bldrs index funds trust
+88,ADRU,Bldrs index funds trust
+89,ADS,Alliance data systems corp
+90,ADSK,Autodesk
+91,ADTN,Adtran
+92,ADVS,Advent software
+93,ADX,Adams express co
+94,ADY,Feihe international
+95,AE,Adams resources & energy
+96,AEA,Advance america cash adv ctrs in
+97,AEC,Associated estates realty corp
+98,AEE,Ameren corp
+99,AEG,Aegon n v
+100,AEHR,Aehr test systems
+101,AEIS,Advanced energy industries
+102,AEL,American equity invt life hldg c
+103,AEM,Agnico eagle mines ltd
+104,AEN,Adeona pharmaceuticals
+105,AEO,American eagle outfitters inc ne
+106,AEP,American electric power co
+107,AEPI,A e p industries
+108,AER,Aercap holdings n v
+109,AERG,Applied energetics
+110,AES,A e s corp
+111,AET,Aetna inc new
+112,AETI,American electric technols
+113,AEY,Addvantage technologies grp
+114,AEZ,American oil & gas
+115,AEZS,Aeterna zentaris
+116,AF,Astoria financial corp
+117,AFAM,Almost family
+118,AFB,Alliancebernstein nat mun inc fd
+119,AFCE,A f c enterprises
+120,AFFM,Affirmative insurance hldgs
+121,AFFX,Affymetrix
+122,AFFY,Affymax
+123,AFG,American financial group inc new
+124,AFK,Market vectors e t f trust
+125,AFL,Aflac
+126,AFOP,Alliance fiber optic prods
+127,AFP,United capital corp
+128,AFSI,Amtrust financial services
+129,AGC,Advent claymore glb conv sec
+130,AGCO,A g c o corp
+131,AGD,Alpine global dynamic divid fd
+132,AGEN,Antigenics inc del
+133,AGG,Ishares trust
+134,AGII,Argo group intl hldgs ltd
+135,AGL,A g l resources
+136,AGN,Allergan
+137,AGNC,American capital agency corp
+138,AGO,Assured guaranty ltd
+139,AGP,Amerigroup corp
+140,AGQ,Proshares trust ii
+141,AGU,Agrium
+142,AGX,Argan
+143,AGYS,Agilysys
+144,AGZ,Ishares trust
+145,AHC,A h belo corp
+146,AHCI,Allied healthcare intl
+147,AHD,Atlas pipeline holdings l p
+148,AHGP,Alliance holdings g p l p
+149,AHII,Animal health international
+150,AHL,Aspen insurance holdings ltd
+151,AHPI,Allied healthcare products
+152,AHS,A m n healthcare services
+153,AHT,Ashford hospitality trust
+154,AI,Arlington asset investment corp
+155,AIA,Ishares trust
+156,AIB,Allied irish banks plc
+157,AIG,American international group
+158,AIM,Aerosonic corp del
+159,AIMC,Altra holdings
+160,AIN,Albany international corp new
+161,AINV,Apollo investment corp
+162,AIP,Hadera paper ltd
+163,AIQ,Alliance healthcare services
+164,AIR,A a r corp
+165,AIRM,Air methods corp
+166,AIRT,Air t
+167,AIS,Antares pharma
+168,AIT,Applied industrial techs
+169,AIV,Apartment investment & mgmt co
+170,AIXG,Aixtron aktiengesellschaft
+171,AIZ,Assurant
+172,AJG,Gallagher arthur j & co
+173,AKAM,Akamai technologies
+174,AKP,Alliance ca mun inc fd
+175,AKR,Acadia realty trust
+176,AKRX,Akorn
+177,AKS,A k steel holding corp
+178,ALAN,Alanco technologies
+179,ALB,Albemarle corp
+180,ALC,Assisted living concepts inc new
+181,ALCO,Alico
+182,ALE,Allete
+183,ALEX,Alexander & baldwin
+184,ALG,Alamo group
+185,ALGN,Align technology
+186,ALGT,Allegiant travel co
+187,ALJ,Alon u s a energy
+188,ALK,Alaska airgroup
+189,ALKS,Alkermes
+190,ALL,Allstate corp
+191,ALLB,Alliance bancorp inc pa
+192,ALLT,Allot communications ltd
+193,ALNC,Alliance financial corp ny
+194,ALNY,Alnylam pharmaceuticals
+195,ALOG,Analogic corp
+196,ALOT,Astro medical inc new
+197,ALSK,Alaska communications sys grp in
+198,ALTH,Allos therapeutics
+199,ALTI,Altair nanotechnologies
+200,ALTR,Altera corp
+201,ALU,Alcatel lucent
+202,ALV,Autoliv
+203,ALVR,Alvarion ltd
+204,ALX,Alexanders
+205,ALXA,Alexza pharmaceuticals
+206,ALXN,Alexion pharmaceuticals
+207,ALY,Allis chalmers energy
+208,AM,American greetings corp
+209,AMAC,American medical alert corp
+210,AMAG,A m a g pharmaceuticals
+211,AMAT,Applied materials
+212,AMB,A m b property corp
+213,AMCC,Applied micro circuits corp
+214,AMCN,Airmedia group
+215,AMD,Advanced micro devices
+216,AME,Ametek inc new
+217,AMED,Amedisys
+218,AMG,Affiliated managers group
+219,AMGN,Amgen
+220,AMIC,American independence corp
+221,AMIE,Ambassadors international
+222,AMKR,Amkor technology
+223,AMLN,Amylin pharmaceuticals
+224,AMMD,American medical sys hldgs
+225,AMN,Ameron international corp del
+226,AMNB,American national bankshares
+227,AMOT,Allied motion technologies
+228,AMOV,America movil s a b de c v
+229,AMP,Ameriprise financial
+230,AMPH,American physicians svc group
+231,AMPL,Ampal american israel corp
+232,AMR,A m r corp del
+233,AMRB,American river bankshares
+234,AMRI,Albany molecular research
+235,AMRN,Amarin corp plc
+236,AMS,American shared hospital svcs
+237,AMSC,American superconductor corp
+238,AMSF,Amerisafe
+239,AMSG,Amsurg corp
+240,AMSWA,American software
+241,AMT,American tower corp
+242,AMTC,Ameritrans capital corp
+243,AMTD,T d ameritrade holding corp
+244,AMWD,American woodmark corp
+245,AMX,America movil s a b de c v
+246,AMZN,Amazon com
+247,AN,Autonation inc del
+248,ANAD,Anadigics
+249,ANAT,American national ins co
+250,ANCI,American caresource holdings
+251,ANCX,Access national corp
+252,ANDE,Andersons
+253,ANDS,Anadys pharmaceuticals
+254,ANEN,Anaren
+255,ANF,Abercrombie & fitch co
+256,ANGN,Angeion corp
+257,ANGO,Angiodynamics
+258,ANH,Anworth mortgage asset corp
+259,ANIK,Anika therapeutics
+260,ANLY,Analysts international corp
+261,ANN,Anntaylor stores corp
+262,ANNB,Annapolis bancorp
+263,ANO,Anooraq resources corp
+264,ANPI,Angiotech pharmaceuticals
+265,ANR,Alpha natural resources
+266,ANSS,Ansys
+267,ANSW,Answers corp
+268,ANTP,Phazar corp
+269,ANV,Allied nevada gold corp
+270,ANW,Aegean marine petroleum netw
+271,ANX,Adventrx pharmaceuticals
+272,AOA,Ishares trust
+273,AOB,American oriental bioenginrg
+274,AOD,Alpine total dynamic dividend fd
+275,AOI,Alliance one international
+276,AOK,Ishares trust
+277,AOM,Ishares trust
+278,AOR,Ishares trust
+279,AOS,Smith a o corp
+280,AP,Ampco pittsburgh corp
+281,APA,Apache corp
+282,APAC,A p a c customer services
+283,APAGF,Apco oil & gas international
+284,APB,Asia pacific fund
+285,APC,Anadarko petroleum corp
+286,APD,Air products & chemicals
+287,APEI,American public education
+288,APF,Morgan stanley asia pac fd
+289,APFC,American pacific corp
+290,APH,Amphenol corp new
+291,API,Advanced photonix
+292,APKT,Acme packet
+293,APL,Atlas pipeline partners l p
+294,APOG,Apogee enterprises
+295,APOL,Apollo group
+296,APP,American apparel
+297,APPA,A p pharma
+298,APPY,Aspenbio pharma
+299,APSA,Alto palermo s a
+300,APSG,Applied signal technology
+301,APT,Alpha pro tech ltd
+302,APU,Amerigas partners lp
+303,APWR,A power energy generation sys lt
+304,APX,Blackrock apex municipal fd
+305,AQQ,American spectrum realty
+306,ARAY,Accuray inc de
+307,ARB,Arbitron
+308,ARBA,Ariba
+309,ARCC,Ares capital corp
+310,ARCI,Appliance recycling ctrs amr
+311,ARCW,Arc wireless solutions
+312,ARDNA,Arden group
+313,ARE,Alexandria real est equities
+314,AREX,Approach resources
+315,ARG,Airgas
+316,ARGN,Amerigon
+317,ARIA,Ariad pharmaceuticals
+318,ARII,American railcar industries
+319,ARJ,Arch chemicals
+320,ARK,Blackrock senior high inc fd
+321,ARKR,Ark restaurants corp
+322,ARL,American realty investors
+323,ARLP,Alliance resource partners
+324,ARM,Arvinmeritor
+325,ARMH,A r m holdings plc
+326,ARNA,Arena pharmaceuticals
+327,ARO,Aeropostale
+328,AROW,Arrow financial corp
+329,ARP,American reprographics co
+330,ARQL,Arqule
+331,ARRS,Arris group
+332,ARRY,Array biopharma
+333,ARSD,Arabian american development co
+334,ARTG,Art technology group
+335,ARTNA,Artesian resources corp
+336,ARTW,Arts way manufacturing
+337,ARTX,Arotech corp
+338,ARUN,Aruba networks
+339,ARW,Arrow electronics
+340,ARWR,Arrowhead research corp
+341,ARYX,Aryx therapeutics
+342,ASA,A s a ltd
+343,ASBC,Associated banc corp
+344,ASBI,Ameriana bancorp
+345,ASCA,Ameristar casinos
+346,ASCMA,Ascent media corp
+347,ASEI,American science & engr
+348,ASF,Administaff
+349,ASFI,Asta funding
+350,ASFN,Atlantic southern finl group
+351,ASG,Liberty all star growth fd
+352,ASGN,On assignment
+353,ASGR,America service group
+354,ASH,Ashland inc new
+355,ASI,American safety ins holdings ltd
+356,ASIA,Asiainfo linkage
+357,ASMI,A s m international n v
+358,ASML,A s m l holding n v
+359,ASP,American strategic income port
+360,ASR,Grupo aeroportuario del sur s a
+361,ASRV,Ameriserv financial
+362,ASTC,Astrotech corp
+363,ASTE,Astec industries
+364,ASTI,Ascent solar technologies
+365,ASTM,Aastrom biosciences
+366,ASUR,Asure software
+367,ASX,Advanced semiconductor engr
+368,ASYS,Amtech systems
+369,ATAI,A t a
+370,ATAX,America first tax exempt invs lp
+371,ATC,Cycle country accessories corp
+372,ATE,Advantest corp
+373,ATEA,Astea international
+374,ATEC,Alphatec holdings
+375,ATHN,Athenahealth
+376,ATHR,Atheros communications
+377,ATHX,Athersys
+378,ATI,Allegheny technologies
+379,ATK,Alliant techsystems
+380,ATLO,Ames natl corp
+381,ATLS,Atlas energy
+382,ATMI,Atmi
+383,ATML,Atmel corp
+384,ATNI,Atlantic tele network
+385,ATO,Atmos energy corp
+386,ATPG,A t p oil & gas corp
+387,ATR,Aptargroup
+388,ATRC,Atricure
+389,ATRI,Atrion corp
+390,ATRM,Aetrium
+391,ATRN,Atrinsic
+392,ATRO,Astronics corp
+393,ATSG,Air transport services group
+394,ATU,Actuant corp
+395,ATV,Acorn international
+396,ATVI,Activision blizzard
+397,ATW,Atwood oceanics
+398,ATX,Cross a t co
+399,AU,Anglogold ashanti ltd
+400,AUBN,Auburn national bancorp
+401,AUDC,Audiocodes ltd
+402,AUO,A u optronics corp
+403,AUTH,Authentec
+404,AUXL,Auxilium pharmaceuticals
+405,AUY,Yamana gold
+406,AVA,Avista corp
+407,AVAV,Aerovironment
+408,AVB,Avalonbay communities
+409,AVCA,Advocat
+410,AVD,American vanguard corp
+411,AVID,Avid technology
+412,AVII,A v i biopharma
+413,AVK,Advent claymore conv secs inc fd
+414,AVNR,Avanir pharmaceuticlas
+415,AVP,Avon products
+416,AVT,Avnet
+417,AVTR,Avatar holdings
+418,AVX,A v x corp new
+419,AVY,Avery dennison corp
+420,AWC,Alumina ltd
+421,AWF,Alliancebernstein glbl high
+422,AWH,Allied world assur co hldgs ag
+423,AWI,Armstrong world inds inc new
+424,AWK,American water works co
+425,AWP,Alpine global premier pptys fund
+426,AWR,American states water co
+427,AWRE,Aware
+428,AWX,Avalon holdings corp
+429,AXAS,Abraxas petroleum corp
+430,AXE,Anixter international
+431,AXK,Accelr8 technology corp
+432,AXL,American axle & mfg hlgds
+433,AXP,American express co
+434,AXR,Amrep corp
+435,AXS,Axis capital holdings ltd
+436,AXTI,A x t
+437,AXU,Alexco resource corp
+438,AYE,Allegheny energy
+439,AYI,Acuity brands
+440,AYN,Alliance ny mun inc fd
+441,AYR,Aircastle ltd
+442,AZC,Augusta resource corp
+443,AZK,Aurizon mines ltd
+444,AZN,Astrazeneca plc
+445,AZO,Autozone
+446,AZZ,A z z
+447,B,Barnes group
+448,BA,Boeing co
+449,BAA,Banro corp
+450,BABY,Natus medical
+451,BAC,Bank of america corp
+452,BAF,Blackrock muni inc inv qlty tr
+453,BAGL,Einstein noah restaurant grp
+454,BAM,Brookfield asset management
+455,BAMM,Books a million
+456,BANF,Bancfirst corp
+457,BANR,Banner corp
+458,BAP,Credicorp ltd
+459,BARI,Bancorp rhode island
+460,BAS,Basic energy services
+461,BASI,Bioanalytical systems
+462,BAX,Baxter international
+463,BBBB,Blackboard
+464,BBBY,Bed bath & beyond
+465,BBEP,Breitburn energy partners l p
+466,BBF,Blackrock muni income invstmt fd
+467,BBG,Bill barrett corp
+468,BBGI,Beasley broadcast group
+469,BBH,Biotech holdrs tr
+470,BBK,Blackrock muni bond trust
+471,BBL,B h p billiton plc
+472,BBND,Bigband networks
+473,BBNK,Bridge capital holdings
+474,BBOX,Black box corp del
+475,BBSI,Barrett business services
+476,BBT,B b & t corp
+477,BBW,Build a bear workshop
+478,BBX,Bankatlantic bancorp
+479,BBY,Best buy company
+480,BC,Brunswick corp
+481,BCA,Corpbanca
+482,BCAR,Bank of the carolinas corp
+483,BCBP,B c b bancorp
+484,BCE,B c e
+485,BCF,Blackrock real asset equity tr
+486,BCH,Banco de chile
+487,BCO,Brinks co
+488,BCON,Beacon power corp
+489,BCPC,Balchem corp
+490,BCR,Bard c r
+491,BCRX,Biocryst pharmaceuticals
+492,BCS,Barclays plc
+493,BCSB,B c s b bancorp
+494,BCSI,Blue coat systems
+495,BCV,Bancroft fund ltd
+496,BDC,Belden inc new
+497,BDCO,Blue dolphin energy co
+498,BDF,Rivus bond fund
+499,BDGE,Bridge bancorp
+500,BDH,Broadband holdrs trust
+501,BDJ,Blackrock enhanced div achvrs tr
+502,BDL,Flanigans enterprises
+503,BDMS,Birner dental mngmt svs
+504,BDN,Brandywine realty trust
+505,BDR,Blonder tongue laboratories
+506,BDSI,Biodelivery sciences intl
+507,BDT,Blackrock strategic div ach tr
+508,BDV,Blackrock dividend achievers tr
+509,BDX,Becton dickinson & co
+510,BEAT,Cardionet
+511,BEAV,B e aerospace
+512,BEBE,Bebe stores
+513,BEC,Beckman coulter
+514,BECN,Beacon roofing supply
+515,BEE,Strategic hotels & resorts
+516,BELFA,Bel fuse
+517,BELFB,Bel fuse
+518,BEN,Franklin resources
+519,BERK,Berkshire bancorp inc del
+520,BEST,Shiner international
+521,BEXP,Brigham exploration co
+522,BEZ,Baldor electric co
+523,BFED,Beacon federal bancorp
+524,BFIN,Bankfinacial corp
+525,BFK,Blackrock mun income tr
+526,BFLY,Bluefly
+527,BFO,Blackrock fla mun 2020 term tr
+528,BFR,Bbva banco frances sa
+529,BFS,Saul centers
+530,BFSB,Brooklyn federal bancorp
+531,BFY,Blackrock n y mun inc tr ii
+532,BFZ,Blackrock calif mun income tr
+533,BG,Bunge ltd
+534,BGC,General cable corp del new
+535,BGCP,B g c partners
+536,BGFV,Big 5 sporting goods corp
+537,BGG,Briggs & stratton corp
+538,BGP,Borders group
+539,BGR,Blackrock energy & resources tr
+540,BGS,B & g foods inc new
+541,BGT,Blackrock floating rate inc tr
+542,BGU,Direxion shares e t f trust
+543,BGY,Blackrock interntl grth & inc tr
+544,BGZ,Direxion shares e t f trust
+545,BHB,Bar harbor bankshares
+546,BHD,Blackrock strategic bond tr
+547,BHE,Benchmark electronics
+548,BHH,B 2 b internet holdrs trust
+549,BHI,Baker hughes
+550,BHK,Blackrock core bond trust
+551,BHL,Blackrock defined opp credit tr
+552,BHLB,Berkshire hills bancorp
+553,BHO,B & h ocean carriers ltd
+554,BHP,B h p billiton ltd
+555,BHS,Brookfield homes corp
+556,BHV,Blackrock virginia muni bd tr
+557,BHY,Blackrock high yield trust
+558,BID,Sothebys
+559,BIDU,Baidu
+560,BIDZ,Bidz com
+561,BIE,Blackrock muni bond investmt tr
+562,BIF,Boulder growth & income fund
+563,BIG,Big lots
+564,BIIB,Biogen idec
+565,BIK,Spdr index shares funds
+566,BIL,Spdr series trust
+567,BIN,I e s i bfc ltd
+568,BIOC,Bioclinica
+569,BIOD,Biodel
+570,BIOF,Biofuel energy corp
+571,BIOS,Bioscrip
+572,BIP,Brookfield infrastruc partner lp
+573,BITS,Bitstream
+574,BIV,Vanguard bond index funds
+575,BJ,B j s wholesale club
+576,BJGP,B m p sunstone corp
+577,BJK,Market vectors e t f trust
+578,BJRI,Bjs restaurants
+579,BJZ,Blackrock calif mun 2018 term tr
+580,BK,Bank of new york mellon corp
+581,BKBK,Britton & koontz capital corp
+582,BKCC,Blackrock kelso capital corp
+583,BKD,Brookdale senior living
+584,BKE,Buckle
+585,BKF,Ishares
+586,BKH,Black hills corp
+587,BKI,Buckeye technologies
+588,BKJ,Bancorp of new jersey
+589,BKK,Blackrock municipal 2020 term tr
+590,BKMU,Bank mutual corp new
+591,BKN,Blackrock invest qlty muni tr in
+592,BKOR,Oak ridge financial services
+593,BKR,Baker michael corp
+594,BKS,Barnes & noble
+595,BKSC,Bank south carolina corp
+596,BKT,Blackrock income trust
+597,BKYF,Bank of kentucky financial corp
+598,BLC,Belo corp
+599,BLD,Baldwin technology co
+600,BLDP,Ballard power systems
+601,BLDR,Builders firstsource
+602,BLE,Blackrock municipal income tr ii
+603,BLH,Blackrock ny mun 2018 term tr
+604,BLJ,Blackrock new jersey muni bd tr
+605,BLK,Blackrock
+606,BLKB,Blackbaud
+607,BLL,Ball corp
+608,BLT,Blount international inc new
+609,BLTI,Biolase technology
+610,BLU,Blue chip value fund
+611,BLUD,Immucor
+612,BLV,Vanguard bond index funds
+613,BLW,Blackrock ltd duration income tr
+614,BLX,Banco latinoamericano de co ex s
+615,BMA,Banco macro s a
+616,BMC,B m c software
+617,BME,Blackrock health sciences trust
+618,BMI,Badger meter
+619,BMJ,Birks & mayors
+620,BMO,Bank montreal que
+621,BMR,Biomed realty trust
+622,BMRC,Bank of marin bancorp
+623,BMRN,Biomarin pharmaceutical
+624,BMS,Bemis co
+625,BMT,Blackrock insured muni tm tr
+626,BMTC,Bryn mawr bank corp
+627,BMTI,Biomimetic therapeutics
+628,BMY,Bristol myers squibb co
+629,BNA,Blackrock income opp tr
+630,BNCL,Beneficial mutual bancorp
+631,BNCN,B n c bancorp
+632,BND,Vanguard bond index funds
+633,BNHN,Benihana
+634,BNHNA,Benihana
+635,BNJ,Blackrock n j mun income tr
+636,BNS,Bank of nova scotia
+637,BNSO,Bonso electronics intl
+638,BNVI,Bionovo
+639,BNX,Banks com
+640,BNY,Blackrock n y mun income tr
+641,BNZ,Wisdomtree trust
+642,BOBE,Bob evans farms
+643,BOCH,Bank of commerce holdings
+644,BOE,Blackrock global opp equity tr
+645,BOFI,B of i holding
+646,BOH,Bank of hawaii corp
+647,BOKF,B o k financial corp
+648,BOLT,Bolt technology corp
+649,BONT,Bon ton stores
+650,BOOM,Dynamic materials corp
+651,BOOT,Lacrosse footwear
+652,BOSC,B o s better online solns ltd
+653,BOVA,Bank of virginia
+654,BP,B p plc
+655,BPAX,Biosante pharmaceuticals
+656,BPFH,Boston private finl hldgs
+657,BPHX,Bluephoenix solutions ltd
+658,BPI,Bridgepoint education
+659,BPK,Blackrock mun 2018 term tr
+660,BPL,Buckeye partners l p
+661,BPO,Brookfield properties corp
+662,BPOP,Popular
+663,BPP,Blackrock credit all inc tr iii
+664,BPS,Blackrock pennsylvania str mun t
+665,BPT,B p prudhoe bay royalty trust
+666,BPZ,B p z resources
+667,BQH,Blackrock ny muni bond trust
+668,BQI,Oilsands quest
+669,BQR,Blackrock ecosolutions invest tr
+670,BQY,Blackrock s & p qlty rk gb eq tr
+671,BR,Broadridge financial solutns
+672,BRC,Brady corp
+673,BRCD,Brocade communications sys
+674,BRCM,Broadcom corp
+675,BRE,B r e properties
+676,BRF,Market vectors e t f trust
+677,BRID,Bridgford foods corp
+678,BRKL,Brookline bancorp
+679,BRKR,Bruker corp
+680,BRKS,Brooks automation
+681,BRLI,Bio reference laboratories
+682,BRN,Barnwell industries
+683,BRNC,Bronco drilling co
+684,BRO,Brown & brown
+685,BRS,Bristow group
+686,BRT,B r t realty trust
+687,BRY,Berry petroleum co
+688,BSD,Blackrock strategic municipal tr
+689,BSDM,B s d medical corp de
+690,BSE,Blackrock ny muni inc quality tr
+691,BSET,Bassett furniture industries
+692,BSI,Alon hlds blue square israel ltd
+693,BSP,American strategic income pt ii
+694,BSQR,Bsquare corp
+695,BSRR,Sierra bancorp
+696,BSTC,Biospecifics technologies corp
+697,BSV,Vanguard bond index funds
+698,BSX,Boston scientific corp
+699,BT,B t group plc
+700,BTA,Blackrock long term muni adv tr
+701,BTC,Community bankers trust corp
+702,BTE,Baytex energy trust
+703,BTF,Boulder total return fd
+704,BTFG,Banctrust financial group
+705,BTH,Blyth
+706,BTI,British american tobacco plc
+707,BTN,Ballantyne strong
+708,BTO,Hancock john bk & thrift oppt fd
+709,BTU,Peabody energy corp
+710,BTUI,B t u international
+711,BTZ,Blackrock credit all inc tr iv
+712,BUCY,Bucyrus international inc new
+713,BUSE,First busey corp
+714,BVN,Compania de minas bv sa
+715,BVSN,Broadvision
+716,BVX,Bovie medical corp
+717,BW,Brush engineered materials
+718,BWA,Borgwarner
+719,BWEN,Broadwind energy
+720,BWINA,Baldwin & lyons
+721,BWINB,Baldwin & lyons
+722,BWL,Bowl america
+723,BWLD,Buffalo wild wings
+724,BWP,Boardwalk pipeline partners lp
+725,BWS,Brown shoe co inc new
+726,BWX,Spdr series trust
+727,BWZ,Spdr series trust
+728,BX,Blackstone group lp
+729,BXC,Bluelinx holdings
+730,BXG,Bluegreen corp
+731,BXP,Boston properties
+732,BXS,Bancorpsouth
+733,BYD,Boyd gaming corp
+734,BYFC,Broadway financial corp del
+735,BYI,Bally technologies
+736,BYM,Blackrock insured mun inc tr
+737,BZ,Boise
+738,BZC,Breeze eastern corp
+739,BZF,Wisdomtree trust
+740,BZH,Beazer homes usa
+741,BZM,Blackrock maryland muni bd tr
+742,BZQ,Proshares trust
+743,C,Citigroup
+744,CA,C a
+745,CAAS,China automotive systems
+746,CAB,Cabelas
+747,CABL,China cablecom holdings ltd
+748,CAC,Camden national corp
+749,CACB,Cascade bancorp
+750,CACC,Credit acceptance corp
+751,CACH,Cache
+752,CACI,Caci international
+753,CADE,Cadence financial corp
+754,CADX,Cadence pharmaceuticals
+755,CAE,C a e
+756,CAEI,China architectural engineer
+757,CAF,Morgan stanley china a share fd
+758,CAFI,Camco financial corp
+759,CAG,Conagra
+760,CAH,Cardinal health
+761,CAJ,Canon
+762,CAKE,Cheesecake factory
+763,CALD,Callidus software
+764,CALI,China auto logistics
+765,CALM,Cal maine foods
+766,CALP,Caliper life sciences
+767,CAM,Cameron international corp
+768,CAMP,Calamp corp
+769,CAMT,Camtek ltd
+770,CAP,C a i international
+771,CAPS,Capstone therapeutics corp
+772,CAR,Avis budget group
+773,CART,Carolina trust bank
+774,CARV,Carver bancorp
+775,CAS,Castle a m & co
+776,CASB,Cascade financial corp
+777,CASC,Cascade corp
+778,CASH,Meta financial group
+779,CASM,C a s medical systems
+780,CASS,Cass information systems
+781,CAST,Chinacast education corp
+782,CASY,Caseys general stores
+783,CAT,Caterpillar
+784,CATM,Cardtronics
+785,CATY,Cathay general bancorp
+786,CAVM,Cavium networks
+787,CAW,C c a industries
+788,CB,Chubb corp
+789,CBAK,China b a k battery
+790,CBAN,Colony bankcorp
+791,CBB,Cincinnati bell inc new
+792,CBC,Capitol bancorp ltd
+793,CBE,Cooper industries plc
+794,CBEH,China integrated energy
+795,CBEY,Cbeyond
+796,CBG,C b richard ellis group
+797,CBI,Chicago bridge & iron co n v
+798,CBIN,Community bank shrs indiana
+799,CBK,Christopher and banks corp
+800,CBKN,Capital bank corp new
+801,CBL,C b l & associates pptys
+802,CBLI,Cleveland biolabs
+803,CBM,Cambrex corp
+804,CBMX,Combimatrix corp
+805,CBNJ,Cape bancorp
+806,CBNK,Chicopee bancorp
+807,CBOU,Caribou coffee co
+808,CBR,Ciber
+809,CBRL,Cracker barrel old country store
+810,CBRX,Columbia laboratories
+811,CBSH,Commerce bancshares
+812,CBST,Cubist pharmaceuticals
+813,CBT,Cabot corp
+814,CBU,Community bank system
+815,CBZ,Cbiz
+816,CCA,M f s california municipal fund
+817,CCBD,Community central bank corp
+818,CCBG,Capital city bank group
+819,CCBP,Comm bancorp
+820,CCC,Calgon carbon corp
+821,CCE,Coca cola enterprises inc new
+822,CCF,Chase corp
+823,CCH,Coca cola hellenic bot co s a
+824,CCI,Crown castle international corp
+825,CCIX,Coleman cable
+826,CCJ,Cameco corp
+827,CCK,Crown holdings
+828,CCL,Carnival corp
+829,CCMP,Cabot microelectronics corp
+830,CCNE,C n b financial corp pa
+831,CCO,Clear channel outdoor hldgs
+832,CCOI,Cogent communications group
+833,CCRN,Cross country healthcare
+834,CCRT,Compucredit holdings
+835,CCU,Compania cervecerias unidas s a
+836,CCUR,Concurrent computer corp new
+837,CDE,Coeur d alene mines corp id
+838,CDI,C d i corp
+839,CDII,China direct industries
+840,CDNS,Cadence design systems
+841,CDR,Cedar shopping centers
+842,CDTI,Clean diesel technologies
+843,CDY,Cardero resource corp
+844,CDZI,Cadiz
+845,CE,Celanese corp del
+846,CEA,China eastern airlines corp ltd
+847,CEBK,Central bancorp
+848,CEC,C e c entertainment
+849,CECE,C e c o environmental corp
+850,CECO,Career education corp
+851,CEDC,Central european distributn corp
+852,CEDU,Chinaedu corp
+853,CEE,Central europe & russia fund
+854,CEF,Central fund canada ltd
+855,CEG,Constellation energy group
+856,CEL,Cellcom israel ltd
+857,CELG,Celgene corp
+858,CELL,Brightpoint
+859,CENT,Central garden & pet co
+860,CENTA,Central garden & pet co
+861,CENX,Century aluminum co
+862,CEO,C n o o c ltd
+863,CEP,Constellation energy ptnrs l l c
+864,CEPH,Cephalon
+865,CERN,Cerner corp
+866,CERS,Cerus corp
+867,CET,Central securities corp
+868,CETV,Central european media ent ltd
+869,CEU,China education alliance
+870,CEV,Eaton vance calif mun inc tr
+871,CEVA,Ceva
+872,CEW,Wisdomtree trust
+873,CF,C f industries holdings
+874,CFBK,Central federal corp
+875,CFFC,Community financial corp
+876,CFFI,C & f financial corp
+877,CFFN,Capitol federal financial
+878,CFI,Culp
+879,CFK,C e franklin ltd
+880,CFNB,California first national bancor
+881,CFNL,Cardinal financial corp
+882,CFP,Cornerstone progressive ret fund
+883,CFR,Cullen frost bankers
+884,CFS,Comforce corp
+885,CFSG,China fire & security group
+886,CFT,Ishares trust
+887,CFW,Cano petroleum
+888,CFX,Colfax corp
+889,CGA,China green agriculture
+890,CGEN,Compugen ltd
+891,CGL,Cagles
+892,CGNX,Cognex corp
+893,CGO,Calamos global total return fund
+894,CGR,Claude resources
+895,CGV,C g g veritas
+896,CGW,Claymore e t f trust 2
+897,CGX,Consolidated graphics
+898,CH,Aberdeen chile fund
+899,CHA,China telecom corp ltd
+900,CHBT,China biotics
+901,CHCI,Comstock homebuilding cos
+902,CHCO,City holding co
+903,CHD,Church & dwight
+904,CHDN,Churchill downs
+905,CHDX,Chindex intl
+906,CHE,Chemed corp new
+907,CHEV,Cheviot financial corp
+908,CHFC,Chemical financial corp
+909,CHG,C h energy group
+910,CHH,Choice hotels international
+911,CHI,Calamos conv opport & in fd
+912,CHINA,C d c corp
+913,CHK,Chesapeake energy corp
+914,CHKE,Cherokee inc del new
+915,CHKP,Check point software techs ltd
+916,CHL,China mobile ltd
+917,CHLN,China housing & land develop
+918,CHMP,Champion industries
+919,CHN,China fund
+920,CHNG,China natural gas
+921,CHNR,China natural resources
+922,CHRS,Charming shoppes
+923,CHRW,Ch robinson worldwide
+924,CHS,Chicos fas
+925,CHSI,Catalyst health solutions
+926,CHT,Chunghwa telecom co ltd
+927,CHTP,Chelsea therapeutics intl ltd
+928,CHU,China unicom hong kong ltd
+929,CHUX,O charleys
+930,CHW,Calamos global dynamic income fd
+931,CHY,Calamos convertible & hi inc fd
+932,CHYR,Chyron corp
+933,CI,C i g n a corp
+934,CIA,Citizens
+935,CIDM,Cinedigm digital cinema corp
+936,CIEN,Ciena corp
+937,CIF,M f s intermediate high inc fund
+938,CIG,Companhia energetica de minas gc
+939,CII,Blackrock enhanced cap & inc fd
+940,CIIC,China infrastructure invt corp
+941,CIK,Credit suisse asset mgmt inc fd
+942,CIM,Chimera investment corp
+943,CIMT,Cimatron ltd
+944,CINF,Cincinnati financial corp
+945,CIR,Circor international
+946,CISG,Cninsure
+947,CIT,C i t group inc new
+948,CITZ,C f s bancorp
+949,CIU,Ishares trust
+950,CIX,Compx international
+951,CIZN,Citizens holding co
+952,CJBK,Central jersey bancorp nj
+953,CKEC,Carmike cinemas
+954,CKH,Seacor holdings
+955,CKP,Checkpoint systems
+956,CKSW,Clicksoftware technologies ltd
+957,CKX,C k x lands
+958,CKXE,C k x
+959,CL,Colgate palmolive co
+960,CLB,Core laboratories nv
+961,CLBH,Carolina bank holdings
+962,CLC,Clarcor
+963,CLCT,Collectors universe
+964,CLDA,Clinical data inc new
+965,CLDX,Celldex therapeutics
+966,CLF,Cliffs natural resources
+967,CLFC,Center financial corp
+968,CLFD,Clearfield
+969,CLH,Clean harbors
+970,CLI,Mack cali realty corp
+971,CLM,Cornerstone strategic val fd
+972,CLMS,Calamos asset management
+973,CLMT,Calumet specialty prods ptnrs lp
+974,CLNE,Clean energy fuels corp
+975,CLP,Colonial properties trust
+976,CLR,Continental resources
+977,CLRO,Clearone communications
+978,CLRT,Clarient
+979,CLS,Celestica
+980,CLSN,Celsion corp
+981,CLUB,Town sports intl holdings
+982,CLW,Clearwater paper corp
+983,CLWR,Clearwire corp new
+984,CLWT,Euro tech holdings co ltd
+985,CLX,Clorox co
+986,CM,Canadian imperial bank commerce
+987,CMA,Comerica
+988,CMC,Commercial metals co
+989,CMCO,Columbus mckinnon corp ny
+990,CMCSA,Comcast corp new
+991,CMCSK,Comcast corp new
+992,CMD,Proshares trust ii
+993,CME,C m e group
+994,CMED,China medical technologies
+995,CMF,Ishares trust
+996,CMFB,Commercefirst bancorp
+997,CMI,Cummins
+998,CMK,M f s intermarket income trust i
+999,CML,Compellent technologies
+1000,CMLS,Cumulus media
+1001,CMM,China mass media corp
+1002,CMN,Cantel medical corp
+1003,CMO,Capstead mortgage corp
+1004,CMP,Compass minerals intl
+1005,CMRG,Casual male retail group
+1006,CMRO,Comarco
+1007,CMS,C m s energy corp
+1008,CMSB,C m s bancorp
+1009,CMT,Core molding technologies
+1010,CMTL,Comtech telecommunications corp
+1011,CMU,M f s high yield municipal trust
+1012,CNA,C n a financial corp
+1013,CNAF,Commercial national finl corp
+1014,CNBC,Center bancorp
+1015,CNBKA,Century bancorp
+1016,CNC,Centene corp del
+1017,CNH,C n h global n v
+1018,CNI,Canadian national railway co
+1019,CNK,Cinemark holdings
+1020,CNL,Cleco corp new
+1021,CNLG,Conolog corp
+1022,CNMD,Conmed corp
+1023,CNO,C n o financial group
+1024,CNP,Centerpoint energy
+1025,CNQ,Canadian natural resources ltd
+1026,CNQR,Concur technologies
+1027,CNS,Cohen & steers
+1028,CNSL,Consolidated comms hldgs
+1029,CNTF,China techfaith wirlss comm tech
+1030,CNTY,Century casinos
+1031,CNU,Continucare corp
+1032,CNW,Con way
+1033,CNX,Consol energy
+1034,CNXT,Conexant systems
+1035,COBK,Colonial financial services
+1036,COBR,Cobra electronics corp
+1037,COBZ,Cobiz financial
+1038,COCO,Corinthian colleges
+1039,CODI,Compass diversified holdings
+1040,COF,Capital one financial corp
+1041,COG,Cabot oil & gas corp
+1042,COGO,Cogo group
+1043,COGT,Cogent
+1044,COH,Coach
+1045,COHR,Coherent
+1046,COHU,Cohu
+1047,COIN,Converted organics
+1048,COKE,Coca cola bottling co cons
+1049,COL,Rockwell collins
+1050,COLB,Columbia banking system
+1051,COLM,Columbia sportswear co
+1052,COMV,Comverge
+1053,CONM,Conmed healthcare management
+1054,CONN,Conns
+1055,COO,Cooper companies
+1056,COOL,Majesco entertainment co
+1057,COP,Conocophillips
+1058,CORE,Core mark holding co
+1059,CORT,Corcept therapeutics
+1060,COSI,Cosi
+1061,COST,Costco wholesale corp new
+1062,COT,Cott corp quebec
+1063,COV,Covidien plc
+1064,COY,Blackrock corp high yld fd
+1065,CP,Canadian pacific railway ltd
+1066,CPA,Copa holdings sa
+1067,CPB,Campbell soup co
+1068,CPBC,Community partners bancorp
+1069,CPBK,Community capital corp
+1070,CPC,Chemspec international ltd
+1071,CPD,Caraco pharmaceutical labs ltd
+1072,CPE,Callon petroleum co del
+1073,CPEX,C p e x pharmaceuticals
+1074,CPF,Central pacific financial corp
+1075,CPHC,Canterbury park holding corp
+1076,CPHD,Cepheid
+1077,CPII,C p i international
+1078,CPK,Chesapeake utilities corp
+1079,CPKI,California pizza kitchen
+1080,CPL,C p f l energia s a
+1081,CPLA,Capella education co
+1082,CPLP,Capital product partners l p
+1083,CPN,Calpine corp
+1084,CPNO,Copano energy l l c
+1085,CPO,Corn products international
+1086,CPRT,Copart
+1087,CPRX,Catalyst pharmaceutical ptnrs in
+1088,CPSI,Computer programs & systems
+1089,CPSL,China precision steel
+1090,CPSS,Consumer portfolio svcs
+1091,CPST,Capstone turbine corp
+1092,CPT,Camden property trust
+1093,CPTS,Conceptus
+1094,CPWM,Cost plus inc calif
+1095,CPWR,Compuware corp
+1096,CPX,Complete production services
+1097,CPY,C p i corp
+1098,CQB,Chiquita brands intl
+1099,CQP,Cheniere energy partners l p
+1100,CR,Crane co
+1101,CRA,Celera corp
+1102,CRAI,C r a international
+1103,CRAY,Cray
+1104,CRBC,Citizens republic bancorp
+1105,CRC,Chromcraft revington
+1106,CRDC,Cardica
+1107,CRDN,Ceradyne inc ca
+1108,CRED,Credo petroleum corp
+1109,CREE,Cree
+1110,CRESY,Cresud s a c i f y a
+1111,CRF,Cornerstone total return fd
+1112,CRFN,Crescent financial corp
+1113,CRH,C r h plc
+1114,CRI,Carters
+1115,CRIS,Curis
+1116,CRK,Comstock resources
+1117,CRL,Charles river labs intl
+1118,CRM,Salesforce com
+1119,CRME,Cardiome pharma corp
+1120,CRMT,Americas car mart
+1121,CRNT,Ceragon networks ltd
+1122,CROX,Crocs
+1123,CRR,Carbo ceramics
+1124,CRRB,Carrollton bancorp
+1125,CRRC,Courier corp
+1126,CRS,Carpenter technology corp
+1127,CRT,Cross timbers royalty trust
+1128,CRTX,Cornerstone therapeutics
+1129,CRUS,Cirrus logic
+1130,CRV,Coast distribution system
+1131,CRVL,Corvel corp
+1132,CRWN,Crown media holdings
+1133,CRWS,Crown crafts
+1134,CRXL,Crucell n v
+1135,CRY,Cryolife
+1136,CRYP,Cryptologic ltd
+1137,CRZO,Carrizo oil & gas
+1138,CS,Credit suisse group
+1139,CSA,Cogdell spencer
+1140,CSBC,Citizens south banking corp del
+1141,CSBK,Clifton savings bancorp
+1142,CSC,Computer sciences corp
+1143,CSCD,Cascade microtech
+1144,CSCO,Cisco systems
+1145,CSCX,Cardiac science corp
+1146,CSD,Claymore e t f trust
+1147,CSE,Capitalsource
+1148,CSFL,Centerstate banks
+1149,CSGP,Costar group
+1150,CSGS,C s g systems international
+1151,CSH,Cash america international
+1152,CSHB,Community shores bank corp
+1153,CSII,Cardiovascular systems inc del
+1154,CSIQ,Canadian solar
+1155,CSJ,Ishares trust
+1156,CSKI,China sky one medical
+1157,CSL,Carlisle companies
+1158,CSM,Proshares trust
+1159,CSP,American strategic in pt inc iii
+1160,CSPI,C s p
+1161,CSQ,Calamos strategic tot return fd
+1162,CSR,China security & surveill tech
+1163,CSS,C s s industries
+1164,CSTR,Coinstar
+1165,CSU,Capital senior living corp
+1166,CSUN,China sunergy co ltd
+1167,CSV,Carriage services
+1168,CSWC,Capital southwest corp
+1169,CSX,C s x corp
+1170,CT,Capital trust inc md
+1171,CTAS,Cintas corp
+1172,CTB,Cooper tire & rubber co
+1173,CTBC,Connecticut bank & trust co
+1174,CTBI,Community trust bancorp
+1175,CTCH,Commtouch software ltd
+1176,CTCM,C t c media
+1177,CTCT,Constant contact
+1178,CTDC,China technology develop gp corp
+1179,CTEL,City telecom h k ltd
+1180,CTFO,China transinfo technology corp
+1181,CTGX,Computer task group
+1182,CTHR,Charles & colvard ltd
+1183,CTIB,C t i industries corp
+1184,CTIC,Cell therapeutics
+1185,CTL,Centurylink
+1186,CTO,Consolidated tomoka land co
+1187,CTRN,Citi trends
+1188,CTRP,Ctrip com intl ltd
+1189,CTS,C t s corp
+1190,CTSH,Cognizant technology sols corp
+1191,CTV,Commscope
+1192,CTWS,Connecticut water service
+1193,CTXS,Citrix systems
+1194,CUB,Cubic corp
+1195,CUBA,Herzfeld caribbean basin fd
+1196,CUK,Carnival plc
+1197,CUO,Continental materials corp
+1198,CUR,Neuralstem
+1199,CUT,Claymore e t f trust 2
+1200,CUTR,Cutera
+1201,CUZ,Cousins properties
+1202,CV,Central vermont pub svc corp
+1203,CVA,Covanta holding corp
+1204,CVBF,C v b financial corp
+1205,CVBK,Central virginia bankshares
+1206,CVC,Cablevision systems corp
+1207,CVCO,Cavco industries inc del
+1208,CVCY,Central valley comm bancorp
+1209,CVD,Covance
+1210,CVG,Convergys corp
+1211,CVGI,Commercial vehicle group
+1212,CVGW,Calavo growers
+1213,CVH,Coventry health care
+1214,CVI,C v r energy
+1215,CVLT,Commvault systems
+1216,CVLY,Codorus valley bancorp
+1217,CVM,Cel sci corp
+1218,CVO,Cenveo
+1219,CVR,Chicago rivet & mach co
+1220,CVS,C v s caremark corp
+1221,CVTI,Covenant transportation grp
+1222,CVU,C p i aerostructures
+1223,CVV,C v d equipment corp
+1224,CVX,Chevron corp new
+1225,CVY,Claymore e t f trust
+1226,CW,Curtiss wright corp
+1227,CWB,Spdr series trust
+1228,CWBC,Community west bancshares
+1229,CWBS,Commonwealth bankshares
+1230,CWCO,Consolidated water co ltd
+1231,CWEI,Clayton williams energy
+1232,CWF,Chartwell dividend & inc fd
+1233,CWI,Spdr index shares funds
+1234,CWST,Casella waste systems
+1235,CWT,California water service group
+1236,CWTR,Coldwater creek
+1237,CX,Cemex s a b de c v
+1238,CXA,Spdr series trust
+1239,CXE,M f s high income municipal tr
+1240,CXH,M f s investment grade muni tr
+1241,CXM,Cardium therapeutics
+1242,CXO,Concho resources
+1243,CXW,Corrections corp america new
+1244,CXZ,Crosshair exploration & mng corp
+1245,CY,Cypress semiconductor corp
+1246,CYAN,Cyanotech corp
+1247,CYB,Wisdomtree trust
+1248,CYBE,Cyberoptics corp
+1249,CYBI,Cybex international
+1250,CYBX,Cyberonics
+1251,CYCC,Cyclacel pharmaceuticals
+1252,CYD,China yuchai international ltd
+1253,CYE,Blackrock corp hi yld fd iii
+1254,CYH,Community health sys inc new
+1255,CYMI,Cymer
+1256,CYN,City national corp
+1257,CYNO,Cynosure
+1258,CYOU,Changyou com ltd
+1259,CYPB,Cypress bioscience
+1260,CYS,Cypress sharpridge invts
+1261,CYT,Cytec industries
+1262,CYTK,Cytokinetics
+1263,CYTR,Cytrx corp
+1264,CYTX,Cytori therapeutics
+1265,CZA,Claymore e t f trust
+1266,CZFC,Citizens first corp
+1267,CZNC,Citizens & northern corp
+1268,CZWI,Citizens cmnty bancorp inc md
+1269,CZZ,Cosan ltd
+1270,D,Dominion resources inc va new
+1271,DAC,Danaos corp
+1272,DAIO,Data i o corp
+1273,DAKT,Daktronics
+1274,DAL,Delta air lines
+1275,DAN,Dana holding corp
+1276,DAR,Darling international
+1277,DARA,D a r a biosciences
+1278,DAVE,Famous daves of america
+1279,DB,Deutsche bank a g
+1280,DBA,Powershares db multi sect com tr
+1281,DBB,Powershares db multi sect com tr
+1282,DBC,Powershares d b comm idx trk fd
+1283,DBD,Diebold
+1284,DBE,Powershares db multi sect com tr
+1285,DBLE,Double eagle petro co
+1286,DBN,Wisdomtree trust
+1287,DBO,Powershares db multi sect com tr
+1288,DBP,Powershares db multi sect com tr
+1289,DBRN,Dress barn
+1290,DBS,Powershares db multi sect com tr
+1291,DBU,Wisdomtree trust
+1292,DBV,Powershares e t f trust
+1293,DCA,D c a total return fund
+1294,DCI,Donaldson
+1295,DCM,N t t docomo
+1296,DCO,Ducommun inc de
+1297,DCOM,Dime community bancshares
+1298,DCS,Claymore dividend & income fd
+1299,DCT,D c t industrial trust
+1300,DCTH,Delcath systems
+1301,DD,Du pont e i de nemours & co
+1302,DDD,Scolr pharma
+1303,DDE,Dover downs gaming & entmt
+1304,DDF,Delaware investments div & incm
+1305,DDG,Proshares trust
+1306,DDIC,D d i corp
+1307,DDM,Proshares trust
+1308,DDMX,Dynamex
+1309,DDR,Developers diversified rlty corp
+1310,DDS,Dillards
+1311,DDSS,Labopharm
+1312,DE,Deere & co
+1313,DEAR,Dearborn bancorp
+1314,DECK,Deckers outdoor corp
+1315,DEER,Deer consumer products
+1316,DEF,Claymore e t f trust
+1317,DEG,Etablissements delhaize frer s a
+1318,DEI,Douglas emmett
+1319,DEJ,Dejour enterprises ltd
+1320,DEL,Deltic timber corp
+1321,DELL,Dell
+1322,DEM,Wisdomtree trust
+1323,DENN,Dennys corp
+1324,DEO,Diageo plc
+1325,DEP,Duncan energy partners l p
+1326,DEPO,Depomed
+1327,DES,Wisdomtree trust
+1328,DEST,Destination maternity corp
+1329,DEW,Wisdomtree trust
+1330,DEX,Delaware enhanced glbl div &
+1331,DF,Dean foods co new
+1332,DFE,Wisdomtree trust
+1333,DFG,Delphi financial group
+1334,DFJ,Wisdomtree trust
+1335,DFR,Deerfield capital corp
+1336,DFS,Discover financial services
+1337,DFT,Dupont fabros technology
+1338,DFZ,Barry r g corp ohio
+1339,DGAS,Delta natural gas
+1340,DGF,Delaware inv glob div & inc fd
+1341,DGI,Digitalglobe
+1342,DGICA,Donegal group
+1343,DGICB,Donegal group
+1344,DGII,Digi international
+1345,DGIT,D g fastchannel
+1346,DGL,Powershares db multi sect com tr
+1347,DGLY,Digital ally
+1348,DGS,Wisdomtree trust
+1349,DGT,Spdr series trust
+1350,DGW,Duoyuan global water
+1351,DGX,Quest diagnostics
+1352,DHF,Dreyfus high yield strategies fd
+1353,DHFT,Diamond hill finl trends fd
+1354,DHG,D w s high income opptys fd
+1355,DHI,D r horton
+1356,DHIL,Diamond hill investment grp
+1357,DHR,Danaher corp
+1358,DHS,Wisdomtree trust
+1359,DHT,D h t holdings
+1360,DHX,Dice holdings
+1361,DHY,Credit suisse high yield bond fd
+1362,DIA,Spdr dow jones ind avg etf trust
+1363,DIET,Ediets com
+1364,DIG,Proshares trust
+1365,DII,Decorator industries
+1366,DIM,Wisdomtree trust
+1367,DIN,Dineequity
+1368,DINE,Rewards network
+1369,DIOD,Diodes
+1370,DIS,Disney walt co
+1371,DISCA,Discovery communications
+1372,DISCB,Discovery communications
+1373,DISCK,Discovery communications
+1374,DISH,Dish network corp
+1375,DIT,Amcon distributing co
+1376,DITC,Ditech networks
+1377,DJCO,Daily journal corp
+1378,DK,Delek u s holdings
+1379,DKA,Wisdomtree trust
+1380,DKS,Dicks sporting goods
+1381,DL,China distance education hld ltd
+1382,DLA,Delta apparel
+1383,DLB,Dolby laboratories
+1384,DLIA,Delia s inc new
+1385,DLLR,Dollar financial corp
+1386,DLM,Del monte foods co
+1387,DLN,Wisdomtree trust
+1388,DLR,Digital realty trust
+1389,DLS,Wisdomtree trust
+1390,DLTR,Dollar tree
+1391,DLX,Deluxe corp
+1392,DM,Dolan co
+1393,DMAN,Demandtec
+1394,DMC,Document security systems
+1395,DMF,Dreyfus municipal income
+1396,DMLP,Dorchester minerals lp
+1397,DMND,Diamond foods
+1398,DMRC,Digimarc corp new
+1399,DNB,Dun & bradstreet corp del new
+1400,DNBF,D n b financial corp
+1401,DNBK,Danvers bancorp
+1402,DND,Wisdomtree trust
+1403,DNDN,Dendreon corp
+1404,DNEX,Dionex corp
+1405,DNH,Wisdomtree trust
+1406,DNL,Wisdomtree trust
+1407,DNN,Denison mines corp
+1408,DNP,D n p select income fd
+1409,DNR,Denbury resources
+1410,DNY,Denali fund
+1411,DO,Diamond offshore drilling
+1412,DOG,Proshares trust
+1413,DOL,Wisdomtree trust
+1414,DOM,Dominion resources bl warrior tr
+1415,DON,Wisdomtree trust
+1416,DOO,Wisdomtree trust
+1417,DORM,Dorman products
+1418,DOV,Dover corp
+1419,DOVR,Dover saddlery
+1420,DOW,Dow chemical co
+1421,DOX,Amdocs ltd
+1422,DPD,Dow 30 premium & div inc fd
+1423,DPK,Direxion shares e t f trust
+1424,DPL,D p l
+1425,DPM,D c p midstream partners lp
+1426,DPO,Dow 30 enhanced prm & inc fd
+1427,DPS,Dr pepper snapple group
+1428,DPTR,Delta petroleum corp
+1429,DPW,Digital power corp
+1430,DPZ,Dominos pizza
+1431,DRAD,Digirad corp
+1432,DRAM,Dataram corp
+1433,DRC,Dresser rand group
+1434,DRCO,Dynamics research corp
+1435,DRE,Duke realty corp
+1436,DRH,Diamondrock hospitality co
+1437,DRI,Darden restaurants
+1438,DRIV,Digital river
+1439,DRJ,Dreams
+1440,DRL,Doral financial corp
+1441,DRN,Direxion shares e t f trust
+1442,DROOY,Drdgold ltd
+1443,DRP,D w s rreef wrld real est fd
+1444,DRQ,Dril quip
+1445,DRRX,Durect corp
+1446,DRV,Direxion shares e t f trust
+1447,DRW,Wisdomtree trust
+1448,DRYS,Dryships
+1449,DSCM,Drugstore com
+1450,DSCO,Discovery laboratories
+1451,DSGX,Descartes systems group
+1452,DSI,Ishares trust
+1453,DSM,Dreyfus strategic muni bond fund
+1454,DSPG,D s p group
+1455,DST,D s t systems inc del
+1456,DSTI,Daystar technologies
+1457,DSU,Blackrock debt strategies fd
+1458,DSW,D s w
+1459,DSWL,Deswell industries
+1460,DSX,Diana shipping
+1461,DTD,Wisdomtree trust
+1462,DTE,D t e energy co
+1463,DTF,D t f tax free income
+1464,DTG,Dollar thrifty automotive grp in
+1465,DTH,Wisdomtree trust
+1466,DTLK,Datalink corp
+1467,DTN,Wisdomtree trust
+1468,DTSI,D t s
+1469,DTV,Directv
+1470,DUC,Duff & phelps ut & corp bd tr in
+1471,DUCK,Duckwall alco stores inc new
+1472,DUF,Duff & phelps corp new
+1473,DUG,Proshares trust
+1474,DUK,Duke energy corp new
+1475,DUSA,Dusa pharmaceuticals
+1476,DV,Devry inc del
+1477,DVA,Davita
+1478,DVAX,Dynavax technologies corp
+1479,DVD,Dover motorsports
+1480,DVF,Blackrock diversified inc strats
+1481,DVM,Cohen & steers divid maj fd
+1482,DVN,Devon energy corp new
+1483,DVR,Cal dive international inc de
+1484,DVY,Ishares trust
+1485,DW,Drew industries
+1486,DWA,Dreamworks animation s k g
+1487,DWCH,Datawatch corp
+1488,DWM,Wisdomtree trust
+1489,DWSN,Dawson geophysical co
+1490,DWX,Spdr index shares funds
+1491,DX,Dynex capital
+1492,DXCM,Dexcom
+1493,DXD,Proshares trust
+1494,DXJ,Wisdomtree trust
+1495,DXPE,D x p enterprises
+1496,DXR,Daxor corp
+1497,DXYN,Dixie group
+1498,DY,Dycom industries
+1499,DYAX,Dyax corp
+1500,DYII,Dynacq healthcare
+1501,DYN,Dynegy inc del
+1502,DYNT,Dynatronics corp
+1503,DZK,Direxion shares e t f trust
+1504,E,E n i spa
+1505,EAD,Wells fargo advantage inc opp fd
+1506,EAG,American defense systems
+1507,EAR,Hearusa
+1508,EAT,Brinker international
+1509,EBAY,Ebay
+1510,EBF,Ennis
+1511,EBIX,Ebix
+1512,EBR,Centrais eletricas brasilei
+1513,EBS,Emergent biosolutions
+1514,EBSB,Meridian interstate bancorp
+1515,EBTC,Enterprise bancorp
+1516,EBTX,Encore bancshres
+1517,EC,Ecopetrol s a
+1518,ECA,Encana corp
+1519,ECBE,E c b bancorp
+1520,ECF,Ellsworth fund ltd
+1521,ECGI,Envoy capital group
+1522,ECH,Ishares
+1523,ECL,Ecolab
+1524,ECOL,U s ecology
+1525,ECPG,Encore capital group
+1526,ED,Consolidated edison
+1527,EDAC,E d a c technologies corp
+1528,EDAP,Edap t m s s a
+1529,EDC,Direxion shares e t f trust
+1530,EDD,Morgan stanley emrg mkts dom dbt
+1531,EDE,Empire district elec co
+1532,EDGR,Edgar online
+1533,EDGW,Edgewater technology
+1534,EDN,Empresa distribuidora y comercia
+1535,EDR,Education realty trust
+1536,EDU,New oriental educ & tech gp
+1537,EDUC,Educational development corp
+1538,EDV,Vanguard world fund
+1539,EDZ,Direxion shares e t f trust
+1540,EE,El paso electric co
+1541,EEA,European equity fund
+1542,EEB,Claymore e t f trust
+1543,EEE,Evergreen energy
+1544,EEFT,Euronet worldwide
+1545,EEG,E g a emerging global shares tr
+1546,EEI,Ecology & environment
+1547,EEM,Ishares trust
+1548,EEN,Claymore e t f trust 2
+1549,EEO,E g a emerging global shares tr
+1550,EEP,Enbridge energy partners lp
+1551,EEQ,Enbridge energy mgmt l l c
+1552,EES,Wisdomtree trust
+1553,EET,Proshares trust
+1554,EEV,Proshares trust
+1555,EFA,Ishares trust
+1556,EFG,Ishares trust
+1557,EFII,Electronics for imaging
+1558,EFO,Proshares trust
+1559,EFOI,Energy focus
+1560,EFR,Eaton vance senior fltg rate tr
+1561,EFSC,Enterprise financial svcs corp
+1562,EFT,Eaton vance floating rate inc tr
+1563,EFU,Proshares trust
+1564,EFUT,E future information tech
+1565,EFV,Ishares trust
+1566,EFX,Equifax
+1567,EFZ,Proshares trust
+1568,EGBN,Eagle bancorp
+1569,EGF,Blackrock enhanced govt fd
+1570,EGHT,8x8 inc new
+1571,EGI,Entree gold
+1572,EGLE,Eagle bulk shipping
+1573,EGN,Energen corp
+1574,EGO,Eldorado gold corp new
+1575,EGOV,N i c
+1576,EGP,Eastgroup properties
+1577,EGT,Entertainment gaming asia
+1578,EGX,Engex
+1579,EGY,Vaalco energy
+1580,EHI,Western asset global high inc fd
+1581,EHTH,Ehealth
+1582,EIA,Eaton vance ca muni bd fd ii
+1583,EIG,Employers holdings
+1584,EIHI,Eastern insurance holdings
+1585,EIM,Eaton vance municipal bd fd
+1586,EIO,Eaton vance oh municipal bd fd
+1587,EIP,Eaton vance pa municipal bd fd
+1588,EIS,Ishares
+1589,EIV,Eaton vance municipal bd fd ii
+1590,EIX,Edison international
+1591,EJ,E house china holdings ltd
+1592,EK,Eastman kodak co
+1593,EKH,Europe 2001 holdrs tr
+1594,EL,Lauder estee cos
+1595,ELC,Eastern light capital
+1596,ELGX,Endologix
+1597,ELMG,E m s technologies
+1598,ELN,Elan plc
+1599,ELNK,Earthlink
+1600,ELON,Echelon corp
+1601,ELOS,Syneron medical ltd
+1602,ELOY,Eloyalty corp
+1603,ELP,Companhia paranaense de energia
+1604,ELR,Spdr series trust
+1605,ELRC,Electro rent corp
+1606,ELS,Equity lifestyle properties
+1607,ELSE,Electro sensors
+1608,ELTK,Eltek ltd
+1609,ELX,Emulex corp
+1610,ELY,Callaway golf co
+1611,EMB,Ishares trust
+1612,EMC,E m c corp ma
+1613,EMCI,E m c insurance group
+1614,EMD,Western asset emer mkt inc fd in
+1615,EME,Emcor group
+1616,EMF,Templeton emerg mkts fd
+1617,EMI,Eaton vance michigan mun inc tr
+1618,EMIF,Ishares trust
+1619,EMITF,Elbit imaging ltd
+1620,EMJ,Eaton vance nj municipal bd fd
+1621,EMKR,Emcore corp
+1622,EML,Eastern co
+1623,EMM,Spdr series trust
+1624,EMMS,Emmis communications corp
+1625,EMN,Eastman chemical co
+1626,EMR,Emerson electric co
+1627,EMS,Emergency medical services corp
+1628,EMT,E g a emerging global shares tr
+1629,ENA,Enova systems
+1630,ENB,Enbridge
+1631,END,Endeavour international corp
+1632,ENDP,Endo pharmaceuticals hldgs
+1633,ENER,Energy conversion devices
+1634,ENG,Englobal corp
+1635,ENH,Endurance specialty holdings ltd
+1636,ENI,Enersis s a
+1637,ENL,Reed elsevier n v
+1638,ENMD,Entremed
+1639,ENOC,Enernoc
+1640,ENP,Encore energy partners l p
+1641,ENR,Energizer holdings
+1642,ENS,Enersys
+1643,ENSG,Ensign group
+1644,ENTG,Entegris
+1645,ENTR,Entropic communications
+1646,ENWV,Endwave corp
+1647,ENX,Eaton vance ny municipal bd fd
+1648,ENY,Claymore e t f trust 2
+1649,ENZ,Enzo biochem
+1650,ENZN,Enzon pharmaceuticals
+1651,EOC,Empresa nacional de elect chile
+1652,EOD,Wells fargo adv glbl div opp fd
+1653,EOG,Eog resources
+1654,EOI,Eaton vance enhanced equ inc fd
+1655,EONC,Eon communications corp
+1656,EOS,Eaton vance enhanc equ inc fd ii
+1657,EOT,Eaton vance national mun opp tr
+1658,EP,El paso corp
+1659,EPAX,Ambassadors group
+1660,EPAY,Bottomline technologies del
+1661,EPB,El paso pipeline partners l p
+1662,EPCT,Epicept corp
+1663,EPD,Enterprise products partners lp
+1664,EPHC,Epoch holding corp
+1665,EPI,Wisdomtree trust
+1666,EPIC,Epicor software corp
+1667,EPIQ,Epiq systems
+1668,EPM,Evolution petroleum corp
+1669,EPP,Ishares
+1670,EPR,Entertainment properties trust
+1671,EPS,Wisdomtree trust
+1672,EPU,Ishares trust
+1673,EPV,Proshares trust
+1674,EQIX,Equinix
+1675,EQL,Alps e t f trust
+1676,EQR,Equity residential
+1677,EQS,Equus total return
+1678,EQT,E q t corp
+1679,EQY,Equity one
+1680,ERC,Wells fargo adv multi sec inc fd
+1681,ERES,Eresearchtechnology
+1682,ERF,Enerplus resources fund
+1683,ERH,Wells fargo adv util & hi inc fd
+1684,ERI,Emrise corp
+1685,ERIC,Ericsson l m telephone co
+1686,ERIE,Erie indemnity co
+1687,ERII,Energy recovery
+1688,ERJ,Embraer s a
+1689,EROC,Eagle rock energy partners l p
+1690,ERTS,Electronic arts
+1691,ERX,Direxion shares e t f trust
+1692,ERY,Direxion shares e t f trust
+1693,ES,Energysolutions
+1694,ESA,Energy services of america corp
+1695,ESBF,E s b financial corp
+1696,ESBK,Elmira savings bank fsb ny
+1697,ESC,Emeritus corp
+1698,ESCA,Escalade
+1699,ESD,Western asset emerg mkts debt fd
+1700,ESE,E s c o technologies
+1701,ESEA,Euroseas ltd
+1702,ESGR,Enstar group ltd
+1703,ESI,I t t educational services
+1704,ESIC,Easylink services intl corp
+1705,ESIO,Electro scientific inds
+1706,ESL,Esterline technologies corp
+1707,ESLR,Evergreen solar
+1708,ESLT,Elbit systems ltd
+1709,ESMC,Escalon medical corp
+1710,ESP,Espey manufacturing & elctrs cor
+1711,ESRX,Express scripts
+1712,ESS,Essex property trust
+1713,ESSA,E s s a bancorp
+1714,ESYS,Elecsys corp
+1715,ETB,Eaton vance tax mngd buy wr
+1716,ETE,Energy transfer equity l p
+1717,ETF,Aberdeen emrg mkts tele & inf fd
+1718,ETFC,E trade financial corp
+1719,ETG,Eaton vance tax adv glob div
+1720,ETH,Ethan allen interiors
+1721,ETJ,Eaton vance risk mngd div eq
+1722,ETM,Entercom communications corp
+1723,ETN,Eaton corp
+1724,ETO,Eaton vance tax adv glob div opp
+1725,ETP,Energy transfer partners l p
+1726,ETR,Entergy corp new
+1727,ETRM,Enteromedics
+1728,ETV,Eaton vance tax man buy wr opp f
+1729,ETW,Eaton vance tax man glbl buy wr
+1730,ETY,Eaton vance tax man div eq in fd
+1731,EU,Wisdomtree trust
+1732,EUM,Proshares trust
+1733,EUO,Proshares trust ii
+1734,EURX,Eurand n v
+1735,EV,Eaton vance corp
+1736,EVBN,Evans bancorp
+1737,EVBS,Eastern virginia bankshares
+1738,EVC,Entravision communications corp
+1739,EVEP,E v energy partners l p
+1740,EVF,Eaton vance senior income tr
+1741,EVG,Eaton vance short dur div inc fd
+1742,EVJ,Eaton vance new jersey mun inc t
+1743,EVK,Ever glory international grp
+1744,EVM,Eaton vance ca municipal bd fd
+1745,EVN,Eaton vance municipal income tr
+1746,EVO,Eaton vance ohio mun inc tr
+1747,EVOL,Evolving systems
+1748,EVP,Eaton vance penn mun inc tr
+1749,EVR,Evercore partners
+1750,EVT,Eaton vance tax advan div in fd
+1751,EVV,Eaton vance ltd duration inc f
+1752,EVX,Market vectors e t f trust
+1753,EVY,Eaton vance new york mun inc tr
+1754,EW,Edwards lifesciences corp
+1755,EWA,Ishares
+1756,EWBC,East west bancorp
+1757,EWC,Ishares
+1758,EWD,Ishares
+1759,EWG,Ishares
+1760,EWH,Ishares
+1761,EWI,Ishares
+1762,EWJ,Ishares
+1763,EWK,Ishares
+1764,EWL,Ishares
+1765,EWM,Ishares
+1766,EWN,Ishares
+1767,EWO,Ishares
+1768,EWP,Ishares
+1769,EWQ,Ishares
+1770,EWS,Ishares
+1771,EWT,Ishares
+1772,EWU,Ishares
+1773,EWV,Proshares trust
+1774,EWW,Ishares
+1775,EWX,Spdr index shares funds
+1776,EWY,Ishares
+1777,EWZ,Ishares
+1778,EXAC,Exactech
+1779,EXAR,Exar corp
+1780,EXAS,Exact sciences corp
+1781,EXBD,Corporate executive board co
+1782,EXC,Exelon corp
+1783,EXEL,Exelixis
+1784,EXFO,E x f o
+1785,EXG,Eaton vance tax mngd glbl div eq
+1786,EXH,Exterran holdings
+1787,EXI,Ishares trust
+1788,EXK,Endeavour silver corp
+1789,EXLP,Exterran partners l p
+1790,EXLS,Exlservice holdings
+1791,EXM,Excel maritime carriers ltd
+1792,EXP,Eagle materials
+1793,EXPD,Expeditors international wa
+1794,EXPE,Expedia inc de
+1795,EXPO,Exponent
+1796,EXR,Extra space storage
+1797,EXT,Wisdomtree trust
+1798,EXTR,Extreme networks
+1799,EXXI,Energy xxi ltd
+1800,EZA,Ishares
+1801,EZCH,Ezchip semiconductor ltd
+1802,EZJ,Proshares trust
+1803,EZM,Wisdomtree trust
+1804,EZPW,Ezcorp
+1805,EZU,Ishares
+1806,EZY,Wisdomtree trust
+1807,F,Ford motor co del
+1808,FAA,Claymore e t f trust 2
+1809,FAB,First tr exch trd alphadex fd
+1810,FABK,First advantage bancorp
+1811,FAC,First acceptance corp
+1812,FACE,Physicians formula holdings
+1813,FAD,First tr exch trd alphadex fd
+1814,FAF,First american finl corp new
+1815,FALC,Falconstor software
+1816,FAM,First trust aberdeen glb opp
+1817,FAN,First trust global wind ener etf
+1818,FARM,Farmer brothers co
+1819,FARO,Faro technologies
+1820,FAS,Direxion shares e t f trust
+1821,FAST,Fastenal co
+1822,FAV,First trust active div income fd
+1823,FAX,Aberdeen asia pacific income fd
+1824,FAZ,Direxion shares e t f trust
+1825,FBC,Flagstar bancorp
+1826,FBCM,F b r capital markets corp
+1827,FBIZ,First business finl svcs
+1828,FBMI,Firstbank corp
+1829,FBMS,First bancshares inc ms
+1830,FBN,Furniture brands intl
+1831,FBNC,First bancorp nc
+1832,FBP,First bancorp p r
+1833,FBSI,First bancshares inc mo
+1834,FBSS,Fauquier bankshares
+1835,FBT,First trust exchange traded fund
+1836,FC,Franklin covey co
+1837,FCAL,First california finl group
+1838,FCAP,First capital
+1839,FCBC,First community bancshares
+1840,FCCO,First community corp sc
+1841,FCCY,1st constitution bancorp
+1842,FCEL,Fuelcell energy
+1843,FCF,First commonwealth financial cor
+1844,FCFC,Firstcity financial corp
+1845,FCFL,First community bank corp amer
+1846,FCFS,First cash financial svcs
+1847,FCG,First trust i s e revere nat gas
+1848,FCH,Felcor lodging trust
+1849,FCHI,Ishares trust
+1850,FCLF,First clover leaf financial corp
+1851,FCN,F t i consulting
+1852,FCNCA,First citizens bancshares inc nc
+1853,FCO,Aberdeen global income fd
+1854,FCS,Fairchild semiconductor intl
+1855,FCT,First trust sr fltg rt inc fd ii
+1856,FCTY,1st century bankshares
+1857,FCVA,First capital bancorp inc va
+1858,FCX,Freeport mcmoran copper & gold
+1859,FCZA,First citizens banc corp
+1860,FDD,First trust e t f ii
+1861,FDEF,First defiance financial corp
+1862,FDI,Fort dearborn income secs
+1863,FDL,First trust exchange traded fund
+1864,FDM,First trust exchange traded fund
+1865,FDML,Federal mogul corp
+1866,FDN,First trust exchange traded fund
+1867,FDO,Family dollar stores
+1868,FDP,Fresh del monte produce
+1869,FDS,Factset research systems
+1870,FDV,First trust exchange traded fund
+1871,FDX,Fedex corp
+1872,FE,Firstenergy corp
+1873,FEED,Agfeed industries
+1874,FEIC,F e i co
+1875,FEIM,Frequency electronics
+1876,FELE,Franklin electric
+1877,FEN,Energy income & growth fund
+1878,FEO,First trust aberdeen emerg op fd
+1879,FEU,Spdr index shares funds
+1880,FEX,First tr exch trd alphadex fd
+1881,FEZ,Spdr index shares funds
+1882,FFA,First trust enhanced eq inc fund
+1883,FFBC,First financial bancorp ohio
+1884,FFBH,First federal bancshares ark
+1885,FFC,Flaherty & crumrine claymore pfd
+1886,FFCH,First financial holdings
+1887,FFCO,Fedfirst financial corp new
+1888,FFD,Morgan stanley frontier emrg mkt
+1889,FFDF,F f d financial corp
+1890,FFEX,Frozen food express inds
+1891,FFFD,North central bancshares
+1892,FFG,F b l financial group
+1893,FFHL,Fuwei films holdings co ltd
+1894,FFHS,First franklin corp
+1895,FFI,Fortune industries
+1896,FFIC,Flushing financial corp
+1897,FFIN,First financial bankshares
+1898,FFIV,F 5 networks
+1899,FFKT,Farmers capital bank corp
+1900,FFKY,First financial service corp
+1901,FFNM,First fed northn mi bancorp
+1902,FFNW,First financial northwest
+1903,FFR,First trust e t f ii
+1904,FGB,First trust specialty fn & fnc
+1905,FGD,First trust e t f ii
+1906,FGF,Sunamerica focused alpha grth fd
+1907,FGI,Sunamerica focused alpha lg cap
+1908,FGP,Ferrellgas partners l p
+1909,FHCO,Female health co
+1910,FHI,First tr strategic high inc fd
+1911,FHN,First horizon national corp
+1912,FHO,First trust strat hi inc fd iii
+1913,FHY,First trust strat high inc fd ii
+1914,FIG,Fortress investment group l l c
+1915,FII,Federated investors inc pa
+1916,FINL,Finish line
+1917,FIO,Ishares trust
+1918,FIRE,Sourcefire
+1919,FIS,Fidelity national info svcs
+1920,FISI,Financial institutions
+1921,FISV,Fiserv
+1922,FITB,Fifth third bancorp
+1923,FIW,First trust i s e water index fd
+1924,FIX,Comfort systems usa
+1925,FIZZ,National beverage corp
+1926,FL,Foot locker
+1927,FLC,Flaherty & crumrine claymore tot
+1928,FLEX,Flextronics international ltd
+1929,FLIC,First long island corp
+1930,FLIR,Flir systems
+1931,FLL,Full house resorts
+1932,FLM,First trust e t f ii
+1933,FLML,Flamel technologies sa
+1934,FLO,Flowers foods
+1935,FLOW,Flow international corp
+1936,FLR,Fluor corp new
+1937,FLS,Flowserve corp
+1938,FLWS,1 800 flowers com
+1939,FLXS,Flexsteel industries
+1940,FLY,Fly leasing ltd
+1941,FMAR,First mariner bancorp
+1942,FMBI,First midwest bancorp
+1943,FMC,F m c corp
+1944,FMCN,Focus media holding ltd
+1945,FMD,First marblehead corp
+1946,FMER,Firstmerit corp
+1947,FMFC,First m & f corp
+1948,FMN,Federated premier mun inc fd
+1949,FMO,Fiduciary claymore m l p opp fd
+1950,FMR,First mercury financial corp
+1951,FMS,Fresenius med care ag & co kgaa
+1952,FMY,First trust fidac mtg income fd
+1953,FNB,F n b corp pa
+1954,FNBN,F n b united corp
+1955,FNDT,Fundtech ltd
+1956,FNF,Fidelity national finl inc new
+1957,FNFG,First niagara finl group inc new
+1958,FNI,First trust exchange traded fund
+1959,FNLC,First bancorp inc me
+1960,FNSR,Finisar corp
+1961,FNX,First tr exch trd alphadex fd
+1962,FO,Fortune brands
+1963,FOE,Ferro corp
+1964,FOF,Cohen & steers closed end opp fd
+1965,FOH,Fredericks hollywood group
+1966,FOLD,Amicus therapeutics
+1967,FONR,Fonar corp
+1968,FOR,Forestar group
+1969,FORD,Forward industries inc ny
+1970,FORM,Formfactor
+1971,FORR,Forrester research
+1972,FORTY,Formula systems ltd
+1973,FOSL,Fossil
+1974,FPBI,F p b bancorp
+1975,FPFC,First place financial corp nm
+1976,FPIC,F p i c insurance group
+1977,FPO,First potomac realty trust
+1978,FPP,Fieldpoint petroleum corp
+1979,FPT,Federated premier int mun inc fd
+1980,FPTB,First pactrust bancorp
+1981,FPX,First trust e t f
+1982,FR,First industrial realty tr
+1983,FRA,Blackrock floating rt inc strat
+1984,FRB,Blackrock float rt inc strat ii
+1985,FRBK,Republic first bancorp
+1986,FRD,Friedman industries
+1987,FRED,Freds
+1988,FREE,Freeseas
+1989,FRG,Fronteer gold
+1990,FRI,First trust e t f ii
+1991,FRM,Furmanite corp
+1992,FRME,First merchants corp
+1993,FRN,Claymore e t f trust 2
+1994,FRO,Frontline ltd
+1995,FRPT,Force protection
+1996,FRS,Frischs restaurants
+1997,FRT,Federal realty investment trust
+1998,FRX,Forest labs
+1999,FRZ,Reddy ice holdings
+2000,FSBI,Fidelity bancorp
+2001,FSBK,First south bancorp
+2002,FSC,Fifth street finance corp
+2003,FSCI,Fisher communications
+2004,FSFG,First savings financial grp
+2005,FSGI,First security group
+2006,FSI,Flexible solutions intl
+2007,FSII,F s i international
+2008,FSIN,Fushi copperweld
+2009,FSLR,First solar
+2010,FSP,Franklin street properties corp
+2011,FSR,Flagstone reinsurance hldgs s a
+2012,FSRV,Firstservice corp
+2013,FSS,Federal signal corp
+2014,FST,Forest oil corp
+2015,FSTR,Foster l b co
+2016,FSYS,Fuel systems solutions
+2017,FT,Franklin universal trust
+2018,FTA,First tr exch trd alphadex fd
+2019,FTC,First tr exch trd alphadex fd
+2020,FTE,France telecom
+2021,FTEK,Fuel tech
+2022,FTF,Franklin templeton ltd dur inc t
+2023,FTI,F m c technologies
+2024,FTK,Flotek industries
+2025,FTO,Frontier oil corp
+2026,FTR,Frontier communications corp
+2027,FTWR,Fibertower corp
+2028,FTY,Ishares trust
+2029,FUEL,S m f energy corp
+2030,FUL,Fuller h b co
+2031,FULT,Fulton financial corp pa
+2032,FUN,Cedar fair l p
+2033,FUNC,First united corp
+2034,FUND,Royce focus trust
+2035,FUQI,Fuqi international
+2036,FUR,Winthrop realty trust
+2037,FVD,First trust exchange traded fund
+2038,FVE,Five star quality care
+2039,FVI,First trust exchange traded fund
+2040,FVL,First trust value line 100 etf
+2041,FWLT,Foster wheeler ag
+2042,FWRD,Forward air corp
+2043,FWV,First west virginia bancorp
+2044,FXA,Currencyshares australian dlr tr
+2045,FXB,Currencyshares brtsh pnd stlg tr
+2046,FXC,Currencyshares canadian dlr tr
+2047,FXD,First trust e t f ii
+2048,FXE,Currencyshares euro trust
+2049,FXEN,Fx energy
+2050,FXF,Currencyshares swiss franc trust
+2051,FXG,First trust e t f ii
+2052,FXH,First trust e t f ii
+2053,FXI,Ishares trust
+2054,FXL,First trust e t f ii
+2055,FXM,Currencyshares mexican peso tr
+2056,FXN,First trust e t f ii
+2057,FXO,First trust e t f ii
+2058,FXP,Proshares trust
+2059,FXR,First trust e t f ii
+2060,FXS,Currencyshares swedish krona tr
+2061,FXU,First trust e t f ii
+2062,FXY,Currencyshares japanese yen tr
+2063,FXZ,First trust e t f ii
+2064,FYX,First tr exch trd alphadex fd
+2065,G,Genpact ltd
+2066,GA,Giant interactive group
+2067,GAB,Gabelli equity trust
+2068,GABC,German american bancorp
+2069,GAF,Spdr index shares funds
+2070,GAI,Global tech advanced innov
+2071,GAIA,Gaiam
+2072,GAIN,Gladstone investment corp
+2073,GAM,General american investors
+2074,GAN,Gainsco
+2075,GAP,Great atlantic & pac tea
+2076,GAS,Nicor
+2077,GASS,Stealthgas
+2078,GB,Greatbatch
+2079,GBCI,Glacier bancorp inc new
+2080,GBE,Grubb & ellis co
+2081,GBF,Ishares trust
+2082,GBG,Great basin gold ltd
+2083,GBL,Gamco investors
+2084,GBNK,Guaranty bancorp
+2085,GBR,New concept energy
+2086,GBX,Greenbrier companies
+2087,GCA,Global cash access holdings
+2088,GCBC,Greene county bancorp
+2089,GCC,Greenhaven continuous comm index
+2090,GCF,Global income & currency fd
+2091,GCFB,Granite city food & brewery ltd
+2092,GCH,Greater china fund
+2093,GCI,Gannett co
+2094,GCO,Genesco
+2095,GCOM,Globecomm systems
+2096,GCV,Gabelli conv & inc secs fund
+2097,GD,General dynamics corp
+2098,GDF,Western asset global ptrs inc fd
+2099,GDI,Gardner denver
+2100,GDL,Gabelli global deal fund
+2101,GDP,Goodrich petroleum corp
+2102,GDV,Gabelli dividend & income trust
+2103,GDX,Market vectors e t f trust
+2104,GE,General electric co
+2105,GEL,Genesis energy l p
+2106,GENC,Gencor industries
+2107,GENE,Genetic technologies ltd
+2108,GENT,Gentium s p a
+2109,GENZ,Genzyme corp
+2110,GEO,Geo group
+2111,GEOI,Georesources
+2112,GEOY,Geoeye
+2113,GERN,Geron corp
+2114,GES,Guess
+2115,GET,Gaylord entertainment co new
+2116,GEX,Market vectors e t f trust
+2117,GF,New germany fund
+2118,GFA,Gafisa s a
+2119,GFED,Guaranty federal bancshares
+2120,GFF,Griffon corp
+2121,GFI,Gold fields ltd new
+2122,GFIG,G f i group
+2123,GFN,General finance corp
+2124,GFY,Western asset var rate str fd
+2125,GG,Goldcorp inc new
+2126,GGAL,Grupo financiero galicia s a
+2127,GGC,Georgia gulf corp
+2128,GGG,Graco
+2129,GGN,Gabelli glbl gld nat res & inc t
+2130,GGR,Geoglobal resources
+2131,GGT,Gabelli global multimedia tr
+2132,GHDX,Genomic health
+2133,GHI,Global high income fund
+2134,GHL,Greenhill & co
+2135,GHM,Graham corp
+2136,GIB,Groupe c g i
+2137,GIFI,Gulf island fabrication
+2138,GIGA,Giga tronics
+2139,GIGM,Gigamedia ltd
+2140,GII,Spdr index shares funds
+2141,GIII,G iii apparel group
+2142,GIL,Gildan activewear
+2143,GILD,Gilead sciences
+2144,GILT,Gilat satellite networks ltd
+2145,GIM,Templeton global income fund
+2146,GIS,General mills
+2147,GIVN,Given imaging ltd
+2148,GIW,Wilber corp
+2149,GKK,Gramercy capital corp
+2150,GKSR,G & k services
+2151,GLA,Clark holdings
+2152,GLAD,Gladstone capital corp
+2153,GLBC,Global crossing ltd
+2154,GLBL,Global industries ltd
+2155,GLBZ,Glen burnie bancorp
+2156,GLD,Spdr gold trust
+2157,GLDC,Golden enterprises
+2158,GLDD,Great lakes dredge & dock corp
+2159,GLF,Gulfmark offshore
+2160,GLL,Proshares trust ii
+2161,GLNG,Golar l n g ltd
+2162,GLO,Clough global opportunities fund
+2163,GLOI,Globaloptions group
+2164,GLP,Global partners lp
+2165,GLQ,Clough global equity fund
+2166,GLRE,Greenlight capital re ltd
+2167,GLT,Glatfelter p h co
+2168,GLU,Gabelli global util & income tr
+2169,GLUU,Glu mobile
+2170,GLV,Clough global allocation fund
+2171,GLW,Corning
+2172,GMCR,Green mountain coffee roasters i
+2173,GME,Gamestop corp new
+2174,GMET,Geomet
+2175,GMF,Spdr index shares funds
+2176,GMK,Gruma s a b de c v
+2177,GML,Spdr index shares funds
+2178,GMM,Spdr index shares funds
+2179,GMO,General moly
+2180,GMR,General maritime corp new
+2181,GMT,G a t x corp
+2182,GMTC,Gametech international
+2183,GMXR,G m x resources
+2184,GNCMA,General communication
+2185,GNET,Global traffic network
+2186,GNI,Great northern iron ore pptys
+2187,GNK,Genco shipping & trading ltd
+2188,GNTX,Gentex corp
+2189,GNVC,Genvec
+2190,GNW,Genworth financial
+2191,GOF,Claymore guggenheim strat opp fd
+2192,GOK,Geokinetics
+2193,GOLD,Randgold resources ltd
+2194,GOLF,Golfsmith intl hldgs
+2195,GOOD,Gladstone commercial corp
+2196,GOOG,Google
+2197,GOV,Government properties income tr
+2198,GPC,Genuine parts co
+2199,GPI,Group 1 automotive
+2200,GPIC,Gaming partners intl corp
+2201,GPK,Graphic packaging holding co
+2202,GPN,Global payments
+2203,GPOR,Gulfport energy corp
+2204,GPR,Geopetro resources co
+2205,GPRE,Green plains renewable energy in
+2206,GPRO,Gen probe inc new
+2207,GPS,Gap
+2208,GPX,G p strategies corp
+2209,GR,Goodrich corp
+2210,GRA,Grace w r & co del new
+2211,GRAN,Bank granite corp
+2212,GRB,Gerber scientific
+2213,GRC,Gorman rupp co
+2214,GRF,Eagle capital growth fund
+2215,GRH,Greenhunter engery
+2216,GRI,Alps e t f trust
+2217,GRIF,Griffin land and nurseries
+2218,GRMH,Graymark healthcare
+2219,GRMN,Garmin ltd
+2220,GRNB,Green bankshares
+2221,GRO,Agria corp
+2222,GROW,U s global investors
+2223,GRR,Asia tigers fund
+2224,GRRF,China grentech corp ltd
+2225,GRS,Gammon gold
+2226,GRT,Glimcher realty trust
+2227,GRVY,Gravity co ltd
+2228,GRX,Gabelli healthcare & wellness tr
+2229,GRZ,Gold reserve
+2230,GS,Goldman sachs group
+2231,GSAT,Globalstar
+2232,GSB,Globalscape
+2233,GSBC,Great southern bancorp
+2234,GSG,Ishares s & p gsci comm index tr
+2235,GSH,Guangshen railway ltd
+2236,GSI,General steel holdings
+2237,GSIC,G s i commerce
+2238,GSIT,G s i technology
+2239,GSK,Glaxosmithkline plc
+2240,GSL,Global ship lease
+2241,GSLA,G s financial corp
+2242,GSM,Globe specialty metals
+2243,GSOL,Global sources ltd bermuda
+2244,GSS,Golden star resources ltd
+2245,GST,Gastar exploration ltd
+2246,GSX,Gasco energy
+2247,GT,Goodyear tire & rubber co
+2248,GTE,Gran tierra energy
+2249,GTF,Cytomedix
+2250,GTI,Graftech international ltd
+2251,GTIM,Good times restaurants
+2252,GTIV,Gentiva health services
+2253,GTLS,Chart industries
+2254,GTS,Triple s management corp
+2255,GTSI,Gtsi corp
+2256,GTU,Central goldtrust
+2257,GTXI,G t x
+2258,GTY,Getty realty corp new
+2259,GU,Gushan environmental energy ltd
+2260,GUID,Guidance software
+2261,GULF,Wisdomtree trust
+2262,GUR,Spdr index shares funds
+2263,GUT,Gabelli utility trust
+2264,GV,Goldfield corp
+2265,GVA,Granite construction
+2266,GVI,Ishares trust
+2267,GVP,G s e systems
+2268,GVT,Grail advisors e t f trust
+2269,GWL,Spdr index shares funds
+2270,GWR,Genesee & wyoming
+2271,GWW,Grainger w w
+2272,GWX,Spdr index shares funds
+2273,GXC,Spdr index shares funds
+2274,GXDX,Genoptix
+2275,GXG,Global x funds
+2276,GXP,Great plains energy
+2277,GY,Gencorp
+2278,GYRO,Gyrodyne company america
+2279,HA,Hawaiian holdings
+2280,HAE,Haemonetics corp mass
+2281,HAFC,Hanmi financial corp
+2282,HAIN,Hain celestial group
+2283,HAL,Halliburton co
+2284,HALL,Hallmark financial services
+2285,HALO,Halozyme therapeutics
+2286,HANS,Hansen natural corp
+2287,HAO,Claymore e t f trust 2
+2288,HAP,Market vectors e t f trust
+2289,HAR,Harman intl inds inc new
+2290,HARL,Harleysville savings finan corp
+2291,HAS,Hasbro
+2292,HAST,Hastings entertainment
+2293,HAUP,Hauppauge digital
+2294,HAV,Helios advantage income fd
+2295,HAYN,Haynes international
+2296,HBAN,Huntington bancshares
+2297,HBC,H s b c holdings plc
+2298,HBCP,Home bancorp
+2299,HBE,Henry bros electronics
+2300,HBHC,Hancock holding co
+2301,HBI,Hanesbrands
+2302,HBIO,Harvard bioscience
+2303,HBNC,Horizon bancorp ind
+2304,HBNK,Hampden bancorp
+2305,HBOS,Heritage financial group
+2306,HCBK,Hudson city bancorp
+2307,HCC,H c c insurance holdings
+2308,HCCI,Heritage crystal clean
+2309,HCF,Highland credit strategies fund
+2310,HCH,C p holdrs
+2311,HCII,Homeowners choice
+2312,HCKT,Hackett group
+2313,HCN,Health care reit
+2314,HCP,H c p
+2315,HCSG,Healthcare services group
+2316,HD,Home depot
+2317,HDB,H d f c bank ltd
+2318,HDNG,Hardinge
+2319,HDSN,Hudson technologies
+2320,HDY,Hyperdynamics corp
+2321,HE,Hawaiian electric industries
+2322,HEAT,Smartheat
+2323,HEB,Hemispherx biopharma
+2324,HEES,H & e equipment services
+2325,HEK,Heckmann corp
+2326,HELE,Helen of troy ltd
+2327,HEOP,Heritage oaks bancorp
+2328,HEP,Holly energy partners l p
+2329,HERO,Hercules offshore
+2330,HES,Hess corp
+2331,HEV,Ener1
+2332,HF,H f f
+2333,HFBC,Hopfed bancorp
+2334,HFFC,H f financial corp
+2335,HFWA,Heritage financial corp wa
+2336,HGG,Hhgregg
+2337,HGI,Claymore e t f trust 2
+2338,HGIC,Harleysville group
+2339,HGR,Hanger orthopedic group
+2340,HGSI,Human genome sciences
+2341,HGT,Hugoton royalty trust
+2342,HH,Hooper holmes
+2343,HHGP,Hudson highland group
+2344,HHH,Internet holdrs trust
+2345,HHS,Harte hanks
+2346,HI,Hillenbrand
+2347,HIBB,Hibbett sports
+2348,HIF,Western asset high income fd
+2349,HIFS,Hingham institution for svgs ma
+2350,HIG,Hartford financial svcs grp
+2351,HIH,Helios high income fund
+2352,HIHO,Highway holdings ltd
+2353,HIL,Hill international
+2354,HILL,Dot hill systems corp
+2355,HIMX,Himax technologies
+2356,HIO,Western asset high inc opp fund
+2357,HIS,Blackrock high income shares
+2358,HIT,Hitachi ltd
+2359,HITK,Hi tech pharmacal co
+2360,HITT,Hittite microwave corp
+2361,HIW,Highwoods properties
+2362,HIX,Western asset high inc fd ii
+2363,HK,Petrohawk energy corp
+2364,HKN,H k n
+2365,HL,Hecla mining co
+2366,HLF,Herbalife ltd
+2367,HLIT,Harmonic
+2368,HLS,Healthsouth corp
+2369,HLX,Helix energy solutions group
+2370,HLYS,Heelys
+2371,HMA,Health management associates
+2372,HMC,Honda motor co ltd
+2373,HME,Home properties
+2374,HMG,H m g courtland properties ltd
+2375,HMH,Helios multi sector hg inc fd in
+2376,HMIN,Home inns & hotels mgmt
+2377,HMN,Horace mann educators corp new
+2378,HMNA,Helios & matheson n a
+2379,HMNF,H m n financial
+2380,HMPR,Hampton roads bankshares
+2381,HMSY,H m s holdings corp
+2382,HMY,Harmony gold mining co ltd
+2383,HNB,Herald national bank ny
+2384,HNI,H n i corp
+2385,HNP,Huaneng power international
+2386,HNR,Harvest natural resources
+2387,HNSN,Hansen medical
+2388,HNT,Health net
+2389,HNW,Pioneer diversified high inc tr
+2390,HNZ,Heinz h j co
+2391,HOC,Holly corp
+2392,HOFT,Hooker furniture corp
+2393,HOG,Harley davidson
+2394,HOGS,Zhongpin
+2395,HOKU,Hoku corp
+2396,HOLI,Hollysys automation technlgs ltd
+2397,HOLL,Hollywood media corp
+2398,HOLX,Hologic
+2399,HOMB,Home bancshares
+2400,HOME,Home federal bancorp inc md
+2401,HON,Honeywell international
+2402,HOOK,Craft brewers alliance
+2403,HOS,Hornbeck offshore svcs inc new
+2404,HOT,Starwood hotels & rest wldwd
+2405,HOTT,Hot topic
+2406,HOV,Hovnanian enterprises
+2407,HP,Helmerich & payne
+2408,HPF,John hancock preferred inc fd ii
+2409,HPI,Hancock john pfd income fd
+2410,HPJ,Highpower international
+2411,HPOL,Harris interactive
+2412,HPQ,Hewlett packard co
+2413,HPS,Hancock john pfd income fd iii
+2414,HPT,Hospitality properties trust
+2415,HPY,Heartland payment systems
+2416,HQH,H & q healthcare investors
+2417,HQL,H & q life sciences investors
+2418,HQS,Hq sustainable maritime inds
+2419,HR,Healthcare realty trust
+2420,HRB,Block h & r
+2421,HRBN,Harbin electric
+2422,HRC,Hill rom holdings
+2423,HRL,Hormel foods corp
+2424,HRLY,Herley industries
+2425,HRS,Harris corp
+2426,HRT,Arrhythmia research tech
+2427,HRZ,Horizon lines
+2428,HS,Healthspring
+2429,HSA,Helios strategic income fund
+2430,HSC,Harsco corp
+2431,HSIC,Schein henry
+2432,HSII,Heidrick & struggles intl
+2433,HSKA,Heska corp
+2434,HSM,Helios strategic mortg inc fd in
+2435,HSNI,H s n inc new
+2436,HSP,Hospira
+2437,HST,Host hotels & resorts
+2438,HSTM,Healthstream
+2439,HSWI,H s w international
+2440,HSY,Hershey co
+2441,HT,Hersha hospitality trust
+2442,HTBK,Heritage commerce corp
+2443,HTCH,Hutchinson technology
+2444,HTCO,Hickory tech corp
+2445,HTD,John hancock tax adv div inc fd
+2446,HTGC,Hercules technology grth cap
+2447,HTH,Hilltop holdings
+2448,HTLD,Heartland express
+2449,HTLF,Heartland financial usa
+2450,HTM,U s geothermal
+2451,HTR,Helios total return fund
+2452,HTS,Hatteras financial corp
+2453,HTWR,Heartware international
+2454,HTY,John hancock tax adv glbl sh yld
+2455,HTZ,Hertz global holdings
+2456,HUBG,Hub group
+2457,HUGH,Hughes communications
+2458,HUM,Humana
+2459,HUN,Huntsman corp
+2460,HURC,Hurco co
+2461,HURN,Huron consulting group
+2462,HUSA,Houston american energy corp
+2463,HW,Headwaters
+2464,HWAY,Healthways
+2465,HWBK,Hawthorn bancshares
+2466,HWCC,Houston wire & cable co
+2467,HWD,Harry winston diamond corp
+2468,HWG,Hallwood group
+2469,HWK,Hawk corp
+2470,HWKN,Hawkins
+2471,HXL,Hexcel corp new
+2472,HXM,Desarrolladora homex s a de c v
+2473,HYB,New america high income fund
+2474,HYC,Hypercom corp
+2475,HYD,Market vectors e t f trust
+2476,HYF,Managed high yield plus fund
+2477,HYG,Ishares trust
+2478,HYGS,Hydrogenics corp new
+2479,HYT,Blackrock corp hi yld fd vi
+2480,HYV,Blackrock corp hi yld fd v
+2481,HZO,Marinemax
+2482,IACI,Iac interactivecorp
+2483,IAE,I n g asia pac hi div eq inc fd
+2484,IAF,Aberdeen australia equity fd
+2485,IAG,Iamgold corp
+2486,IAH,Internet architecture holdrs tr
+2487,IAI,Ishares trust
+2488,IAK,Ishares trust
+2489,IART,Integra lifesciences hldngs corp
+2490,IAT,Ishares trust
+2491,IAU,Ishares trust
+2492,IBA,Industrias bachoco s a b de c v
+2493,IBB,Ishares trust
+2494,IBCA,Intervest bancshares corp
+2495,IBCP,Independent bank corp mich
+2496,IBI,Interline brands
+2497,IBKC,Iberiabank corp
+2498,IBKR,Interactive brokers group
+2499,IBM,International business machs cor
+2500,IBN,I c i c i bank ltd
+2501,IBNK,Integra bank corp
+2502,IBOC,International bancshares corp
+2503,ICA,Empresas ica s a de c v
+2504,ICAD,Icad
+2505,ICB,Morgan stanley trusts
+2506,ICCC,Immucell corp
+2507,ICE,Intercontinentalexchange
+2508,ICF,Ishares trust
+2509,ICFI,I c f international inc new
+2510,ICGE,Internet capital group
+2511,ICGN,Icagen
+2512,ICH,Investors capital holdings ltd
+2513,ICLN,Ishares trust
+2514,ICLR,Icon plc
+2515,ICN,Wisdomtree trust
+2516,ICO,International coal group
+2517,ICOG,I c o global comms hldgs ltd de
+2518,ICON,Iconix brand group
+2519,ICOP,Icop digital
+2520,ICUI,I c u medical
+2521,ID,L 1 identity solutions
+2522,IDA,Idacorp
+2523,IDCC,Interdigital
+2524,IDI,Searchmedia holdings ltd
+2525,IDIX,Idenix pharmaceuticals
+2526,IDN,Intellicheck mobilisa
+2527,IDRA,Idera pharmaceuticals
+2528,IDSA,Industrial services of am
+2529,IDSY,I d systems
+2530,IDTI,Integrated device technology
+2531,IDU,Ishares trust
+2532,IDV,Ishares trust
+2533,IDX,Market vectors e t f trust
+2534,IDXX,I d e x x laboratories
+2535,IEC,I e c electronics corp new
+2536,IEF,Ishares trust
+2537,IEI,Ishares trust
+2538,IEO,Ishares trust
+2539,IEP,Icahn enterprises l p
+2540,IESC,Integrated electrical srvcs
+2541,IEV,Ishares trust
+2542,IEX,Idex corp
+2543,IEZ,Ishares trust
+2544,IF,Aberdeen indonesia fund
+2545,IFAS,Ishares trust
+2546,IFEU,Ishares trust
+2547,IFF,International flavors & frag
+2548,IFGL,Ishares trust
+2549,IFN,India fund
+2550,IFNA,Ishares trust
+2551,IFON,Infosonics corp
+2552,IFSIA,Interface
+2553,IFSM,Ishares trust
+2554,IG,I g i laboratories
+2555,IGA,I n g global adv & prem opp fund
+2556,IGC,India globalization capital
+2557,IGD,I n g global equ div & prem opp
+2558,IGE,Ishares trust
+2559,IGF,Ishares trust
+2560,IGI,Western asst inv gr def op tr in
+2561,IGLD,Internet gold golden lines ltd
+2562,IGM,Ishares trust
+2563,IGN,Ishares trust
+2564,IGOI,Igo
+2565,IGOV,Ishares trust
+2566,IGR,I n g clarion glob rl est inc fd
+2567,IGT,International game technology
+2568,IGTE,Igate corp
+2569,IGV,Ishares trust
+2570,IHC,Independence holding co new
+2571,IHE,Ishares trust
+2572,IHF,Ishares trust
+2573,IHG,Intercontinental hotels grp plc
+2574,IHI,Ishares trust
+2575,IHS,I h s
+2576,IHT,Innsuites hospitality trust
+2577,IID,Ing intl high div equity inc fd
+2578,IIF,Morgan stanley india inv fd
+2579,IIG,Imergent
+2580,IIH,Internet infrastructure holdrs
+2581,III,Information services group
+2582,IIIN,Insteel industries
+2583,IIJI,Internet initiative japan
+2584,IILG,Interval leisure group
+2585,IIN,Intricon corp
+2586,IIT,P t indosat tbk
+2587,IIVI,Ii vi
+2588,IJH,Ishares trust
+2589,IJJ,Ishares trust
+2590,IJK,Ishares trust
+2591,IJR,Ishares trust
+2592,IJS,Ishares trust
+2593,IJT,Ishares trust
+2594,IKAN,Ikanos communications
+2595,IKNX,Ikonics corp
+2596,ILF,Ishares trust
+2597,ILMN,Illumina
+2598,IM,Ingram micro
+2599,IMAX,Imax corp
+2600,IMF,Western asset inflation mgmt fd
+2601,IMGN,Immunogen
+2602,IMKTA,Ingles markets
+2603,IMMR,Immersion corp
+2604,IMMU,Immunomedics
+2605,IMN,Imation corp
+2606,IMO,Imperial oil ltd
+2607,IMOS,Chipmos technologies bermuda ltd
+2608,IN,Intermec
+2609,INAP,Internap network services corp
+2610,INB,Cohen & steers glbl inc bldr
+2611,INCB,Indiana community bancorp
+2612,INCY,Incyte corp
+2613,INDB,Independent bank corp ma
+2614,INET,Internet brands
+2615,INFA,Informatica corp
+2616,INFI,Infinity pharmaceuticals
+2617,INFN,Infinera corp
+2618,INFY,Infosys technologies ltd
+2619,ING,I n g groep n v
+2620,INHX,Inhibitex
+2621,ININ,Interactive intelligence
+2622,INMD,Integramed america
+2623,INO,Inovio pharmaceuticals
+2624,INOC,Innotrac corp
+2625,INOD,Innodata isogen
+2626,INPH,Interphase corp
+2627,INS,Intelligent systems corp new
+2628,INSM,Insmed
+2629,INSP,Infospace
+2630,INSU,Insituform technologies
+2631,INSW,Insweb corp
+2632,INT,World fuel services corp
+2633,INTC,Intel corp
+2634,INTG,Intergroup corp
+2635,INTT,Intest corp
+2636,INTU,Intuit
+2637,INTX,Intersections
+2638,INUV,Inuvo
+2639,INWK,Innerworkings
+2640,INXI,I n x
+2641,INY,Spdr series trust
+2642,IO,Ion geophysical corp
+2643,IOC,Interoil corp
+2644,IOO,Ishares trust
+2645,IOSP,Innospec
+2646,IOT,Income opportunity rlty invs
+2647,IP,International paper co
+2648,IPAR,Intermediate parfums
+2649,IPAS,Ipass
+2650,IPCC,Infinity property & casualty cor
+2651,IPCM,I p c the hospitalist co
+2652,IPD,Spdr index shares funds
+2653,IPE,Spdr series trust
+2654,IPF,Spdr index shares funds
+2655,IPG,Interpublic group cos
+2656,IPGP,I p g photonics corp
+2657,IPHS,Innophos holdings
+2658,IPI,Intrepid potash
+2659,IPK,Spdr index shares funds
+2660,IPN,Spdr index shares funds
+2661,IPS,Spdr index shares funds
+2662,IPSU,Imperial sugar co new
+2663,IPT,Iparty corp
+2664,IPU,Spdr index shares funds
+2665,IPW,Spdr index shares funds
+2666,IPXL,Impax laboratories
+2667,IR,Ingersoll rand plc
+2668,IRBT,Irobot corp
+2669,IRC,Inland real estate corp
+2670,IRE,Ireland bank
+2671,IRET,Investors real estate trust
+2672,IRF,International rectifier corp
+2673,IRIS,Iris international
+2674,IRIX,Iridex corp
+2675,IRL,New ireland fund
+2676,IRM,Iron mountain
+2677,IRR,I n g risk managed natur res fd
+2678,IRS,I r s a inversiones y rep s a
+2679,IRV,Spdr index shares funds
+2680,IRY,Spdr index shares funds
+2681,ISBC,Investors bancorp
+2682,ISCA,International speedway corp
+2683,ISH,International shipholding corp
+2684,ISHG,Ishares trust
+2685,ISI,Ishares trust
+2686,ISIG,Insignia systems
+2687,ISIL,Intersil corp
+2688,ISIS,Isis pharmaceuticals
+2689,ISL,Aberdeen israel fund
+2690,ISLE,Isle of capri casinos
+2691,ISLN,Isilon systems
+2692,ISNS,Image sensing systems
+2693,ISPH,Inspire pharmaceuticals
+2694,ISR,Isoray
+2695,ISRG,Intuitive surgical
+2696,ISRL,Isramco
+2697,ISSC,Innovative solutions & suprt
+2698,ISSI,Integrated silicon solution
+2699,IST,Spdr index shares funds
+2700,ISTA,Ista pharmaceuticals
+2701,ISYS,Integral systems
+2702,IT,Gartner
+2703,ITA,Ishares trust
+2704,ITB,Ishares trust
+2705,ITC,I t c holdings corp
+2706,ITE,Spdr series trust
+2707,ITF,Ishares trust
+2708,ITG,Investment technology gp inc new
+2709,ITI,Iteris
+2710,ITIC,Investors title co
+2711,ITM,Market vectors e t f trust
+2712,ITMN,Intermune
+2713,ITR,Spdr series trust
+2714,ITRI,Itron
+2715,ITRN,Ituran location & control ltd
+2716,ITT,I t t corp
+2717,ITW,Illinois tool works
+2718,IVA,Valuerich
+2719,IVAC,Intevac
+2720,IVAN,Ivanhoe energy
+2721,IVC,Invacare corp
+2722,IVD,Ivax diagnostics
+2723,IVE,Ishares trust
+2724,IVN,Ivanhoe mines ltd
+2725,IVR,Invesco mortgage capital
+2726,IVV,Ishares trust
+2727,IVW,Ishares trust
+2728,IVZ,Invesco ltd
+2729,IWB,Ishares trust
+2730,IWC,Ishares trust
+2731,IWD,Ishares trust
+2732,IWF,Ishares trust
+2733,IWM,Ishares trust
+2734,IWN,Ishares trust
+2735,IWO,Ishares trust
+2736,IWP,Ishares trust
+2737,IWR,Ishares trust
+2738,IWS,Ishares trust
+2739,IWV,Ishares trust
+2740,IWW,Ishares trust
+2741,IWZ,Ishares trust
+2742,IX,O r i x corp
+2743,IXC,Ishares trust
+2744,IXG,Ishares trust
+2745,IXJ,Ishares trust
+2746,IXN,Ishares trust
+2747,IXP,Ishares trust
+2748,IXYS,I x y s corp del
+2749,IYC,Ishares trust
+2750,IYE,Ishares trust
+2751,IYF,Ishares trust
+2752,IYG,Ishares trust
+2753,IYH,Ishares trust
+2754,IYJ,Ishares trust
+2755,IYK,Ishares trust
+2756,IYM,Ishares trust
+2757,IYR,Ishares trust
+2758,IYT,Ishares trust
+2759,IYW,Ishares trust
+2760,IYY,Ishares trust
+2761,IYZ,Ishares trust
+2762,JACK,Jack in the box
+2763,JADE,L j international
+2764,JAG,Jaguar mining
+2765,JAH,Jarden corp
+2766,JAKK,Jakks pacific
+2767,JAS,Jo ann stores
+2768,JASO,J a solar holdings co ltd
+2769,JAX,J alexanders corp
+2770,JAXB,Jacksonville bancorp inc fl
+2771,JAZZ,Jazz pharmaceuticals
+2772,JBHT,Hunt j b transport services
+2773,JBL,Jabil circuit
+2774,JBLU,Jetblue airways corp
+2775,JBSS,Sanfilippo john b & son
+2776,JBT,John bean technologies corp
+2777,JCDA,Jacada ltd
+2778,JCE,Nuveen core equity alpha fund
+2779,JCG,J crew group
+2780,JCI,Johnson controls
+2781,JCOM,J2 global comm
+2782,JCP,Penney j c co
+2783,JCS,Communications systems
+2784,JCTCF,Jewett cameron trading ltd
+2785,JDAS,J d a software group
+2786,JDD,Nuveen diversified div & inc fd
+2787,JDSU,J d s uniphase corp
+2788,JEC,Jacobs engineering group
+2789,JEF,Jefferies group inc new
+2790,JEQ,Japan equity fund
+2791,JFBC,Jeffersonville bancorp
+2792,JFBI,Jefferson bancshares inc tenn
+2793,JFC,J f china region fund
+2794,JFP,Nuveen tax advantaged fltg rt fd
+2795,JFR,Nuveen floating rate income fund
+2796,JGG,Nuveen glbl gvmnt enhancd inc fd
+2797,JGT,Nuveen multi curr sh tm gov
+2798,JGV,Nuveen global value opport fund
+2799,JHI,Hancock john invs tr
+2800,JHP,Nuveen quality pfd income fd 3
+2801,JHS,Hancock john income secs tr
+2802,JHX,James hardie industries s e
+2803,JJSF,J & j snack foods corp
+2804,JKD,Ishares trust
+2805,JKE,Ishares trust
+2806,JKF,Ishares trust
+2807,JKG,Ishares trust
+2808,JKH,Ishares trust
+2809,JKHY,Henry jack & assoc
+2810,JKI,Ishares trust
+2811,JKJ,Ishares trust
+2812,JKK,Ishares trust
+2813,JKL,Ishares trust
+2814,JLA,Nuveen equity premium advant fd
+2815,JLL,Jones lang lasalle
+2816,JMBA,Jamba
+2817,JMP,J m p group
+2818,JNJ,Johnson & johnson
+2819,JNK,Spdr series trust
+2820,JNPR,Juniper networks
+2821,JNS,Janus cap group
+2822,JNY,Jones group
+2823,JOB,General employment entreprs
+2824,JOBS,51job
+2825,JOE,St joe co
+2826,JOEZ,Joes jeans
+2827,JOF,Japan smaller cap fund
+2828,JOSB,Jos a bank clothiers
+2829,JOUT,Johnson outdoors
+2830,JOYG,Joy global
+2831,JPC,Nuveen multi strat inc & grth fd
+2832,JPG,Nuveen equity premium & grwth fd
+2833,JPM,Jpmorgan chase & co
+2834,JPP,Spdr index shares funds
+2835,JPS,Nuveen quality pfd income fd 2
+2836,JPX,Proshares trust
+2837,JPZ,Nuveen equity premium income fd
+2838,JQC,Nuveen multi strat inc & gr fd 2
+2839,JRCC,James river coal co
+2840,JRJC,China fin online co ltd
+2841,JRN,Journal communications
+2842,JRO,Nuveen floating rate inc opp fd
+2843,JRS,Nuveen real estate income fund
+2844,JSC,Spdr index shares funds
+2845,JSDA,Jones soda co
+2846,JSN,Nuveen equity premium opport fd
+2847,JST,Jinpan international ltd
+2848,JTA,Nuveen tax adv tot ret strat fd
+2849,JTD,Nuveen tax advantage div grth fd
+2850,JTP,Nuveen quality pfd income fd
+2851,JTX,Jackson hewitt tax service
+2852,JVA,Coffee holding co
+2853,JWN,Nordstrom
+2854,JXI,Ishares trust
+2855,JXSB,Jacksonville bancorp inc md
+2856,JYF,Wisdomtree trust
+2857,K,Kellogg co
+2858,KAD,Arcadia resources
+2859,KAI,Kadant
+2860,KALU,Kaiser aluminum corp
+2861,KAMN,Kaman corp
+2862,KAZ,B m b munai
+2863,KB,K b financial group
+2864,KBALB,Kimball international
+2865,KBE,Spdr series trust
+2866,KBH,K b home
+2867,KBR,K b r
+2868,KBW,K b w
+2869,KBX,Kimber resources
+2870,KCAP,Kohlberg capital corp
+2871,KCE,Spdr series trust
+2872,KCI,Kinetic concepts
+2873,KCLI,Kansas city life ins co
+2874,KCP,Cole kenneth productions
+2875,KDN,Kaydon corp
+2876,KED,Kayne anderson energy develop co
+2877,KEF,Korea equity fund
+2878,KEG,Key energy services
+2879,KEI,Keithley instruments
+2880,KELYA,Kelly services
+2881,KELYB,Kelly services
+2882,KENT,Kent financial services
+2883,KEP,Korea electric power co
+2884,KEQU,Kewaunee scientific corp
+2885,KERX,Keryx biopharmaceuticals
+2886,KEX,Kirby corp
+2887,KEY,Keycorp new
+2888,KEYN,Keynote systems
+2889,KF,Korea fund
+2890,KFFB,Kentucky first federal bancorp
+2891,KFN,K k r financial holdings llc
+2892,KFRC,Kforce
+2893,KFS,Kingsway financial services
+2894,KFT,Kraft foods
+2895,KFY,Korn ferry international
+2896,KG,King pharmaceuticals
+2897,KGC,Kinross gold corp
+2898,KGN,Keegan resources
+2899,KHI,D w s high income trust
+2900,KIE,Spdr series trust
+2901,KIM,Kimco realty corp
+2902,KINS,Kingstone companies
+2903,KIRK,Kirklands
+2904,KKD,Krispy kreme doughnuts
+2905,KLAC,K l a tencor corp
+2906,KLD,Ishares trust
+2907,KLIC,Kulicke & soffa inds
+2908,KMB,Kimberly clark corp
+2909,KME,Spdr series trust
+2910,KMGB,K m g chemicals
+2911,KMM,D w s multi market income trust
+2912,KMP,Kinder morgan energy partners lp
+2913,KMR,Kinder morgan management llc
+2914,KMT,Kennametal
+2915,KMX,Carmax
+2916,KND,Kindred healthcare
+2917,KNDI,Kandi technologies corp
+2918,KNDL,Kendle international
+2919,KNL,Knoll
+2920,KNM,Konami corp
+2921,KNOL,Knology
+2922,KNOT,Knot
+2923,KNSY,Kensey nash corp
+2924,KNX,Knight transportation
+2925,KNXA,Kenexa corp
+2926,KO,Coca cola co
+2927,KOF,Coca cola femsa s a b de c v
+2928,KOG,Kodiak oil & gas corp
+2929,KOL,Market vectors e t f trust
+2930,KONA,Kona grill
+2931,KONG,Kongzhong corp
+2932,KOOL,Thermogenesis corp
+2933,KOP,Koppers holdings
+2934,KOPN,Kopin corp
+2935,KOSS,Koss corp
+2936,KR,Kroger co
+2937,KRC,Kilroy realty corp
+2938,KRE,Spdr series trust
+2939,KRG,Kite realty group trust
+2940,KRNY,Kearny financial corp
+2941,KRO,Kronos worldwide
+2942,KRY,Crystallex international corp
+2943,KSM,D w s strategic muni income tr
+2944,KSP,K sea transportation partners lp
+2945,KSS,Kohls corp
+2946,KST,D w s strategic income trust
+2947,KSU,Kansas city southern
+2948,KSW,K s w
+2949,KSWS,K swiss
+2950,KTCC,Key tronics corp
+2951,KTEC,Key technology
+2952,KTF,D w s municipal income trust
+2953,KTOS,Kratos defense & secur sols
+2954,KUB,Kubota corp
+2955,KUN,China shenghuo pharma hldgs
+2956,KVHI,K v h industries
+2957,KWK,Quicksilver resources
+2958,KWR,Quaker chemical corp
+2959,KWT,Market vectors e t f trust
+2960,KXI,Ishares trust
+2961,KYE,Kayne anderson energy tot ret fd
+2962,KYN,Kayne anderson m l p invest co
+2963,KYO,Kyocera corp
+2964,L,Loews corp
+2965,LAB,Labranche & co
+2966,LABC,Louisiana bancorp
+2967,LABL,Multi color corp
+2968,LACO,Lakes entertainment
+2969,LAD,Lithia motors
+2970,LAG,Spdr series trust
+2971,LAKE,Lakeland industries
+2972,LAMR,Lamar advertising co
+2973,LANC,Lancaster colony corp
+2974,LAQ,Aberdeen latin america equity fd
+2975,LARK,Landmark bancorp
+2976,LAVA,Magma design automation
+2977,LAWS,Lawson products
+2978,LAYN,Layne christensen co
+2979,LAZ,Lazard ltd
+2980,LB,La barge
+2981,LBAI,Lakeland bancorp
+2982,LBF,D w s global high inc fnd
+2983,LBIX,Leading brands
+2984,LBTYA,Liberty global
+2985,LBTYB,Liberty global
+2986,LBTYK,Liberty global
+2987,LCAPA,Liberty media corp new
+2988,LCAPB,Liberty media corp new
+2989,LCAV,L c a vision
+2990,LCC,U s airways group inc new
+2991,LCI,Lannett
+2992,LCM,Advent claymore enh gr & inc fd
+2993,LCRD,Lasercard corp
+2994,LCRY,Lecroy corp
+2995,LCUT,Lifetime brands
+2996,LDF,Latin american discovery fd
+2997,LDK,L d k solar co ltd
+2998,LDL,Lydall
+2999,LDR,Landauer
+3000,LDSH,Ladish co
+3001,LEAP,Leap wireless intl
+3002,LECO,Lincoln electric holdings
+3003,LEDR,Market leader
+3004,LEE,Lee enterprises
+3005,LEG,Leggett & platt
+3006,LEGC,Legacy bancorp
+3007,LEI,Lucas energy
+3008,LEO,Dreyfus strategic municipals
+3009,LF,Leapfrog enterprises
+3010,LFC,China life insurance co ltd
+3011,LFL,Lan airlines s a
+3012,LFT,Longtop financial technologies
+3013,LFUS,Littelfuse
+3014,LG,Laclede group
+3015,LGCY,Legacy reserves l p
+3016,LGF,Lions gate entertainment corp
+3017,LGI,Lazard glob tot ret & inc fd
+3018,LGL,L g l group
+3019,LGND,Ligand pharmaceuticals
+3020,LH,Laboratory corp america hldgs
+3021,LHCG,L h c group
+3022,LHO,Lasalle hotel properties
+3023,LIFE,Life technologies corp
+3024,LII,Lennox international
+3025,LIME,Lime energy co
+3026,LINC,Lincoln educational svcs corp
+3027,LINE,Linn energy llc
+3028,LINTA,Liberty media corp new
+3029,LINTB,Liberty media corp new
+3030,LION,Fidelity southern corp new
+3031,LIOX,Lionbridge technologies
+3032,LIVE,Livedeal
+3033,LIZ,Liz claiborne
+3034,LKFN,Lakeland financial corp
+3035,LKQX,L k q corp
+3036,LL,Lumber liquidators holdings
+3037,LLL,L 3 communications hldgs
+3038,LLNW,Limelight networks
+3039,LLTC,Linear technology corp
+3040,LLY,Lilly eli & co
+3041,LM,Legg mason
+3042,LMAT,Lemaitre vascular
+3043,LMIA,L m i aerospace
+3044,LMLP,L m l payment systems
+3045,LMNX,Luminex corp
+3046,LMT,Lockheed martin corp
+3047,LNBB,L n b bancorp
+3048,LNC,Lincoln national corp
+3049,LNCE,Snyders lance
+3050,LNCR,Lincare holdings
+3051,LNDC,Landec corp
+3052,LNET,Lodgenet interactive corp
+3053,LNG,Cheniere energy
+3054,LNN,Lindsay corp
+3055,LNT,Alliant energy corp
+3056,LO,Lorillard
+3057,LOAN,Manhattan bridge capital
+3058,LOCM,Local com corp
+3059,LOGC,Logic devices
+3060,LOGI,Logitech international sa
+3061,LOGM,Logmein
+3062,LOJN,Lo jack corp
+3063,LONG,Elong
+3064,LOOK,Looksmart ltd
+3065,LOOP,Loopnet
+3066,LOPE,Grand canyon education
+3067,LOR,Lazard world divid & inc fd
+3068,LORL,Loral space & communications
+3069,LOV,Spark networks
+3070,LOW,Lowes companies
+3071,LPHI,Life partners holdings
+3072,LPL,L g display co ltd
+3073,LPNT,Lifepoint hospitals
+3074,LPS,Lender processing services
+3075,LPSB,Laporte bancorp
+3076,LPSN,Liveperson
+3077,LPTH,Lightpath technologies
+3078,LPX,Louisiana pacific corp
+3079,LQD,Ishares trust
+3080,LQDT,Liquidity services
+3081,LRCX,Lam resh corp
+3082,LRN,K12
+3083,LRY,Liberty property trust
+3084,LSBI,L s b financial corp
+3085,LSBK,Lake shore bancorp
+3086,LSBX,L s b corp
+3087,LSCC,Lattice semiconductor corp
+3088,LSE,Caplease
+3089,LSI,L s i corp new
+3090,LSTR,Landstar system
+3091,LTC,L t c properties
+3092,LTD,Limited brands
+3093,LTL,Proshares trust
+3094,LTM,Life time fitness
+3095,LTON,Linktone ltd
+3096,LTRE,Learning tree international
+3097,LTRX,Lantronix
+3098,LTS,Ladenburg thalmann fin svcs
+3099,LTXC,L t x credence corp
+3100,LUB,Lubys
+3101,LUFK,Lufkin industries
+3102,LUK,Leucadia national corp
+3103,LULU,Lululemon athletica
+3104,LUNA,Luna innovations
+3105,LUV,Southwest airlines co
+3106,LUX,Luxottica group s p a
+3107,LVB,Steinway musical instruments
+3108,LVL,Claymore e t f trust
+3109,LVLT,Level 3 communications
+3110,LVS,Las vegas sands corp
+3111,LWAY,Lifeway foods
+3112,LWC,Spdr series trust
+3113,LWSN,Lawson software inc new
+3114,LXK,Lexmark international inc new
+3115,LXP,Lexington realty trust
+3116,LXRX,Lexicon pharmaceuticals
+3117,LXU,L s b industries
+3118,LYG,Lloyds banking group plc
+3119,LYTS,L s i industries
+3120,LYV,Live nation entertainment
+3121,LZ,Lubrizol corp
+3122,LZB,La z boy
+3123,LZR,Emergent group inc nev
+3124,M,Macys
+3125,MA,Mastercard
+3126,MAA,Mid america apt communities
+3127,MAB,Eaton vance ma municipal bd fd
+3128,MAC,Macerich co
+3129,MAG,Magnetek
+3130,MAGS,Magal security systems ltd
+3131,MAIL,Incredimail ltd
+3132,MAIN,Main street capital corp
+3133,MAKO,Mako surgical corp
+3134,MALL,P c mall
+3135,MAM,Maine & maritimes corp
+3136,MAN,Manpower inc wis
+3137,MANH,Manhattan associates
+3138,MANT,Mantech international corp
+3139,MAPP,M a p pharmaceuticals
+3140,MAR,Marriott international inc new
+3141,MARPS,Marine petroleum trust
+3142,MAS,Masco corp
+3143,MASI,Masimo corp
+3144,MAT,Mattel
+3145,MATK,Martek biosciences corp
+3146,MATW,Matthews international corp
+3147,MAV,Pioneer municipal high inc advnt
+3148,MAXY,Maxygen
+3149,MAY,Malaysia fund
+3150,MAYS,Mays j w
+3151,MBA,C i b t education group
+3152,MBB,Ishares trust
+3153,MBFI,M b financial inc new
+3154,MBG,Spdr series trust
+3155,MBI,M b i a
+3156,MBLX,Metabolix
+3157,MBND,Multiband corp
+3158,MBR,Mercantile bancorp
+3159,MBRG,Middleburg financial corp
+3160,MBT,Mobile telesystems ojsc
+3161,MBTF,M b t financial corp
+3162,MBVT,Merchants bancshares
+3163,MBWM,Mercantile bank corp
+3164,MCA,Blackrock muniyld ca qlty fd
+3165,MCBC,Macatawa bank corp
+3166,MCBF,Monarch community bancorp
+3167,MCBI,Metrocorp bancshares
+3168,MCCC,Mediacom communications corp
+3169,MCD,Mcdonalds corp
+3170,MCF,Contango oil and gas co
+3171,MCGC,M c g capital corp
+3172,MCHP,Microchip technology
+3173,MCHX,Marchex
+3174,MCI,Massmutual corporate invs
+3175,MCK,Mckesson h b o c
+3176,MCN,Madison claymore covrd call & eq
+3177,MCO,Moodys corp
+3178,MCR,M f s charter income trust
+3179,MCRI,Monarch casino & resort
+3180,MCRL,Micrel
+3181,MCRO,Indexiq e t f trust
+3182,MCRS,Micros systems
+3183,MCS,Marcus corp
+3184,MCY,Mercury general corp new
+3185,MCZ,Mad catz interactive
+3186,MD,Mednax
+3187,MDAS,Medassets
+3188,MDC,M d c holdings
+3189,MDCA,M d c partners
+3190,MDCI,Medical action industries
+3191,MDCO,Medicines co
+3192,MDD,Spdr index shares funds
+3193,MDF,Metropolitan health networks
+3194,MDH,M h i hospitality corp
+3195,MDM,Mountain province diamonds
+3196,MDP,Meredith corp
+3197,MDR,Mcdermott international
+3198,MDRX,Allscripts healthcare solns
+3199,MDS,Midas
+3200,MDSO,Medidata solutions
+3201,MDT,Medtronic
+3202,MDTH,Medcath corp
+3203,MDU,M d u resources group
+3204,MDVN,Medivation
+3205,MDW,Midway gold corp
+3206,MDY,Spdr s & p midcap 400 etf trust
+3207,MEA,Metalico
+3208,MEAD,Meade instruments corp
+3209,MEAS,Measurement specialties
+3210,MED,Medifast
+3211,MEDQ,Medquist
+3212,MEDW,Mediware information sys
+3213,MEE,Massey energy co
+3214,MEG,Media general
+3215,MEI,Methode electronics
+3216,MELA,M e l a sciences
+3217,MELI,Mercadolibre
+3218,MEMS,Memsic
+3219,MEN,Blackrock munienhanced fund
+3220,MENT,Mentor graphics corp
+3221,MEOH,Methanex corp
+3222,MERC,Mercer international
+3223,MERR,Merriman holdings
+3224,MES,Market vectors e t f trust
+3225,MET,Metlife
+3226,METR,Metro bancorp
+3227,MF,M f global holdings ltd
+3228,MFA,M f a financial
+3229,MFB,Maidenform brands
+3230,MFC,Manulife financial corp
+3231,MFD,Macquarie first tr glob infrastr
+3232,MFE,Mcafee
+3233,MFG,Mizuho financial group
+3234,MFI,Microfinancial
+3235,MFL,Blackrock munihldgs inv qlty fd
+3236,MFLR,Mayflower bancorp
+3237,MFLX,Multi fineline electronix
+3238,MFM,M f s municipal income trust
+3239,MFN,Minefinders corp ltd
+3240,MFNC,Mackinac financial corp
+3241,MFRI,M f r i
+3242,MFSF,Mutualfirst finl
+3243,MFT,Blackrock muniyld invt qlty fd
+3244,MFV,M f s special value trust
+3245,MFW,M & f worldwide corp
+3246,MGA,Magna international
+3247,MGAM,Multimedia games
+3248,MGC,Vanguard world fund
+3249,MGEE,M g e energy
+3250,MGF,M f s government markets inc tr
+3251,MGH,Minco gold corp
+3252,MGI,Moneygram international
+3253,MGIC,Magic software enterprises ltd
+3254,MGK,Vanguard world fund
+3255,MGLN,Magellan health services
+3256,MGM,M g m resorts international
+3257,MGN,Mines management
+3258,MGPI,M g p ingredients
+3259,MGRC,Mcgrath rentcorp
+3260,MGT,M g t capital investments
+3261,MGU,Macquarie global infr tot ret fd
+3262,MGV,Vanguard world fund
+3263,MGYR,Magyar bancorp
+3264,MHD,Blackrock muniholdings fund
+3265,MHE,Massachusetts health & ed t e tr
+3266,MHF,Western asset muni high inc fund
+3267,MHGC,Morgans hotel group co
+3268,MHH,Mastech holdings
+3269,MHI,Pioneer municipal high inc trust
+3270,MHK,Mohawk industries
+3271,MHLD,Maiden holdings ltd
+3272,MHN,Blackrock munihldgs ny qlty fd
+3273,MHO,M i homes
+3274,MHP,Mcgraw hill cos
+3275,MHR,Magnum hunter resources corp
+3276,MHS,Medco health solutions
+3277,MHY,Western asset managed hi inc fd
+3278,MI,Marshall & ilsley corp new
+3279,MIC,Macquarie infrastructure co llc
+3280,MICC,Millicom intl cellular sa
+3281,MIDD,Middleby corp
+3282,MIG,Meadowbrook insurance group
+3283,MIGP,Mercer insurance group
+3284,MIM,M i developments
+3285,MIN,M f s intermediate income trust
+3286,MIND,Mitcham industries
+3287,MINI,Mobile mini
+3288,MIPI,Molecular insight pharms
+3289,MIPS,M i p s technologies
+3290,MIR,Mirant corp new
+3291,MITI,Micromet
+3292,MITSY,Mitsui & co ltd
+3293,MIW,Eaton vance mi municipal bd fd
+3294,MIY,Blackrock muniyld mi qlty fd
+3295,MJI,Blackrock muniyld nj qlty fd
+3296,MJN,Mead johnson nutrition co
+3297,MKH,Market 2000 holdrs tr
+3298,MKL,Markel corp
+3299,MKSI,M k s instruments
+3300,MKTAY,Makita corp
+3301,MKTX,Marketaxess hldgs
+3302,MLAB,Mesa laboratories
+3303,MLHR,Miller herman
+3304,MLI,Mueller industries
+3305,MLM,Martin marietta materials
+3306,MLN,Market vectors e t f trust
+3307,MLNK,Moduslink global solutions
+3308,MLNX,Mellanox technologies ltd
+3309,MLP,Maui land & pineapple co
+3310,MLR,Miller industries inc tenn
+3311,MLVF,Malvern federal bancorp
+3312,MMC,Marsh & mclennan cos
+3313,MMG,Metalline mining co
+3314,MMLP,Martin midstream partners lp
+3315,MMM,3m co
+3316,MMP,Magellan midstream ptnrs l p
+3317,MMR,Mcmoran exploration co new
+3318,MMS,Maximus
+3319,MMSI,Merit medical systems
+3320,MMT,M f s multimarket income trust
+3321,MMU,Western asset managed munis fund
+3322,MMUS,Makemusic
+3323,MMV,Eaton vance mass mun inc tr
+3324,MNDO,Mind c t i ltd
+3325,MNE,Blackrock muni ny inter dur fund
+3326,MNI,Mcclatchy co
+3327,MNKD,Mannkind corp
+3328,MNOV,Medicinova
+3329,MNP,Western asset muni partners fund
+3330,MNRK,Monarch financial holdings
+3331,MNRO,Monro muffler brake
+3332,MNTA,Momenta pharmaceuticals
+3333,MNTG,M t r gaming group
+3334,MNTX,Manitex international
+3335,MO,Altria group
+3336,MOC,Command security corp
+3337,MOCO,M o c o n
+3338,MOD,Modine manufacturing co
+3339,MOFG,Midwestone financial grp inc new
+3340,MOH,Molina healthcare
+3341,MOLX,Molex
+3342,MOLXA,Molex
+3343,MON,Monsanto co new
+3344,MOO,Market vectors e t f trust
+3345,MORN,Morningstar
+3346,MOS,Mosaic co
+3347,MOSY,Mosys
+3348,MOT,Motorola
+3349,MOV,Movado group
+3350,MOVE,Move
+3351,MPA,Blackrock muniyield penn qlty fd
+3352,MPAA,Motorcar parts of america
+3353,MPAC,Mod pac corp
+3354,MPB,Mid penn bancorp
+3355,MPEL,Melco crown entertainment ltd
+3356,MPET,Magellan petroleum corp
+3357,MPG,M p g office trust
+3358,MPR,Met pro corp
+3359,MPV,Massmutual participation invs
+3360,MPW,Medical properties trust
+3361,MPWR,Monolithic pwr sys
+3362,MPX,Marine products corp
+3363,MQT,Blackrock muniyield qlty fund ii
+3364,MQY,Blackrock muniyield quality fund
+3365,MR,Mindray medical intl ltd
+3366,MRCY,Mercury computer systems
+3367,MRF,American income fund
+3368,MRGE,Merge healthcare
+3369,MRH,Montpelier res holdings ltd
+3370,MRK,Merck & co inc new
+3371,MRLN,Marlin business svcs corp
+3372,MRNA,Marina biotech
+3373,MRO,Marathon oil corp
+3374,MROE,Monroe bancorp
+3375,MRT,Mortons restaurant group inc new
+3376,MRTN,Marten transport ltd
+3377,MRVL,Marvell technology group ltd
+3378,MRX,Medicis pharmaceutical corp
+3379,MS,Morgan stanley dean witter & co
+3380,MSA,Mine safety appliances co
+3381,MSB,Mesabi trust
+3382,MSBF,M s b financial corp
+3383,MSCC,Microsemi corp
+3384,MSD,Morgan stanley emrg mkts fd
+3385,MSEX,Middlesex water co
+3386,MSF,Morgan stanley emg mks fd inc n
+3387,MSFG,Mainsource financial group
+3388,MSFT,Microsoft corp
+3389,MSHL,Marshall edwards
+3390,MSL,Midsouth bancorp
+3391,MSM,M s c industrial direct
+3392,MSN,Emerson radio corp
+3393,MSO,Martha stewart lvng omnimedia in
+3394,MSON,Misonix
+3395,MSP,Madison strategic sector prem fd
+3396,MSPD,Mindspeed technologies
+3397,MSSR,Mccormick & schmicks seafood res
+3398,MSTR,Microstrategy
+3399,MSW,Mission west pptys inc md
+3400,MSY,Invesco high yield invts fd
+3401,MT,Arcelormittal s a luxembourg
+3402,MTB,M & t bank corp
+3403,MTD,Mettler toledo international
+3404,MTE,Mahanagar tele nigam ltd
+3405,MTEX,Mannatech
+3406,MTG,M g i c investment corp wis
+3407,MTH,Meritage homes corp
+3408,MTK,Spdr series trust
+3409,MTL,Mechel o a o
+3410,MTLK,Metalink ltd
+3411,MTN,Vail resorts
+3412,MTOX,Medtox scientific
+3413,MTP,M l p & strategic equity fd
+3414,MTR,Mesa royalty trust
+3415,MTRX,Matrix service co
+3416,MTS,Montgomery street income secs in
+3417,MTSC,M t s systems corp
+3418,MTSL,M e r telemanagement soltns ltd
+3419,MTSN,Mattson technology
+3420,MTT,Western asset mun def opp tr
+3421,MTU,Mitsubishi ufj financial gp
+3422,MTW,Manitowoc co
+3423,MTX,Minerals technologies
+3424,MTXX,Matrixx initiatives
+3425,MTZ,Mastec
+3426,MU,Micron technology
+3427,MUA,Blackrock muniassets fund
+3428,MUB,Ishares trust
+3429,MUC,Blackrock munihldgs ca qlty fd
+3430,MUE,Blackrock munihldgs qlty fd ii
+3431,MUH,Blackrock muniholdings fund ii
+3432,MUI,Blackrock muni interm dur fd
+3433,MUJ,Blackrock munihldgs nj qlty fd
+3434,MUR,Murphy oil corp
+3435,MUS,Blackrock munihldgs qlty fd
+3436,MVC,M v c capital
+3437,MVF,Blackrock munivest fund
+3438,MVG,M a g silver corp
+3439,MVIS,Microvision inc wa
+3440,MVO,M v oil trust
+3441,MVT,Blackrock munivest fund ii
+3442,MVV,Proshares trust
+3443,MW,Mens wearhouse
+3444,MWA,Mueller water products
+3445,MWE,Markwest energy partners lp
+3446,MWIV,M w i veterinary supply
+3447,MWJ,Direxion shares e t f trust
+3448,MWN,Direxion shares e t f trust
+3449,MWV,Meadwestvaco corp
+3450,MWW,Monster worldwide
+3451,MXA,Minnesota municipal inc port
+3452,MXC,Mexco energy corp
+3453,MXE,Mexico equity & income fund
+3454,MXF,Mexico fund
+3455,MXI,Ishares trust
+3456,MXIM,Maxim integrated products
+3457,MXN,First american mn mun inc fd ii
+3458,MXT,Maxcom telecomunicaciones sab de
+3459,MXWL,Maxwell technologies
+3460,MYC,Blackrock muniyield ca fund
+3461,MYD,Blackrock muniyield fund
+3462,MYE,Myers industries
+3463,MYF,Blackrock muniyield investmnt fd
+3464,MYGN,Myriad genetics
+3465,MYI,Blackrock muniyld qlty fd iii
+3466,MYJ,Blackrock muniyield nj fund
+3467,MYL,Mylan
+3468,MYM,Blackrock muniyld mi qlty fd ii
+3469,MYN,Blackrock muniyld ny qlty fd
+3470,MYRG,M y r group inc de
+3471,MYRX,Myrexis
+3472,MYY,Proshares trust
+3473,MZA,Blackrock muniyield az fund
+3474,MZF,Managed duration invt grd mun fd
+3475,MZZ,Proshares trust
+3476,N,Netsuite
+3477,NABI,N a b i biopharmaceuticals
+3478,NAC,Nuveen california div adv mun fu
+3479,NAD,Nuveen dividend adv mun fund
+3480,NAFC,Nash finch co
+3481,NAI,A g i c intl & prem strategy fd
+3482,NAII,Natural alternatives intl
+3483,NAK,Northern dynasty minerals ltd
+3484,NAL,Newalliance bancshares
+3485,NAN,Nuveen ny dividend adv muni fd
+3486,NANO,Nanometrics
+3487,NANX,Nanophase technologies corp
+3488,NARA,Nara bancorp
+3489,NASB,N a s b financial
+3490,NAT,Nordic american tanker shpg ltd
+3491,NATH,Nathans famous inc new
+3492,NATI,National instruments corp
+3493,NATL,National interstate corp
+3494,NAV,Navistar international corp
+3495,NAVG,Navigators group
+3496,NAVI,Navisite
+3497,NAVR,Navarre corp
+3498,NAZ,Nuveen az prem income mun fd
+3499,NBBC,Newbridge bancorp
+3500,NBG,National bank of greece s a
+3501,NBH,Neuberger berman inter fd
+3502,NBIX,Neurocrine biosciences
+3503,NBJ,Nuveen ohio div adv mun fd 2
+3504,NBL,Noble energy
+3505,NBN,Northeast bancorp
+3506,NBO,Neuberger berman ny int mu fd in
+3507,NBR,Nabors industries ltd
+3508,NBS,Neostem
+3509,NBTB,N b t bancorp
+3510,NBTF,N b & t financial group
+3511,NBW,Neuberger berman ca int mu fd in
+3512,NBY,Novabay pharmaceuticals
+3513,NC,Nacco industries
+3514,NCA,Nuveen california mun value fd
+3515,NCB,Nuveen calif muni value fund 2
+3516,NCBC,New century bancorp inc nc
+3517,NCI,Navigant consulting
+3518,NCIT,N c i
+3519,NCL,Nuveen insured ca pr inc mn fd 2
+3520,NCMI,National cinemedia
+3521,NCO,Nuveen ca muni mkt oppty fd
+3522,NCOC,National coal corp
+3523,NCP,Nuveen ca perf plus muni fd
+3524,NCR,N c r corp new
+3525,NCS,N c i building systems
+3526,NCT,Newcastle investment corp
+3527,NCTY,The9 ltd
+3528,NCU,Nuveen ca prem inc mun fd
+3529,NCV,A g i c convertible & income fd
+3530,NCZ,A g i c convertible & inc fd ii
+3531,NDAQ,Nasdaq o m x group
+3532,NDN,99 cents only stores
+3533,NDSN,Nordson corp
+3534,NE,Noble corp baar
+3535,NEA,Nuveen insd tax free adv
+3536,NEBS,New england bancshares
+3537,NECB,Northeast community bancorp
+3538,NED,Noah education holdings ltd
+3539,NEM,Newmont mining corp
+3540,NEN,New england realty assoc l p
+3541,NEOG,Neogen corp
+3542,NEP,China north east petro hldgs ltd
+3543,NEPT,Neptune tech & bioresources
+3544,NETL,Netlogic microsystems
+3545,NEU,Newmarket corp
+3546,NEWP,Newport corp
+3547,NEWS,Newstar financial
+3548,NEWT,Newtek business services
+3549,NEXS,Nexxus lighting
+3550,NFBK,Northfield bancorp
+3551,NFC,Nuveeen conn div adv mun fd
+3552,NFG,National fuel gas co n j
+3553,NFJ,N f j dividend int & prem str fd
+3554,NFLX,Netflix
+3555,NFM,Nuveen maryland div adv mun fd
+3556,NFO,Claymore e t f trust
+3557,NFP,National financial partners corp
+3558,NFSB,Newport bancorp
+3559,NFX,Newfield exploration co
+3560,NFZ,Nuveen arizona div adv muni fd
+3561,NG,Novagold resources
+3562,NGAS,Ngas resources
+3563,NGB,Nuveen virginia div adv mun fd
+3564,NGBF,New generation biofuels hldgs in
+3565,NGD,New gold
+3566,NGG,National grid plc
+3567,NGK,Nuveen ct div adv muni fd 2
+3568,NGLS,Targa resources partners lp
+3569,NGO,Nuveen conn div adv muni fd 3
+3570,NGPC,N g p capital resources co
+3571,NGS,Natural gas services group
+3572,NGSX,Neurogesx
+3573,NGX,Nuveen ins ma tax fr adv muni fd
+3574,NGZ,A g i c glbl eqty & conv inc fd
+3575,NHC,National healthcare corp
+3576,NHI,National health investors
+3577,NHP,Nationwide health properties
+3578,NHS,Neuberger berman hg yd strat fd
+3579,NHTB,New hampshire thrift bncshrs
+3580,NHWK,Nighthawk radiology holdings
+3581,NI,Nisource
+3582,NICE,Nice systems ltd
+3583,NICK,Nicholas financial
+3584,NIE,A g i c equity & conv income fd
+3585,NIF,Nuveen premier ins muni inc fd
+3586,NIHD,N i i holdings
+3587,NII,Nuveen nc div adv muni fd 3
+3588,NILE,Blue nile
+3589,NIM,Nuveen select maturities mun fd
+3590,NINE,Ninetowns internet tech grp co
+3591,NIO,Nuveen insured muni oppty fd
+3592,NIV,Nivs intellimedia tech grp
+3593,NJ,Nidec corp
+3594,NJR,New jersey res
+3595,NJV,Nuveen new jersey muni value fun
+3596,NKE,Nike
+3597,NKG,Nuveen ga div adv muni fd 2
+3598,NKL,Nuveen insd ca div adv muni fd
+3599,NKO,Nuveen insd ny div adv muni fd
+3600,NKR,Nuveen az div adv muni fd 2
+3601,NKSH,National bankshares
+3602,NKTR,Nektar therapeutics
+3603,NKX,Nuveen ins ca tx fr ad
+3604,NL,N l industries
+3605,NLC,Nalco holding co
+3606,NLCI,Nobel learning communities
+3607,NLP,N t s realty holdings ltd
+3608,NLR,Market vectors e t f trust
+3609,NLS,Nautilus
+3610,NLST,Netlist
+3611,NLTX,Nile therapeutics
+3612,NLY,Annaly capital management
+3613,NM,Navios maritime holdings
+3614,NMA,Nuveen municipal advantage fund
+3615,NMB,Nuveen mass div adv muni fd
+3616,NMD,Nuveen municipal hi inc opp fd 2
+3617,NMI,Nuveen muncipal income fund
+3618,NMM,Navios maritime partners l p
+3619,NMO,Nuveen municipal mkt opp fund
+3620,NMP,Nuveen mi pre inc mun fd
+3621,NMR,Nomura holdings
+3622,NMRX,Numerex corp ny
+3623,NMT,Nuveen ma prem inc mun fd
+3624,NMTI,N m t medical
+3625,NMY,Nuveen maryland prem inc mun fd
+3626,NMZ,Nuveen municipal high inc op fd
+3627,NNA,Navios maritime acquisition corp
+3628,NNB,Nuveen va div advtg muni fd 2
+3629,NNBR,N n
+3630,NNC,Nuveen nc premium income muni fd
+3631,NNF,Nuveen insured ny pre mun fd
+3632,NNI,Nelnet
+3633,NNJ,Nuveen new jersey pr inc mun fd
+3634,NNN,National retail properties
+3635,NNO,Nuveen nc div adv muni fund 2
+3636,NNP,Nuveen new york perf plus mun fd
+3637,NNY,Nuveen new york mun value fund
+3638,NOA,North american energy ptnrs
+3639,NOBH,Nobility homes
+3640,NOC,Northrop grumman corp
+3641,NOEC,New oriental energy & chem corp
+3642,NOG,Northern oil & gas
+3643,NOIZ,Micronetics
+3644,NOK,Nokia corp
+3645,NOM,Nuveen missouri prem inc mun fd
+3646,NOOF,New frontier media
+3647,NOV,National oilwell varco
+3648,NOVA,Novamed
+3649,NOVB,North valley bancorp
+3650,NOVL,Novell
+3651,NP,Neenah paper
+3652,NPBC,National penn bancshares
+3653,NPC,Nuveen insured ca pr inc mun fd
+3654,NPD,China nepstar chain drugstore
+3655,NPF,Nuveen premier muni inc fd
+3656,NPG,Nuveen ga premium inc mun fd
+3657,NPI,Nuveen premium inc muni fd
+3658,NPK,National presto inds
+3659,NPM,Nuveen premium inc muni fd 2
+3660,NPN,Nuveen penn muni value fund
+3661,NPO,Enpro industries
+3662,NPP,Nuveen perform plus mun fd
+3663,NPSP,N p s pharmaceuticals
+3664,NPT,Nuveen premium inc muni fd 4
+3665,NPV,Nuveen virginia prem inc muni fd
+3666,NPX,Nuveen insured pr inc muni fd 2
+3667,NPY,Nuveen pa pr inc mun fd 2
+3668,NQC,Nuveen ca invt qty muni fd
+3669,NQI,Nuveen insured quality muni fund
+3670,NQJ,Nuveen nj invt quality muni fund
+3671,NQM,Nuveen invt quality muni fund
+3672,NQN,Nuveen new york inv qty muni fd
+3673,NQP,Nuveen pa invt quality muni fund
+3674,NQS,Nuveen select qlty muni fund
+3675,NQU,Nuveen quality income muni fund
+3676,NR,Newpark resources
+3677,NRB,Nuveen nc div adv mun fd
+3678,NRCI,National research corp
+3679,NRF,Northstar realty finance corp
+3680,NRG,N r g energy
+3681,NRGY,Inergy l p
+3682,NRIM,Northrim bancorp
+3683,NRK,Nuveen ins ny tx fr adv mun fd
+3684,NRO,Neuberger berman real estate sec
+3685,NRP,Natural resource partners l p
+3686,NRT,North european oil rty tr
+3687,NS,Nustar energy l p
+3688,NSC,Norfolk southern corp
+3689,NSEC,National security group
+3690,NSFC,Northern states fncl corp new
+3691,NSH,Nustar g p holdings llc
+3692,NSIT,Insight enterprises
+3693,NSL,Nuveen senior income fund
+3694,NSM,National semiconductor corp
+3695,NSPH,Nanosphere
+3696,NSR,Neustar
+3697,NSSC,Napco security technologies
+3698,NST,Nstar
+3699,NSTC,Ness technologies
+3700,NSU,Nevsun resources ltd
+3701,NSYS,Nortech systems
+3702,NTAP,Netapp
+3703,NTC,Nuveen ct premium income muni fd
+3704,NTCT,Netscout systems
+3705,NTE,Nam tai electronics
+3706,NTES,Netease com
+3707,NTGR,Netgear
+3708,NTIC,Northern technologies intl corp
+3709,NTLS,Ntelos holdings corp
+3710,NTN,N t n buzztime
+3711,NTRI,Nutrisystem
+3712,NTRS,Northern trust corp
+3713,NTSC,National technical sys
+3714,NTT,Nippon telegraph & telphone corp
+3715,NTWK,Netsol technologies
+3716,NTX,Nuveen tx qlty income muni fd
+3717,NTZ,Natuzzi s p a
+3718,NU,Northeast utilities
+3719,NUAN,Nuance communications
+3720,NUC,Nuveen ca qlty inc muni fd
+3721,NUCL,Ishares trust
+3722,NUE,Nucor corp
+3723,NUHC,Nu horizons electrs corp
+3724,NUJ,Nuveen nj div adv muni fd 2
+3725,NUM,Nuveen mi qlty inc muni fd
+3726,NUN,Nuveen ny qlty income mun fd
+3727,NUO,Nuveen oh qlty income mun fd
+3728,NURO,Neurometrix
+3729,NUS,Nu skin enterprises
+3730,NUTR,Nutraceutical international corp
+3731,NUV,Nuveen municipal value fund
+3732,NUVA,Nuvasive
+3733,NUW,Nuveen muncipal value fund 2
+3734,NVAX,Novavax
+3735,NVC,Nuveen ca select quality muni fd
+3736,NVDA,Nvidia corp
+3737,NVE,Nv energy
+3738,NVEC,N v e corp
+3739,NVG,Nuveen insd div adv muni fd
+3740,NVGN,Novogen ltd
+3741,NVJ,Nuveen oh div adv muni fd 3
+3742,NVLS,Novellus systems
+3743,NVMI,Nova measuring instruments ltd
+3744,NVN,Nuveen ny select quality muni fd
+3745,NVO,Novo nordisk a s
+3746,NVR,N v r
+3747,NVS,Novartis a g
+3748,NVSL,Naugatuck vly financial corp
+3749,NVTL,Novatel wireless
+3750,NVX,Nuveen ca dividend adv muni fd 2
+3751,NVY,Nuveen pa div adv muni fd 2
+3752,NWD,New dragon asia corp
+3753,NWE,Northwestern corp
+3754,NWFL,Norwood financial corp
+3755,NWI,Nuveen md div adv muni fd 3
+3756,NWK,Network equipment technologies
+3757,NWL,Newell rubbermaid
+3758,NWLI,National western life ins co
+3759,NWN,Northwest natural gas co
+3760,NWPX,Northwest pipe co
+3761,NWS,News corp
+3762,NWSA,News corp
+3763,NWY,New york & co
+3764,NX,Quanex building products corp
+3765,NXC,Nuveen insu ca sel tf inc port
+3766,NXE,Nuveen az div adv muni fd 3
+3767,NXG,Northgate minerals corp
+3768,NXI,Nuveen ohio dividend adv muni fd
+3769,NXJ,Nuveen nj dividend adv muni fd
+3770,NXK,Nuveen n y dividend adv mun fd 2
+3771,NXM,Nuveen pa dividend adv mun fd
+3772,NXN,Nuveen insu ny sele tf inc port
+3773,NXP,Nuveen select tax free inc port
+3774,NXQ,Nuveen select tax free inc port2
+3775,NXR,Nuveen sel tax free inc port 3
+3776,NXST,Nexstar broadcasting group
+3777,NXTM,Nxstage medical
+3778,NXY,Nexen
+3779,NXZ,Nuveen dividend adv muni fund 2
+3780,NY,Ishares trust
+3781,NYB,New york community bancorp
+3782,NYC,Ishares trust
+3783,NYF,Ishares trust
+3784,NYH,Eaton vance ny muni bond fd ii
+3785,NYMT,New york mortgage trust
+3786,NYMX,Nymox pharmaceutical corp
+3787,NYNY,Empire resorts
+3788,NYT,New york times co
+3789,NYV,Nuveen ny muni value fund 2
+3790,NYX,N y s e euronext
+3791,NZF,Nuveen dividend adv mun fd 3
+3792,NZH,Nuveen ca dividend adv muni fd 3
+3793,NZR,Nuveen maryland div adv mun fd 2
+3794,NZT,Telecom corporation new zealand
+3795,NZW,Nuveen michigan div adv mun fd
+3796,NZX,Nuveen georgia div adv mun fd
+3797,O,Realty income corp
+3798,OB,Onebeacon insurance group ltd
+3799,OBAS,Optibase ltd
+3800,OBCI,Ocean bio chem
+3801,OC,Owens corning new
+3802,OCCF,Optical cable corp
+3803,OCFC,Oceanfirst financial corp
+3804,OCLR,Oclaro
+3805,OCLS,Oculus innovative sciences
+3806,OCN,Ocwen financial corp
+3807,OCNF,Oceanfreight
+3808,OCNW,Occam networks inc del
+3809,OCR,Omnicare
+3810,ODC,Oil dri corp of america
+3811,ODFL,Old dominion freight line
+3812,ODP,Office depot
+3813,OEF,Ishares trust
+3814,OEH,Orient express hotels ltd
+3815,OESX,Orion energy systems
+3816,OFC,Corporate office properties tr
+3817,OFG,Oriental financial group
+3818,OFI,Overhill farms
+3819,OFIX,Orthofix international n v
+3820,OFLX,Omega flex
+3821,OGE,O g e energy corp
+3822,OGXI,Oncogenex pharmaceuticals
+3823,OHI,Omega healthcare investors
+3824,OI,Owens ill
+3825,OIH,Oil service holdrs trust
+3826,OII,Oceaneering international
+3827,OIIM,O2micro international ltd
+3828,OIS,Oil states international
+3829,OKE,Oneok inc new
+3830,OKS,Oneok partners l p
+3831,OKSB,Southwest bancorp inc okla
+3832,OLBK,Old line bancshares
+3833,OLCB,Ohio legacy corp
+3834,OLN,Olin corp
+3835,OLP,One liberty properties
+3836,OMAB,Grupo aeroportuario del centro n
+3837,OMC,Omnicom group
+3838,OMCL,Omnicell
+3839,OME,Omega protein corp
+3840,OMEX,Odyssey marine exploration
+3841,OMG,O m group
+3842,OMI,Owens & minor inc new
+3843,OMN,Omnova solutions
+3844,OMPI,Obagi medical products
+3845,OMX,Officemax inc new
+3846,ONAV,Omega navigation enterprises
+3847,ONB,Old national bancorp
+3848,ONCY,Oncolytics biotech
+3849,ONEQ,Fidelity commonwealth trust
+3850,ONFC,Oneida financial corp md
+3851,ONNN,On semiconductor corp
+3852,ONSM,Onstream media corp
+3853,ONTY,Oncothyreon
+3854,ONVI,Onvia
+3855,ONXX,Onyx pharmaceuticals
+3856,OPEN,Opentable
+3857,OPHC,Optimumbank holdings
+3858,OPK,Opko health
+3859,OPLK,Oplink communications
+3860,OPNT,Opnet technologies
+3861,OPOF,Old point finl corp
+3862,OPTC,Optelecom n k f
+3863,OPTR,Optimer pharmaceuticals
+3864,OPTT,Ocean power technologies
+3865,OPWV,Openwave systems
+3866,OPXA,Opexa therapeutics
+3867,OPXT,Opnext
+3868,OPY,Oppenheimer holdings
+3869,ORA,Ormat technologies
+3870,ORB,Orbital sciences corp
+3871,ORBC,Orbcomm
+3872,ORBK,Orbotech ltd
+3873,ORBT,Orbit international corp
+3874,ORCC,Online resources corp
+3875,ORCH,Orchid cellmark
+3876,ORCL,Oracle corp
+3877,ORCT,Orckit communications ltd
+3878,OREX,Orexigen therapeutics
+3879,ORI,Old republic international corp
+3880,ORIT,Oritani financial corp new
+3881,ORLY,O reilly automotive inc new
+3882,ORN,Orion marine group
+3883,ORRF,Orrstown financial services
+3884,ORS,Orsus xelent technologies
+3885,OSBC,Old second bancorp
+3886,OSG,Overseas shipholding group
+3887,OSHC,Ocean shore holding co new
+3888,OSIR,Osiris therapeutics inc new
+3889,OSIS,O s i systems
+3890,OSK,Oshkosh corp
+3891,OSTK,Overstock com inc del
+3892,OSUR,Orasure technologies
+3893,OTEX,Open text corp
+3894,OTIV,On track innovations ltd
+3895,OTIX,O t i x global
+3896,OTP,Claymore e t f trust
+3897,OTR,Claymore e t f trust
+3898,OTTR,Otter tail corp
+3899,OUTD,Outdoor channel holdings
+3900,OVBC,Ohio valley banc corp
+3901,OVLY,Oak valley bancorp
+3902,OVRL,Overland storage
+3903,OVTI,Omnivision technologies
+3904,OWW,Orbitz worldwide
+3905,OXGN,Oxigene
+3906,OXM,Oxford industries
+3907,OXPS,Optionsxpress holdings
+3908,OXY,Occidental petroleum corp
+3909,OYOG,Oyo geospace corp
+3910,OZM,Och ziff capital mangmnt grp llc
+3911,OZRK,Bank of the ozarks
+3912,PAA,Plains all amern pipeline l p
+3913,PAAS,Pan american silver corp
+3914,PABK,P a b bankshares
+3915,PAC,Grupo aeroportuario del pac sab
+3916,PACR,Pacer international inc tn
+3917,PACW,Pacwest bancorp de
+3918,PAET,Paetec holding corp
+3919,PAF,Powershares e t f trust ii
+3920,PAG,Penske automotive group
+3921,PAGG,Powershares e t f trust ii
+3922,PAI,Western asset income fund
+3923,PAL,North american palladium ltd
+3924,PANL,Universal display corp
+3925,PAO,Powershares e t f trust ii
+3926,PARD,Poniard pharmaceuticals
+3927,PARL,Parlux fragrances
+3928,PATK,Patrick industries
+3929,PATR,Patriot transportation hldg
+3930,PAY,Verifone systems
+3931,PAYX,Paychex
+3932,PBCT,Peoples united financial
+3933,PBD,Powershares e t f trust ii
+3934,PBE,Powershares e t f trust
+3935,PBH,Prestige brands holdings
+3936,PBHC,Pathfinder bancorp
+3937,PBI,Pitney bowes
+3938,PBIB,Porter bancorp
+3939,PBIO,Pressure biosciences
+3940,PBIP,Prudential bancorp inc pa
+3941,PBJ,Powershares e t f trust
+3942,PBM,Pacific booker minerals
+3943,PBNY,Provident new york bancorp
+3944,PBP,Powershares e t f trust
+3945,PBR,Petroleo brasileiro sa petrobras
+3946,PBS,Powershares e t f trust
+3947,PBT,Permian basin rty tr
+3948,PBTQ,Powershares e t f trust ii
+3949,PBW,Powershares e t f trust
+3950,PBY,Pep boys manny moe & jack
+3951,PC,Panasonic corp
+3952,PCA,Powershares e t f trust ii
+3953,PCAR,Paccar
+3954,PCBC,Pacific capital bancorp new
+3955,PCBK,Pacific continental corp
+3956,PCBS,Provident community bancshrs
+3957,PCC,P m c commercial trust
+3958,PCCC,Pc connection
+3959,PCE,Pacific office pptys trust
+3960,PCF,Putnam high income securities fd
+3961,PCG,P g & e corp
+3962,PCH,Potlatch corp new
+3963,PCK,Pimco california muni inc fd ii
+3964,PCL,Plum creek timber co
+3965,PCLN,Priceline com
+3966,PCM,P c m fund
+3967,PCN,Pimco corp income fund
+3968,PCP,Precision castparts corp
+3969,PCQ,Pimco california muni inc fd
+3970,PCS,Metropcs communications
+3971,PCTI,P c tel
+3972,PCX,Patriot coal corp
+3973,PCY,Powershares e t f trust ii
+3974,PCYC,Pharmacyclics
+3975,PCYO,Pure cycle corp
+3976,PDC,Pioneer drilling co
+3977,PDCO,Patterson companies
+3978,PDE,Pride international inc del
+3979,PDEX,Pro dex inc colo
+3980,PDFS,P d f solutions
+3981,PDII,P d i
+3982,PDLI,P d l biopharma
+3983,PDN,Powershares e t f trust ii
+3984,PDO,Pyramid oil co
+3985,PDP,Powershares e t f trust
+3986,PDS,Precision drilling corp
+3987,PDT,Hancock john premium dividend fd
+3988,PEBK,Peoples bancorp nc inc new
+3989,PEBO,Peoples bancorp
+3990,PEDH,Peoples educational holdings
+3991,PEET,Peets coffee and tea
+3992,PEF,Powershares e t f trust ii
+3993,PEG,Public service enterprise gp
+3994,PEGA,Pegasystems
+3995,PEI,Pennsylvania real estate invt tr
+3996,PEIX,Pacific ethanol
+3997,PEJ,Powershares e t f trust
+3998,PENN,Penn national gaming
+3999,PENX,Penford corp
+4000,PEO,Petroleum & resources corp
+4001,PEP,Pepsico
+4002,PERF,Perfumania holdings
+4003,PERY,Ellis perry international
+4004,PESI,Perma fix environmental svcs
+4005,PETD,Petroleum development corp
+4006,PETM,Petsmart
+4007,PETS,Petmed express
+4008,PEY,Powershares e t f trust
+4009,PEZ,Powershares e t f trust
+4010,PFA,Powershares e t f trust ii
+4011,PFBC,Preferred bank los angeles
+4012,PFBI,Premier financial bancorp
+4013,PFBX,Peoples financial corp ms
+4014,PFCB,P f changs china bistro
+4015,PFD,Flaherty & crumrine pfd inc fd
+4016,PFE,Pfizer
+4017,PFED,Park bancorp
+4018,PFF,Ishares trust
+4019,PFG,Principal financial group
+4020,PFI,Powershares e t f trust
+4021,PFIN,P & f industries
+4022,PFL,Pimco income strategy fund
+4023,PFM,Powershares e t f trust
+4024,PFN,Pimco income strategy fund ii
+4025,PFO,Flaherty & crumrine pfd inc opp
+4026,PFS,Provident financial svcs
+4027,PFSW,Pfsweb
+4028,PG,Procter & gamble co
+4029,PGC,Peapack gladstone financial corp
+4030,PGF,Powershares e t f trust
+4031,PGH,Pengrowth energy trust
+4032,PGI,Premiere global services
+4033,PGJ,Powershares e t f trust
+4034,PGN,Progress energy
+4035,PGNX,Progenics pharmaceuticals
+4036,PGP,Pimco global stocksplus & inc fd
+4037,PGR,Progressive corp oh
+4038,PGTI,P g t
+4039,PGX,Powershares e t f trust ii
+4040,PH,Parker hannifin corp
+4041,PHB,Powershares e t f trust ii
+4042,PHC,P h c inc ma
+4043,PHD,Pioneer floating rate trust
+4044,PHF,Pacholder high yield fund
+4045,PHG,Koninklijke philips elec n v
+4046,PHH,P h h corp
+4047,PHHM,Palm harbor homes
+4048,PHI,Philippine long distance tele co
+4049,PHII,P h i
+4050,PHIIK,P h i
+4051,PHK,Pimco high income fd
+4052,PHM,Pulte group
+4053,PHMD,Photomedex
+4054,PHO,Powershares e t f trust
+4055,PHT,Pioneer high income trust
+4056,PHX,Panhandle oil & gas
+4057,PIC,Powershares e t f trust
+4058,PICO,P i c o holdings
+4059,PID,Powershares e t f trust
+4060,PIE,Powershares e t f trust ii
+4061,PII,Polaris industries
+4062,PIKE,Pike electric corp
+4063,PIM,Putnam master inter income tr
+4064,PIN,Powershares india e t f trust
+4065,PIO,Powershares e t f trust ii
+4066,PIP,Pharmathene
+4067,PIQ,Powershares e t f trust
+4068,PIR,Pier 1 imports inc de
+4069,PIV,Powershares e t f trust
+4070,PIZ,Powershares e t f trust ii
+4071,PJB,Powershares e t f trust
+4072,PJC,Piper jaffray companies
+4073,PJF,Powershares e t f trust
+4074,PJG,Powershares e t f trust
+4075,PJM,Powershares e t f trust
+4076,PJO,Powershares e t f trust ii
+4077,PJP,Powershares e t f trust
+4078,PKB,Powershares e t f trust
+4079,PKBK,Parke bancorp
+4080,PKD,Parker drilling co
+4081,PKE,Park electrochemical corp
+4082,PKG,Packaging corp america
+4083,PKI,Perkinelmer
+4084,PKN,Powershares e t f trust ii
+4085,PKO,Pimco income opportunity fund
+4086,PKOH,Park ohio holdings corp
+4087,PKOL,Powershares e t f trust ii
+4088,PKT,Procera networks
+4089,PKW,Powershares e t f trust
+4090,PKX,Posco
+4091,PKY,Parkway properties
+4092,PL,Protective life corp
+4093,PLAB,Photronics
+4094,PLBC,Plumas bancorp
+4095,PLCC,Paulson capital corp
+4096,PLCE,Childrens place rtl stores
+4097,PLCM,Polycom
+4098,PLD,Prologis
+4099,PLFE,Presidential life corp
+4100,PLG,Platinum group metals ltd
+4101,PLK,Powershares actively mangd etf t
+4102,PLL,Pall corp
+4103,PLM,Polymet mining corp
+4104,PLNR,Planar systems
+4105,PLPC,Preformed line products co
+4106,PLT,Plantronics inc new
+4107,PLUG,Plug power
+4108,PLUS,Eplus
+4109,PLW,Powershares e t f trust ii
+4110,PLX,Protalix biotherapeutics
+4111,PLXS,Plexus corp
+4112,PLXT,P l x technology
+4113,PM,Philip morris international
+4114,PMA,Powershares actively mangd etf t
+4115,PMBC,Pacific mercantile bancorp
+4116,PMC,Pharmerica corp
+4117,PMCS,P m c sierra
+4118,PMD,Psychemedics corp
+4119,PMF,Pimco municipal inc fd
+4120,PMFG,P m f g
+4121,PMI,P m i group
+4122,PML,Pimco municipal income fd ii
+4123,PMM,Putnam managed muni income tr
+4124,PMNA,Powershares e t f trust ii
+4125,PMO,Putnam municipal opptys tr
+4126,PMR,Powershares e t f trust
+4127,PMT,Pennymac mortgage inv tr
+4128,PMTC,Parametric technology corp
+4129,PMTI,Palomar medical technologies
+4130,PMX,Pimco municipal income fd iii
+4131,PNBC,Princeton national bancorp
+4132,PNBK,Patriot national bancorp
+4133,PNC,P n c financial services grp
+4134,PNCL,Pinnacle airlines corp
+4135,PNF,Pimco new york municipal inc fd
+4136,PNFP,Pinnacle financial partners
+4137,PNI,Pimco new york municipal fd ii
+4138,PNK,Pinnacle entertainment group
+4139,PNM,P n m resources
+4140,PNNT,Pennantpark investment corp
+4141,PNNW,Pennichuck corp
+4142,PNQI,Powershares e t f trust
+4143,PNR,Pentair
+4144,PNRA,Panera bread co
+4145,PNRG,Primeenergy corp
+4146,PNS,Pinnacle data systems
+4147,PNSN,Penson worldwide
+4148,PNTR,Pointer telocation ltd
+4149,PNW,Pinnacle west capital corp
+4150,PNX,Phoenix cos
+4151,PNXQ,Powershares e t f trust
+4152,PNY,Piedmont natural gas
+4153,PODD,Insulet corp
+4154,POL,Polyone corp
+4155,POM,Pepco holdings
+4156,POOL,Pool corp
+4157,POPE,Pope resources
+4158,POR,Portland general electric co
+4159,POT,Potash corp saskatchewan
+4160,POWI,Power integrations
+4161,POWL,Powell industries
+4162,POWR,Powersecure international
+4163,POZN,Pozen
+4164,PPA,Powershares e t f trust
+4165,PPBI,Pacific premier bancorp
+4166,PPD,Pre paid legal services
+4167,PPDI,Pharmaceutical product dev
+4168,PPG,P p g industries
+4169,PPH,Pharmaceutical holdrs trust
+4170,PPHM,Peregrine pharmaceuticals
+4171,PPL,P p l corp
+4172,PPO,Polypore international
+4173,PPR,I n g prime rate trust
+4174,PPS,Post properties
+4175,PPT,Putnam premier income trust
+4176,PQ,Petroquest energy
+4177,PQBW,Powershares e t f trust
+4178,PQSC,Powershares e t f trust
+4179,PQY,Powershares actively mangd etf t
+4180,PQZ,Powershares actively mangd etf t
+4181,PRA,Proassurance corp
+4182,PRAA,Portfolio recovery associates in
+4183,PRAN,Prana biotechnology ltd
+4184,PRB,Market vectors e t f trust
+4185,PRCP,Perceptron
+4186,PRE,Partnerre ltd
+4187,PRF,Powershares e t f trust
+4188,PRFT,Perficient
+4189,PRFZ,Powershares e t f trust
+4190,PRGN,Paragon shipping
+4191,PRGO,Perrigo co
+4192,PRGS,Progress software corp
+4193,PRGX,P r g x global
+4194,PRIM,Primoris services corp
+4195,PRK,Park national corp
+4196,PRKR,Parkervision
+4197,PRLS,Peerless systems corp
+4198,PRM,Primedia
+4199,PRN,Powershares e t f trust
+4200,PRO,P r o s holdings
+4201,PROJ,Deltek
+4202,PROV,Provident financial holdings
+4203,PRPX,Portec rail products
+4204,PRS,Primus guaranty ltd
+4205,PRSC,Providence service corp
+4206,PRSP,Prosperity bancshares
+4207,PRST,Presstek
+4208,PRTS,U s auto parts network
+4209,PRU,Prudential financial
+4210,PRVT,Private media group
+4211,PRWT,Premierwest bancorp
+4212,PRX,Par pharmaceutical companies
+4213,PRXI,Premier exhibitions
+4214,PRXL,Parexel international corp
+4215,PSA,Public storage
+4216,PSAU,Powershares e t f trust ii
+4217,PSB,P s business parks inc ca
+4218,PSBH,Psb holdings
+4219,PSDV,Psivida corp
+4220,PSE,Pioneer southwest energy partner
+4221,PSEC,Prospect capital corp
+4222,PSEM,Pericom semiconductor corp
+4223,PSI,Powershares e t f trust
+4224,PSJ,Powershares e t f trust
+4225,PSL,Powershares e t f trust
+4226,PSMT,Pricesmart
+4227,PSO,Pearson plc
+4228,PSOF,Pansoft co ltd
+4229,PSP,Powershares e t f trust
+4230,PSQ,Proshares trust
+4231,PSR,Powershares actively mangd etf t
+4232,PSS,Collective brands
+4233,PSSI,Pss world medical
+4234,PST,Proshares trust
+4235,PSTI,Pluristem therapeutics
+4236,PSTL,Powershares e t f trust ii
+4237,PSUN,Pacific sunwear of ca
+4238,PSW,Blackrock credit all inc tr i
+4239,PSY,Blackrock credit all inc tr ii
+4240,PT,Portugal telecom s g p s sa
+4241,PTC,Par technology corp
+4242,PTE,Powershares e t f trust
+4243,PTEK,Pokertek
+4244,PTEN,Patterson u t i energy
+4245,PTF,Powershares e t f trust
+4246,PTH,Powershares e t f trust
+4247,PTI,Patni computer systems ltd
+4248,PTIE,Pain therapeutics
+4249,PTIX,Performance technologies
+4250,PTJ,Powershares e t f trust
+4251,PTN,Palatin technologies
+4252,PTNR,Partner communications co ltd
+4253,PTO,Powershares e t f trust ii
+4254,PTP,Platinum underwriters hldgs ltd
+4255,PTR,Petrochina co ltd
+4256,PTRP,Powershares e t f trust ii
+4257,PTRY,Pantry
+4258,PTSI,P a m transportation svcs
+4259,PTSX,Point 360 new
+4260,PTY,Pimco corporate opportunity fd
+4261,PUI,Powershares e t f trust
+4262,PUK,Prudential plc
+4263,PULB,Pulaski financial corp
+4264,PURE,Pure bioscience
+4265,PUW,Powershares e t f trust
+4266,PVA,Penn virginia corp
+4267,PVD,Admin fondos pensiones provida
+4268,PVFC,P v f capital corp
+4269,PVG,Penn virginia g p holdings l p
+4270,PVH,Phillips van heusen corp
+4271,PVI,Powershares e t f trust ii
+4272,PVR,Penn virginia resource ptnrs l p
+4273,PVSA,Parkvale financial corp
+4274,PVSW,Pervasive software
+4275,PVTB,Privatebancorp
+4276,PVX,Provident energy trust
+4277,PW,Pittsburgh & west virginia rr
+4278,PWAV,Powerwave technologies
+4279,PWB,Powershares e t f trust
+4280,PWC,Powershares e t f trust
+4281,PWE,Penn west energy trust
+4282,PWER,Power one
+4283,PWJ,Powershares e t f trust
+4284,PWND,Powershares e t f trust ii
+4285,PWO,Powershares e t f trust
+4286,PWOD,Penns woods bancorp
+4287,PWP,Powershares e t f trust
+4288,PWR,Quanta services
+4289,PWRD,Perfect world co ltd
+4290,PWT,Powershares e t f trust
+4291,PWV,Powershares e t f trust
+4292,PWX,Providence & worcester rr co
+4293,PWY,Powershares e t f trust
+4294,PWZ,Powershares e t f trust ii
+4295,PX,Praxair
+4296,PXD,Pioneer natural resources co
+4297,PXE,Powershares e t f trust
+4298,PXF,Powershares e t f trust ii
+4299,PXG,Phoenix footwear group
+4300,PXH,Powershares e t f trust ii
+4301,PXI,Powershares e t f trust
+4302,PXJ,Powershares e t f trust
+4303,PXLW,Pixelworks
+4304,PXN,Powershares e t f trust
+4305,PXP,Plains exploration & prod co
+4306,PXQ,Powershares e t f trust
+4307,PXR,Powershares e t f trust ii
+4308,PYH,Powershares e t f trust
+4309,PYN,Pimco ny municipal income fd iii
+4310,PYZ,Powershares e t f trust
+4311,PZA,Powershares e t f trust ii
+4312,PZC,Pimco ca municipal income fd iii
+4313,PZD,Powershares e t f trust
+4314,PZE,Petrobras energia s a
+4315,PZG,Paramount gold & silver corp
+4316,PZI,Powershares e t f trust
+4317,PZJ,Powershares e t f trust
+4318,PZN,Pzena investment management
+4319,PZT,Powershares e t f trust ii
+4320,PZZ,Prospect medical holdings
+4321,PZZA,Papa johns intl
+4322,PZZI,Pizza inn inc new
+4323,Q,Qwest communications intl
+4324,QABA,First trust exchange traded fund
+4325,QAI,Indexiq e t f trust
+4326,QBAK,Qualstar corp
+4327,QBC,Cubic energy
+4328,QCCO,Q c holdings
+4329,QCLN,First trust exchange traded fund
+4330,QCOM,Qualcomm
+4331,QCOR,Questcor pharmaceuticals
+4332,QCRH,Q c r holdings
+4333,QDEL,Quidel corp
+4334,QGEN,Qiagen nv
+4335,QID,Proshares trust
+4336,QLD,Proshares trust
+4337,QLGC,Qlogic corp
+4338,QLTI,Q l t
+4339,QLTY,Quality distribution
+4340,QMM,Quaterra resources
+4341,QQEW,First trust exchange traded fund
+4342,QQQQ,Powershares qqq trust
+4343,QQQX,Nasdaq premium income & grwth fd
+4344,QQXT,First trust exchange traded fund
+4345,QSFT,Quest software
+4346,QSII,Quality systems
+4347,QTEC,First trust exchange traded fund
+4348,QTM,Quantum corp
+4349,QTWW,Quantum fuel sys tech worldwide
+4350,QUIK,Quicklogic corp
+4351,QXM,Qiao xing mobile communic co ltd
+4352,R,Ryder systems
+4353,RAD,Rite aid corp
+4354,RADA,Rada electronic industries ltd
+4355,RADS,Radiant systems
+4356,RAE,Rae systems
+4357,RAH,Ralcorp holdings inc new
+4358,RAI,Reynolds american
+4359,RAIL,Freightcar america
+4360,RAME,R a m energy resources
+4361,RAND,Rand capital corp
+4362,RAP,Rmr asia pacific real est fd new
+4363,RAS,Rait financial trust
+4364,RAVN,Raven industries
+4365,RAX,Rackspace hosting
+4366,RBA,Ritchie bros auctioneers
+4367,RBC,Regal beloit corp
+4368,RBCAA,Republic bancorp inc ky
+4369,RBCN,Rubicon technology
+4370,RBN,Robbins & myers
+4371,RBNF,Rurban financial corp
+4372,RBPAA,Royal bancshares pa
+4373,RBS,Royal bank scotland group plc
+4374,RBY,Rubicon minerals corp
+4375,RC,Grupo radio centro s a b de c v
+4376,RCD,Rydex e t f trust
+4377,RCG,Renn global entrepreneurs fd
+4378,RCI,Rogers communications
+4379,RCII,Rent a center inc new
+4380,RCKB,Rockville financial
+4381,RCKY,Rocky brands
+4382,RCL,Royal caribbean cruises ltd
+4383,RCMT,R c m technologies
+4384,RCON,Recon technology ltd
+4385,RCRC,Rc2 corp
+4386,RCS,P i m c o strategic global gov f
+4387,RDC,Rowan companies
+4388,RDCM,Radcom ltd
+4389,RDEA,Ardea biosciences
+4390,RDEN,Elizabeth arden
+4391,RDK,Ruddick corp
+4392,RDN,Radian group
+4393,RDNT,Radnet
+4394,RDWR,Radware ltd
+4395,RDY,Dr reddys laboratories ltd
+4396,RE,Everest re group ltd
+4397,RECN,Resources connection
+4398,REDF,Rediff com india ltd
+4399,REED,Reeds
+4400,REFR,Research frontiers
+4401,REG,Regency centers corp
+4402,REGN,Regeneron pharmaceuticals
+4403,REIS,Reis
+4404,RELL,Richardson electronics ltd
+4405,RELV,Reliv international
+4406,REM,Ishares trust
+4407,RENT,Rentrak corp
+4408,REP,Repsol ypf s a
+4409,RES,R p c
+4410,REV,Revlon
+4411,REVU,Princeton review
+4412,REW,Proshares trust
+4413,REXI,Resource america
+4414,REXX,Rex energy corp
+4415,REZ,Ishares trust
+4416,RF,Regions financial corp new
+4417,RFA,Blackrock inv qual muni tr
+4418,RFG,Rydex e t f trust
+4419,RFI,Cohen & steers total rt rl fd in
+4420,RFIL,R f industries ltd
+4421,RFMD,R f micro devices
+4422,RFMI,R f monolithics
+4423,RFV,Rydex e t f trust
+4424,RGA,Reinsurance group of america
+4425,RGC,Regal entertainment group
+4426,RGCO,R g c resources
+4427,RGDX,Response genetics
+4428,RGEN,Repligen corp
+4429,RGI,Rydex e t f trust
+4430,RGLD,Royal gold
+4431,RGN,Regenerx biopharmaceuticals
+4432,RGNC,Regency energy partners l p
+4433,RGR,Sturm ruger & co
+4434,RGS,Regis corp minn
+4435,RHB,Rehabcare group
+4436,RHI,Robert half international
+4437,RHS,Rydex e t f trust
+4438,RHT,Red hat
+4439,RIC,Richmont mines
+4440,RICK,Ricks cabaret international
+4441,RIF,R m r real estate income fund
+4442,RIG,Transocean ltd
+4443,RIGL,Rigel pharmaceuticals
+4444,RIMG,Rimage corp
+4445,RIMM,Research in motion ltd
+4446,RIT,L m p real estate income fd
+4447,RITT,R i t technologies ltd
+4448,RIVR,River valley bancorp
+4449,RJET,Republic airways holdings
+4450,RJF,Raymond james financial
+4451,RKH,Regional bank holdrs trust
+4452,RKT,Rock tenn co
+4453,RL,Polo ralph lauren corp
+4454,RLH,Red lion hotels corp
+4455,RLI,R l i corp
+4456,RLOG,Rand logistics
+4457,RLRN,Renaissance learning
+4458,RMBS,Rambus
+4459,RMCF,Rocky mountain chocolate fac
+4460,RMD,Resmed
+4461,RMKR,Rainmaker systems
+4462,RMT,Royce micro cap trust
+4463,RMTI,Rockwell medical tech
+4464,RMTR,Ramtron international corp
+4465,RNE,Morgan stanley east eur fd
+4466,RNIN,Wireless ronin technologies
+4467,RNJ,Blackrock nj inv qlty mn tr
+4468,RNN,Rexahn pharmaceuticals
+4469,RNOW,Rightnow technologies
+4470,RNP,Cohen & steers reit & pfd inc fd
+4471,RNR,Renaissancere holdings ltd
+4472,RNST,Renasant corp
+4473,RNWK,Realnetworks
+4474,RNY,Blackrock ny inv qlty mn tr
+4475,ROAC,Rock of ages corp
+4476,ROC,Rockwood holdings
+4477,ROCK,Gibraltar industries
+4478,ROCM,Rochester medical corp
+4479,RODM,Rodman & renshaw cap grp inc new
+4480,ROG,Rogers corp
+4481,ROI,Wisdomtree trust
+4482,ROIA,Radio one
+4483,ROIAK,Radio one
+4484,ROK,Rockwell automation
+4485,ROL,Rollins
+4486,ROLL,R b c bearings
+4487,ROM,Proshares trust
+4488,ROMA,Roma financial corp
+4489,ROME,Rome bancorp
+4490,ROP,Roper industries inc new
+4491,ROSE,Rosetta resources
+4492,ROSG,Rosetta genomics ltd
+4493,ROST,Ross stores
+4494,ROVI,Rovi corp
+4495,ROX,Castle brands
+4496,ROYL,Royale energy
+4497,RPG,Rydex e t f trust
+4498,RPI,Roberts realty investors
+4499,RPM,R p m international
+4500,RPRX,Repros therapeutics
+4501,RPT,Ramco gershenson properties tr
+4502,RPV,Rydex e t f trust
+4503,RQI,Cohen & steers qlty income rlty
+4504,RRC,Range resources corp
+4505,RRD,Donnelley r r & sons co
+4506,RRGB,Red robin gourmet burgers
+4507,RRR,R s c holdings
+4508,RRST,Rrsat global comms network ltd
+4509,RS,Reliance steel & aluminum co
+4510,RSCR,Res care
+4511,RSG,Republic services
+4512,RSH,Radioshack corp
+4513,RSO,Resource capital corp
+4514,RSOL,Real goods solar
+4515,RSP,Rydex e t f trust
+4516,RST,Rosetta stone
+4517,RSTI,Rofin sinar technologies
+4518,RSU,Rydex e t f trust
+4519,RSW,Rydex e t f trust
+4520,RSX,Market vectors e t f trust
+4521,RSYS,Radisys corp
+4522,RT,Ruby tuesday
+4523,RTEC,Rudolph technologies
+4524,RTH,Retail holdrs trust
+4525,RTI,R t i international metals
+4526,RTIX,R t i biologics
+4527,RTK,Rentech
+4528,RTL,Ishares trust
+4529,RTLX,Retalix ltd
+4530,RTM,Rydex e t f trust
+4531,RTN,Raytheon co
+4532,RTR,Revenueshares e t f trust
+4533,RUK,Reed elsevier plc
+4534,RURL,Rural metro corp
+4535,RUSHA,Rush enterprises
+4536,RUSHB,Rush enterprises
+4537,RUTH,Ruths hospitality group
+4538,RVBD,Riverbed technology
+4539,RVI,Retail ventures
+4540,RVP,Retractable technologies
+4541,RVR,White river capital
+4542,RVSB,Riverview bancorp
+4543,RVSN,Radvision ltd
+4544,RVT,Royce value trust
+4545,RWC,Relm wireless corp
+4546,RWJ,Revenueshares e t f trust
+4547,RWK,Revenueshares e t f trust
+4548,RWL,Revenueshares e t f trust
+4549,RWM,Proshares trust
+4550,RWO,Spdr index shares funds
+4551,RWR,Spdr series trust
+4552,RWT,Redwood trust
+4553,RWV,Revenueshares e t f trust
+4554,RWW,Revenueshares e t f trust
+4555,RWX,Spdr index shares funds
+4556,RXD,Proshares trust
+4557,RXI,Ishares trust
+4558,RXII,R x i pharmaceuticals corp
+4559,RXL,Proshares trust
+4560,RY,Royal bank canada montreal que
+4561,RYAAY,Ryanair holdings plc
+4562,RYE,Rydex e t f trust
+4563,RYF,Rydex e t f trust
+4564,RYH,Rydex e t f trust
+4565,RYJ,Claymore e t f trust
+4566,RYL,Ryland group
+4567,RYN,Rayonier inc new
+4568,RYT,Rydex e t f trust
+4569,RYU,Rydex e t f trust
+4570,RZG,Rydex e t f trust
+4571,RZV,Rydex e t f trust
+4572,S,Sprint nextel corp
+4573,SA,Seabridge gold
+4574,SAA,Proshares trust
+4575,SAAS,Incontact
+4576,SAB,Grupo casa saba s a de c v
+4577,SABA,Saba software
+4578,SAFM,Sanderson farms
+4579,SAFT,Safety insurance group
+4580,SAH,Sonic automotive
+4581,SAI,S a i c
+4582,SAIA,Saia
+4583,SAL,Salisbury bancorp
+4584,SALM,Salem communications corp
+4585,SAM,Boston beer
+4586,SAN,Banco santander chile new
+4587,SANM,Sanmina sci corp
+4588,SAP,S a p ag
+4589,SAPE,Sapient corp
+4590,SAPX,Seven arts pictures plc
+4591,SASR,Sandy spring bancorp
+4592,SATC,Satcon technology corp
+4593,SATS,Echostar corp
+4594,SAVB,Savannah bancorp
+4595,SB,Safe bulkers
+4596,SBAC,S b a communications corp
+4597,SBB,Proshares trust
+4598,SBBX,Sussex bancorp
+4599,SBCF,Seacoast banking corp fla
+4600,SBGI,Sinclair broadcast group
+4601,SBH,Sally beauty holdings
+4602,SBI,Western asset intermed muni fd
+4603,SBIB,Sterling bancshares
+4604,SBLK,Star bulk carriers corp
+4605,SBNY,Signature bank new york n y
+4606,SBR,Sabine royalty tr
+4607,SBS,Companhia de saneamento basico
+4608,SBSA,Spanish broadcasting system
+4609,SBSI,Southside bancshares
+4610,SBUX,Starbucks corp
+4611,SBW,Western asset worldwide inc fund
+4612,SBX,Seabright holdings
+4613,SCBT,S c b t financial corp
+4614,SCC,Proshares trust
+4615,SCD,L m p capital & income fund
+4616,SCG,Scana corp new
+4617,SCHL,Scholastic corp
+4618,SCHN,Schnitzer steel industries
+4619,SCHS,School specialty
+4620,SCHW,Schwab charles corp new
+4621,SCI,Service corp international
+4622,SCIL,Scientific learning corp
+4623,SCJ,Ishares
+4624,SCKT,Socket mobile
+4625,SCL,Stepan co
+4626,SCLN,Sciclone pharmaceuticals
+4627,SCMF,Southern community fincl corp
+4628,SCMP,Sucampo pharmaceuticals inv
+4629,SCMR,Sycamore networks
+4630,SCO,Proshares trust ii
+4631,SCON,Superconductor technologies
+4632,SCOR,Comscore
+4633,SCR,Simcere pharmaceutical group
+4634,SCS,Steelcase
+4635,SCSC,Scansource
+4636,SCSS,Select comfort corp
+4637,SCVL,Shoe carnival inc in
+4638,SCX,Starrett l s co
+4639,SCZ,Ishares trust
+4640,SD,Sandridge energy
+4641,SDBT,Soundbite communications
+4642,SDD,Proshares trust
+4643,SDIX,Strategic diagnostics
+4644,SDK,Proshares trust
+4645,SDP,Proshares trust
+4646,SDS,Proshares trust
+4647,SDTH,Shengdatech
+4648,SDY,Spdr series trust
+4649,SE,Spectra energy corp
+4650,SEAC,Seachange international
+4651,SEB,Seaboard corp
+4652,SEE,Sealed air corp new
+4653,SEED,Origin agritech ltd
+4654,SEF,Proshares trust
+4655,SEH,Spartech corp
+4656,SEIC,S e i investments co
+4657,SENEA,Seneca foods corp new
+4658,SENEB,Seneca foods corp new
+4659,SEP,Spectra energy partners l p
+4660,SERV,Servidyne
+4661,SF,Stifel financial corp
+4662,SFD,Smithfield foods
+4663,SFE,Safeguard scientifics
+4664,SFG,Stancorp financial group
+4665,SFI,Istar financial
+4666,SFK,Proshares trust
+4667,SFL,Ship finance international ltd
+4668,SFLY,Shutterfly
+4669,SFN,S f n group
+4670,SFNC,Simmons 1st national corp
+4671,SFSF,Successfactors
+4672,SFST,Southern first bancshares
+4673,SFY,Swift energy co
+4674,SGA,Saga communications
+4675,SGB,Southwest georgia financial corp
+4676,SGC,Superior uniform group
+4677,SGEN,Seattle genetics
+4678,SGF,Singapore fund
+4679,SGI,Silicon graphics intl corp
+4680,SGK,Schawk
+4681,SGL,Strategic global income fund
+4682,SGMA,Sigmatron international
+4683,SGMO,Sangamo biosciences
+4684,SGMS,Scientific games corp
+4685,SGRP,S p a r group
+4686,SGU,Star gas partners lp
+4687,SGY,Stone energy corp
+4688,SH,Proshares trust
+4689,SHBI,Shore bancshares
+4690,SHEN,Shenandoah telecom co
+4691,SHFL,Shuffle master
+4692,SHG,Shinhan financial group co ltd
+4693,SHI,Sinopec shanghai petro co ltd
+4694,SHIP,Seanergy maritime holdings corp
+4695,SHLD,Sears holdings corp
+4696,SHLM,Schulman a
+4697,SHLO,Shiloh industries
+4698,SHM,Spdr series trust
+4699,SHMR,Shamir optical industry ltd
+4700,SHO,Sunstone hotel investors inc new
+4701,SHOO,Madden steven ltd
+4702,SHOR,Shoretel
+4703,SHPGY,Shire plc
+4704,SHS,Sauer danfoss
+4705,SHV,Ishares trust
+4706,SHW,Sherwin williams co
+4707,SHY,Ishares trust
+4708,SHZ,China shen zhou mining & res
+4709,SI,Siemens a g
+4710,SIAL,Sigma aldrich corp
+4711,SID,Companhia siderurgica nacional
+4712,SIEB,Siebert financial corp
+4713,SIF,Sifco industries
+4714,SIFI,S i financial group
+4715,SIFY,Sify technologies ltd
+4716,SIG,Signet jewelers ltd
+4717,SIGA,S i g a technologies
+4718,SIGI,Selective insurance group
+4719,SIGM,Sigma designs
+4720,SIJ,Proshares trust
+4721,SILC,Silicom ltd
+4722,SIM,Grupo simec s a b de c v
+4723,SIMG,Silicon image
+4724,SIMO,Silicon motion technology corp
+4725,SINA,Sina corp
+4726,SINO,Sino global shipping america ltd
+4727,SIRI,Sirius x m radio
+4728,SIRO,Sirona dental systems
+4729,SIVB,S v b financial group
+4730,SIVR,E t f s silver trust
+4731,SJF,Proshares trust
+4732,SJH,Proshares trust
+4733,SJI,South jersey inds
+4734,SJL,Proshares trust
+4735,SJM,Smucker j m co
+4736,SJR,Shaw communications
+4737,SJT,San juan basin rty tr
+4738,SJW,S j w corp
+4739,SKBI,Skystar bio pharmaceutical co
+4740,SKF,Proshares trust
+4741,SKH,Skilled healthcare group
+4742,SKK,Proshares trust
+4743,SKM,S k telecom co ltd
+4744,SKS,Saks
+4745,SKT,Tanger factory outlet centers in
+4746,SKX,Skechers u s a
+4747,SKY,Skyline corp
+4748,SKYW,Skywest
+4749,SLA,American select portfolio
+4750,SLAB,Silicon laboratories
+4751,SLB,Schlumberger ltd
+4752,SLE,Sara lee corp
+4753,SLF,Sun life financial
+4754,SLG,S l green realty corp
+4755,SLGN,Silgan holdings
+4756,SLH,Solera holdings
+4757,SLI,S l industries
+4758,SLM,S l m corp
+4759,SLP,Simulations plus
+4760,SLS,Riversource laslle rl est fd
+4761,SLT,Sterlite industries india ltd
+4762,SLTC,Selectica inc del
+4763,SLTM,Solta medical
+4764,SLV,Ishares trust
+4765,SLW,Silver wheaton corp
+4766,SLX,Market vectors e t f trust
+4767,SLXP,Salix pharmaceuticals ltd
+4768,SM,S m energy co
+4769,SMA,Symmetry medical
+4770,SMB,Market vectors e t f trust
+4771,SMBC,Southern missouri bancorp
+4772,SMBL,Smart balance
+4773,SMCG,Millennium india acq co
+4774,SMCI,Super micro computer
+4775,SMED,Sharps compliance corp
+4776,SMG,Scotts miracle gro co
+4777,SMH,Semiconductor holdrs trust
+4778,SMHG,Sanders morris harris group
+4779,SMI,Semiconductor manufact intl corp
+4780,SMIT,Schmitt industries inc ore
+4781,SMK,Proshares trust
+4782,SMMF,Summit financial group
+4783,SMN,Proshares trust
+4784,SMOD,Smart modular techs w w h
+4785,SMP,Standard motor products
+4786,SMRT,Stein mart
+4787,SMS,Sims metal management ltd
+4788,SMSC,Standard microsystems corp
+4789,SMSI,Smith micro software
+4790,SMTB,Smithtown bancorp
+4791,SMTC,Semtech corp
+4792,SMTX,S m t c corp
+4793,SNA,Snap on
+4794,SNAK,Inventure foods
+4795,SNBC,Sun bancorp inc nj
+4796,SNCR,Synchronoss technologies
+4797,SNDA,Shanda interactive entmt ltd
+4798,SNDK,Sandisk corp
+4799,SNE,Sony corp
+4800,SNF,Ibero america fd
+4801,SNFCA,Security national financial corp
+4802,SNH,Senior housing properties trust
+4803,SNHY,Sun hydraulics corp
+4804,SNI,Scripps networks interactive
+4805,SNIC,Sonic solutions
+4806,SNMX,Senomyx
+4807,SNN,Smith & nephew plc
+4808,SNP,China petro & chemical corp
+4809,SNPS,Synopsys
+4810,SNSS,Sunesis pharmaceuticals
+4811,SNSTA,Sonesta international hotels cp
+4812,SNT,Senesco technologies
+4813,SNTA,Synta pharmaceuticals corp
+4814,SNTS,Santarus
+4815,SNV,Synovus financial corp
+4816,SNX,Synnex corp
+4817,SNY,Sanofi aventis
+4818,SO,Southern co
+4819,SOA,Solutia
+4820,SOCB,Southcoast financial corp
+4821,SOFO,Sonic foundry
+4822,SOHU,Sohu com
+4823,SOL,Renesola ltd
+4824,SOLF,Solarfun power holdings co ltd
+4825,SOLR,G t solar international
+4826,SOMH,Somerset hills bancorp
+4827,SOMX,Somaxon pharmaceuticals
+4828,SON,Sonoco products co
+4829,SONA,Southern national bancorp va
+4830,SONC,Sonic corp
+4831,SONE,S 1 corp
+4832,SONO,Sonosite
+4833,SONS,Sonus networks
+4834,SOR,Source capital
+4835,SORL,S o r l auto parts
+4836,SPA,Sparton corp
+4837,SPAN,Span america medical systems
+4838,SPAR,Spartan motors
+4839,SPCHA,Sport chalet
+4840,SPCHB,Sport chalet
+4841,SPEC,Spectrum control
+4842,SPEX,Spherix
+4843,SPF,Standard pacific corp new
+4844,SPG,Simon property group inc new
+4845,SPH,Suburban propane partners lp
+4846,SPIL,Siliconware precision inds co lt
+4847,SPIR,Spire corp
+4848,SPLS,Staples
+4849,SPN,Superior energy services
+4850,SPNC,Spectranetics corp
+4851,SPNS,Sapiens international corp n v
+4852,SPP,Sappi ltd
+4853,SPPI,Spectrum pharmaceuticals
+4854,SPPR,Supertel hospitality inc va
+4855,SPR,Spirit aerosystems holdings
+4856,SPRD,Spreadtrum communications
+4857,SPRO,Smartpros ltd
+4858,SPRT,Support com
+4859,SPTN,Spartan stores
+4860,SPW,S p x corp
+4861,SPWRA,Sunpower corp
+4862,SPWRB,Sunpower corp
+4863,SPXU,Proshares trust
+4864,SPY,Spdr s & p 500 e t f trust
+4865,SQM,Sociedad quimica & minera chl sa
+4866,SQNM,Sequenom
+4867,SR,Standard register co
+4868,SRCE,1st source corp
+4869,SRCL,Stericycle
+4870,SRDX,Surmodics
+4871,SRE,Sempra energy
+4872,SRI,Stoneridge
+4873,SRLS,Seracare life sciences inc new
+4874,SRS,Proshares trust
+4875,SRSL,S r s labs
+4876,SRT,Startek
+4877,SRV,Cushing m l p total return fund
+4878,SRX,S r a international
+4879,SRZ,Sunrise senior living
+4880,SSBI,Summit state bank
+4881,SSD,Simpson manufacturing co
+4882,SSE,Southern connecticut bancorp
+4883,SSFN,Stewardship financial corp
+4884,SSG,Proshares trust
+4885,SSI,Stage stores
+4886,SSL,Sasol ltd
+4887,SSN,Samson oil & gas ltd
+4888,SSO,Proshares trust
+4889,SSP,Scripps e w co ohio
+4890,SSRI,Silver standard resources
+4891,SSRX,3sbio
+4892,SSS,Sovran self storage
+4893,SSW,Seaspan corp
+4894,SSY,Sunlink health systems
+4895,SSYS,Stratasys
+4896,STAA,Staar surgical co
+4897,STAN,Standard parking corp
+4898,STBA,S & t bancorp
+4899,STBC,State bancorp inc ny
+4900,STC,Stewart information svcs corp
+4901,STD,Banco santander s a
+4902,STE,Steris corp
+4903,STEC,S t e c
+4904,STEI,Stewart enterprises
+4905,STEL,Stellarone corp
+4906,STEM,Stemcells
+4907,STFC,State auto financial corp
+4908,STI,Suntrust banks
+4909,STJ,St jude medical
+4910,STKL,Sunopta
+4911,STL,Sterling bancorp
+4912,STLD,Steel dynamics
+4913,STLY,Stanley furniture co new
+4914,STM,Stmicroelectronics nv
+4915,STMP,Stamps com
+4916,STN,Stantec
+4917,STNR,Steiner leisure ltd
+4918,STO,Statoil a s a
+4919,STON,Stonemor partners l p
+4920,STP,Suntech power holdings co ltd
+4921,STR,Questar corp
+4922,STRA,Strayer education
+4923,STRC,S r i surgical express
+4924,STRL,Sterling construction co
+4925,STRM,Streamline health solutions
+4926,STRN,Sutron corp
+4927,STRS,Stratus properties
+4928,STRT,Strattec security corp
+4929,STRZ,Star buffet
+4930,STS,Supreme industries
+4931,STSA,Sterling financial corp wash
+4932,STT,State street corp
+4933,STU,Student loan corp
+4934,STV,China digital tv holding co ltd
+4935,STX,Seagate technology plc
+4936,STXS,Stereotaxis
+4937,SU,Suncor energy inc new
+4938,SUB,Ishares trust
+4939,SUBK,Suffolk bancorp
+4940,SUF,Sulphco
+4941,SUG,Southern union co new
+4942,SUI,Sun communities
+4943,SUMR,Summer infant
+4944,SUN,Sunoco
+4945,SUNH,Sun healthcare group inc new
+4946,SUP,Superior industries intl
+4947,SUPG,Supergen
+4948,SUPR,Superior bancorp
+4949,SUPX,Supertex
+4950,SUR,C n a surety corp
+4951,SURG,Synergetics usa
+4952,SURW,Surewest communications
+4953,SUSQ,Susquehanna bancshares inc pa
+4954,SUSS,Susser holdings corp
+4955,SUTR,Sutor technology group ltd
+4956,SVA,Sinovac biotech ltd
+4957,SVBI,Severn bancorp inc md
+4958,SVLF,Silverleaf resorts
+4959,SVM,Silvercorp metals
+4960,SVNT,Savient pharmaceuticals
+4961,SVR,Syniverse holdings
+4962,SVT,Servotronics
+4963,SVU,Supervalu
+4964,SVVS,Savvis
+4965,SWC,Stillwater mining co
+4966,SWH,Software holdrs trust
+4967,SWHC,Smith & wesson holding corp
+4968,SWI,Solarwinds
+4969,SWIR,Sierra wireless
+4970,SWK,Stanley black & decker
+4971,SWKS,Skyworks solutions
+4972,SWM,Schweitzer mauduit intl
+4973,SWN,Southwestern energy co
+4974,SWS,S w s group
+4975,SWX,Southwest gas corp
+4976,SWY,Safeway
+4977,SWZ,Swiss helvetia fund
+4978,SXCI,S x c health solutions corp
+4979,SXI,Standex international corp
+4980,SXL,Sunoco logistics partners
+4981,SXT,Sensient technologies corp
+4982,SYBT,S y bancorp
+4983,SYK,Stryker corp
+4984,SYKE,Sykes enterprises
+4985,SYMC,Symantec corp
+4986,SYMM,Symmetricom
+4987,SYMS,Syms corp
+4988,SYMX,Synthesis energy systems
+4989,SYNA,Synaptics
+4990,SYNL,Synalloy corp
+4991,SYNM,Syntroleum corp
+4992,SYNO,Synovis life technologies
+4993,SYNT,Syntel
+4994,SYPR,Sypris solutions
+4995,SYT,Syngenta a g
+4996,SYUT,Synutra intl
+4997,SYX,Systemax
+4998,SYY,Sysco corp
+4999,SZK,Proshares trust
+5000,SZR,Wisdomtree trust
+5001,T,A t & t
+5002,TA,Travelcenters america llc
+5003,TAC,Transalta corp
+5004,TACT,Transact technologies
+5005,TAI,Transamerica income shs
+5006,TAIT,Taitron components
+5007,TAL,Tal international group
+5008,TAN,Claymore e t f trust
+5009,TAO,Claymore e t f trust 2
+5010,TASR,Taser international
+5011,TAST,Carrols restaurant group
+5012,TAXI,Medallion financial corp
+5013,TAYC,Taylor capital group
+5014,TAYD,Taylor devices
+5015,TBAC,Tandy brands accessories
+5016,TBBK,Bancorp
+5017,TBI,Trueblue
+5018,TBL,Timberland co
+5019,TBNK,Territorial bancorp
+5020,TBSI,T b s intl ltd new
+5021,TBT,Proshares trust
+5022,TBUS,D r i corp
+5023,TBV,Tiens biotech group usa
+5024,TC,Thompson creek metals co
+5025,TCAP,Triangle capital corp
+5026,TCB,T c f financial corp
+5027,TCBI,Texas capital bancshares
+5028,TCBK,Trico bancshares
+5029,TCHC,21st century holding co
+5030,TCI,Transcontinental realty invs
+5031,TCK,Teck resources ltd
+5032,TCL,Tata communications ltd
+5033,TCLP,T c pipelines l p
+5034,TCM,Tongjitang chinese medicines co
+5035,TCO,Taubman centers
+5036,TCX,Tucows
+5037,TD,Toronto dominion bank ont
+5038,TDBK,Tidelands bancshares
+5039,TDC,Teradata corp de
+5040,TDD,T d x independence funds
+5041,TDF,Templeton dragon fund
+5042,TDG,Transdigm group
+5043,TDH,T d x independence funds
+5044,TDN,T d x independence funds
+5045,TDSC,3 d systems corp del
+5046,TDV,T d x independence funds
+5047,TDW,Tidewater
+5048,TDX,T d x independence funds
+5049,TDY,Teledyne technologies
+5050,TE,T e c o energy
+5051,TEAM,Techteam global
+5052,TEAR,Tearlab corp
+5053,TECD,Tech data corp
+5054,TECH,Techne corp
+5055,TECUA,Tecumseh products co
+5056,TECUB,Tecumseh products co
+5057,TEF,Telefonica s a
+5058,TEG,Integrys energy group
+5059,TEI,Templeton emerg mkts inc fd
+5060,TEL,Tyco electronics ltd new
+5061,TELK,Telik
+5062,TELOZ,T e l offshore trust
+5063,TEN,Tenneco inc de
+5064,TEO,Telecom argentina s a
+5065,TER,Teradyne
+5066,TESO,Tesco corp
+5067,TESS,T e s s c o technologies
+5068,TEVA,Teva pharmaceutical inds ltd
+5069,TEX,Terex corp new
+5070,TF,Thai capital fund
+5071,TFC,Taiwan greater china fund
+5072,TFCO,Tufco technologies
+5073,TFI,Spdr series trust
+5074,TFONY,Telefonos de mexico s a b de c v
+5075,TFSL,Tfs financial corp
+5076,TFX,Teleflex
+5077,TG,Tredegar corp
+5078,TGA,Transglobe energy corp
+5079,TGAL,Tegal corp
+5080,TGB,Taseko mines ltd
+5081,TGC,Tengasco
+5082,TGE,T g c industries
+5083,TGH,Textainer group holdings ltd
+5084,TGI,Triumph group inc new
+5085,TGIS,Thomas group
+5086,TGP,Teekay l n g partners l p
+5087,TGR,Ishares trust
+5088,TGS,Transportadora de gas del sur sa
+5089,TGT,Target corp
+5090,TGX,Theragenics corp
+5091,THC,Tenet healthcare corp
+5092,THD,Ishares
+5093,THFF,First financial corp in
+5094,THG,Hanover insurance group
+5095,THI,Tim hortons
+5096,THLD,Threshold pharmaceuticals
+5097,THM,Intl tower hill mines ltd new
+5098,THMD,Thermadyne holdings corp
+5099,THO,Thor industries
+5100,THOR,Thoratec corp
+5101,THQI,T h q
+5102,THRD,T f financial corp
+5103,THRX,Theravance
+5104,THS,Treehouse foods
+5105,TI,Telecom italia s p a new
+5106,TIBB,T i b financial corp
+5107,TIBX,T i b c o software
+5108,TICC,T i c c capital corp
+5109,TIE,Titanium metals corp
+5110,TIER,Tier technologies
+5111,TIF,Tiffany & co new
+5112,TIGR,Tigerlogic corp
+5113,TIII,Tii network technologies
+5114,TIK,Tel instrument electronics corp
+5115,TIN,Temple inland
+5116,TINY,Harris & harris group
+5117,TIP,Ishares trust
+5118,TIS,Orchids paper products co
+5119,TISA,Top image systems ltd
+5120,TISI,Team
+5121,TITN,Titan machinery
+5122,TIV,Tri valley corp
+5123,TIVO,Tivo
+5124,TJX,T j x companies inc new
+5125,TK,Teekay corp
+5126,TKC,Turkcell iletisim hizmetleri a s
+5127,TKF,Turkish investment fund
+5128,TKLC,Tekelec
+5129,TKR,Timken co
+5130,TLAB,Tellabs
+5131,TLB,Talbots
+5132,TLEO,Taleo corp
+5133,TLF,Tandy leather factory
+5134,TLGD,Tollgrade communications
+5135,TLH,Ishares trust
+5136,TLI,L m p corporate loan fund
+5137,TLK,Perusahaan p p p t telekom indo
+5138,TLL,Proshares trust
+5139,TLM,Talisman energy
+5140,TLO,Spdr series trust
+5141,TLP,Transmontaigne partners l p
+5142,TLR,Timberline resources corp
+5143,TLT,Ishares trust
+5144,TLVT,Telvent git s a
+5145,TM,Toyota motor corp
+5146,TMF,Direxion shares e t f trust
+5147,TMK,Torchmark corp
+5148,TMM,Grupo tmm s a b
+5149,TMNG,Management network group
+5150,TMO,Thermo fisher scientific
+5151,TMP,Tompkins financial corp
+5152,TMRK,Terremark worldwide
+5153,TMV,Direxion shares e t f trust
+5154,TMW,Spdr series trust
+5155,TMX,Telefonos de mexico s a b de c v
+5156,TNA,Direxion shares e t f trust
+5157,TNB,Thomas & betts corp
+5158,TNC,Tennant co
+5159,TNCC,Tennessee commerce bancorp
+5160,TNDM,Neutral tandem
+5161,TNH,Terra nitrogen co l p
+5162,TNK,Teekay tankers ltd
+5163,TNP,Tsakos energy navigation ltd
+5164,TNS,T n s
+5165,TO,Tech ops sevcon
+5166,TOBC,Tower bancorp
+5167,TOD,Todd shipyards corp
+5168,TOF,Tofutti brands
+5169,TOFC,Tower financial corp
+5170,TOK,Ishares trust
+5171,TOL,Toll brothers
+5172,TOMO,Tomotherapy
+5173,TOO,Teekay offshore partners lp
+5174,TOPS,Top ships
+5175,TORM,T o r minerals intl
+5176,TOT,Total s a
+5177,TOWN,Townebank
+5178,TPC,Tutor perini corp
+5179,TPGI,Thomas properties group
+5180,TPI,Tianyin pharmaceutical co
+5181,TPL,Texas pacific land trust
+5182,TPX,Tempur pedic international
+5183,TPZ,Tortoise pwr & engy infra fd
+5184,TQNT,Triquint semiconductor
+5185,TR,Tootsie roll inds
+5186,TRAD,Tradestation group
+5187,TRAK,Dealertrack holdings
+5188,TRBR,Trailer bridge
+5189,TRC,Tejon ranch co
+5190,TRCI,Technology research corp
+5191,TRCR,Transcend services
+5192,TRE,Tanzanian royalty expl corp
+5193,TREE,Tree com
+5194,TRF,Templeton russia fund
+5195,TRGL,Toreador resources corp
+5196,TRGT,Targacept
+5197,TRH,Transatlantic holdings
+5198,TRI,Thomson reuters corp
+5199,TRIB,Trinity biotech plc
+5200,TRID,Trident microsystems
+5201,TRK,Speedway motorsports
+5202,TRLG,True religion apparel
+5203,TRMB,Trimble navigation ltd
+5204,TRMD,Torm a s
+5205,TRMK,Trustmark corp
+5206,TRMS,Trimeris
+5207,TRN,Trinity industries
+5208,TRNS,Transcat
+5209,TROW,T rowe price group
+5210,TRP,Transcanada corp
+5211,TRR,T r c companies
+5212,TRS,Trimas corp
+5213,TRST,Trustco bank corp ny
+5214,TRT,Trio tech intl
+5215,TRU,Torch energy royalty trust
+5216,TRUE,Centrue financial corp new
+5217,TRV,Travelers companies
+5218,TRW,T r w automotive holdings corp
+5219,TS,Tenaris s a
+5220,TSBK,Timberland bancorp
+5221,TSCM,Thestreet com
+5222,TSCO,Tractor supply co new
+5223,TSEM,Tower semiconductor ltd
+5224,TSH,Teche holding co
+5225,TSI,T c w strategic income fund
+5226,TSL,Trina solar ltd
+5227,TSM,Taiwan semiconductor mfg co ltd
+5228,TSN,Tyson foods
+5229,TSO,Tesoro corp
+5230,TSON,Trans1
+5231,TSPT,Transcept pharmaceuticals
+5232,TSRA,Tessera technologies
+5233,TSRI,T s r
+5234,TSS,Total system services
+5235,TSTC,Telestone technologies corp
+5236,TSTF,Teamstaff
+5237,TSTY,Tasty baking co
+5238,TSYS,Telecommunications systems
+5239,TTC,Toro co
+5240,TTEC,Teletech holdings
+5241,TTEK,Tetra tech
+5242,TTES,T 3 energy services
+5243,TTF,Thai fund
+5244,TTGT,Techtarget
+5245,TTH,Telecom holdrs trust
+5246,TTHI,Transition therapeutics
+5247,TTI,Tetra technologies
+5248,TTM,Tata motors ltd
+5249,TTMI,Ttm technologies
+5250,TTO,Tortoise capital resources corp
+5251,TTPA,Trintech group plc
+5252,TTWO,Take two interactive softwr
+5253,TU,Telus corp
+5254,TUC,Mac gray corp
+5255,TUES,Tuesday morning corp
+5256,TUNE,Microtune inc del
+5257,TUP,Tupperware brands corp
+5258,TUR,Ishares
+5259,TUZ,Pimco e t f trust
+5260,TV,Grupo televisa sa
+5261,TVL,Lin tv corp
+5262,TWC,Time warner cable
+5263,TWER,Towerstream corp
+5264,TWGP,Tower group
+5265,TWI,Titan international inc ill
+5266,TWIN,Twin disc
+5267,TWM,Proshares trust
+5268,TWMC,Trans world entertainment corp
+5269,TWN,Taiwan fund
+5270,TWQ,Proshares trust
+5271,TWTC,T w telecom
+5272,TWX,Time warner inc new
+5273,TX,Ternium s a
+5274,TXCC,Transwitch corp
+5275,TXI,Texas industries
+5276,TXN,Texas instruments
+5277,TXRH,Texas roadhouse
+5278,TXT,Textron
+5279,TY,Tri continental corp
+5280,TYC,Tyco international ltd swtzlnd
+5281,TYD,Direxion shares e t f trust
+5282,TYG,Tortoise energy infrastruct corp
+5283,TYH,Direxion shares e t f trust
+5284,TYL,Tyler technologies
+5285,TYN,Tortoise north amer energy corp
+5286,TYO,Direxion shares e t f trust
+5287,TYP,Direxion shares e t f trust
+5288,TYPE,Monotype imaging holdings
+5289,TYW,T s & w claymore tax adv bal fd
+5290,TYY,Tortoise energy capital corp
+5291,TZA,Direxion shares e t f trust
+5292,TZD,Ishares trust
+5293,TZE,Ishares trust
+5294,TZG,Ishares trust
+5295,TZI,Ishares trust
+5296,TZL,Ishares trust
+5297,TZO,Ishares trust
+5298,TZOO,Travelzoo
+5299,TZV,Ishares trust
+5300,UA,Under armour
+5301,UACL,Universal truckload services
+5302,UAM,Universal american corp
+5303,UBA,Urstadt biddle properties
+5304,UBCP,United bancorp inc oh
+5305,UBD,Claymore e t f trust
+5306,UBFO,United security bankshares
+5307,UBNK,United financial bancorp inc md
+5308,UBOH,United bancshares
+5309,UBP,Urstadt biddle properties
+5310,UBS,U b s ag
+5311,UBSH,Union first bamkshares corp
+5312,UBSI,United bankshares
+5313,UCBA,United community bancorp in
+5314,UCBI,United community banks inc ga
+5315,UCC,Proshares trust
+5316,UCD,Proshares trust ii
+5317,UCFC,United community finl corp ohio
+5318,UCO,Proshares trust ii
+5319,UCTT,Ultra clean holdings
+5320,UDN,Powershares db us dollar ind tr
+5321,UDR,U d r
+5322,UDRL,Union drilling
+5323,UEC,Uranium energy corp
+5324,UEIC,Universal electronics
+5325,UEPS,Net 1 ueps technologies
+5326,UFCS,United fire & cas co
+5327,UFI,Unifi
+5328,UFPI,Universal forest products
+5329,UFPT,U f p technologies
+5330,UFS,Domtar corp
+5331,UG,United guardian
+5332,UGA,United states gasoline fund l p
+5333,UGE,Proshares trust
+5334,UGI,U g i corp new
+5335,UGL,Proshares trust ii
+5336,UHAL,Amerco
+5337,UHN,United states heating oil fd l p
+5338,UHS,Universal health services
+5339,UHT,Universal health rlty incm tr
+5340,UIL,U i l holdings corp
+5341,UIS,Unisys corp
+5342,UKF,Proshares trust
+5343,UKK,Proshares trust
+5344,UKW,Proshares trust
+5345,UL,Unilever plc
+5346,ULBI,Ultralife corp
+5347,ULE,Proshares trust ii
+5348,ULGX,Urologix
+5349,ULQ,Claymore e t f trust
+5350,ULTA,Ulta salon cosmetics & frag
+5351,ULTI,Ultimate software group
+5352,ULTR,Ultrapetrol bahamas ltd
+5353,ULU,Uluru
+5354,UMBF,U m b financial corp
+5355,UMC,United microelectronics corp
+5356,UMH,U m h properties
+5357,UMPQ,Umpqua holdings corp
+5358,UN,Unilever n v
+5359,UNAM,Unico american corp
+5360,UNB,Union bankshares
+5361,UNF,Unifirst corp
+5362,UNFI,United natural foods
+5363,UNFY,Unify corp
+5364,UNG,United states natural gas fd l p
+5365,UNH,Unitedhealth group
+5366,UNM,Unum group
+5367,UNP,Union pacific corp
+5368,UNS,Unisource energy corp
+5369,UNT,Unit corp
+5370,UNTD,United online
+5371,UNTY,Unity bancorp
+5372,UPG,Universal power group
+5373,UPI,Uroplasty
+5374,UPL,Ultra petroleum corp
+5375,UPRO,Proshares trust
+5376,UPS,United parcel service
+5377,UPW,Proshares trust
+5378,UQM,U q m technologies
+5379,URBN,Urban outfitters
+5380,URE,Proshares trust
+5381,URG,Ur energy
+5382,URI,United rentals
+5383,URRE,Uranium resources
+5384,URS,U r s corp new
+5385,URZ,Uranerz energy corp
+5386,USA,Liberty all star equity fd
+5387,USAK,U s a truck
+5388,USAP,Universal stnless & aly prods in
+5389,USAT,U s a technologies
+5390,USB,U s bancorp del
+5391,USBI,United security bancshares
+5392,USD,Proshares trust
+5393,USEG,United states energy corp wy
+5394,USG,U s g corp
+5395,USHS,U s home systems
+5396,USL,United states 12 month oil fd lp
+5397,USLM,United states lime minerals
+5398,USM,United states cellular corp
+5399,USMO,U s a mobility
+5400,USNA,Usana health sciences
+5401,USO,United states oil fund l p
+5402,USPH,U s physical therapy
+5403,USTR,United stationers
+5404,USU,U s e c
+5405,UTA,Universal travel group
+5406,UTEK,Ultratech
+5407,UTF,Cohen & steers infra fd
+5408,UTG,Reaves utility income fund
+5409,UTH,Utilities holdrs trust
+5410,UTHR,United therapeutics corp
+5411,UTI,Universal technical institute in
+5412,UTIW,U t i worldwide
+5413,UTL,Unitil corp
+5414,UTMD,Utah medical products
+5415,UTR,Unitrin
+5416,UTSI,Utstarcom
+5417,UTX,United technologies corp
+5418,UUP,Powershares db us dollar ind tr
+5419,UUU,Universal security instrs
+5420,UVE,Universal insurance holdings
+5421,UVG,Proshares trust
+5422,UVSP,Univest corp of pennsylvania
+5423,UVT,Proshares trust
+5424,UVU,Proshares trust
+5425,UVV,Universal corp
+5426,UWBK,United western bancorp
+5427,UWC,Proshares trust
+5428,UWM,Proshares trust
+5429,UWN,Nevada gold & casinos
+5430,UXG,U s gold corp
+5431,UXI,Proshares trust
+5432,UYG,Proshares trust
+5433,UYM,Proshares trust
+5434,V,Visa
+5435,VAL,Valspar corp
+5436,VALE,Vale s a
+5437,VALU,Value line
+5438,VAR,Varian medical systems
+5439,VASC,Vascular solutions
+5440,VAW,Vanguard sector index funds
+5441,VAZ,Delaware invts ariz mun
+5442,VB,Vanguard index funds
+5443,VBF,Invesco van kampen bond fund
+5444,VBFC,Village bank and trust finl corp
+5445,VBK,Vanguard index funds
+5446,VBR,Vanguard index funds
+5447,VCBI,Virginia commerce bancorp
+5448,VCF,Delaware invests colo mun inc fd
+5449,VCGH,V c g holding corp
+5450,VCI,Valassis communications
+5451,VCLK,Valueclick
+5452,VCO,Vina concha y toro s a
+5453,VCR,Vanguard sector index funds
+5454,VCV,Invesco van kampn ca vl mn in tr
+5455,VDC,Vanguard sector index funds
+5456,VDE,Vanguard sector index funds
+5457,VDSI,Vasco data sec intl
+5458,VE,Veolia environnement
+5459,VEA,Vanguard tax managed funds
+5460,VECO,Veeco instruments inc del
+5461,VEU,Vanguard intl equity index funds
+5462,VFC,V f corp
+5463,VFH,Vanguard sector index funds
+5464,VFL,Delaware inv nat muni income fd
+5465,VG,Vonage holdings corp
+5466,VGK,Vanguard intl equity index funds
+5467,VGM,Invesco van kamp tr invt gr muns
+5468,VGR,Vector group ltd
+5469,VGT,Vanguard sector index funds
+5470,VGZ,Vista gold corp
+5471,VHC,Virnetx holding corp
+5472,VHI,Valhi inc new
+5473,VHT,Vanguard sector index funds
+5474,VICL,Vical
+5475,VICR,Vicor corp
+5476,VIDE,Video display corp
+5477,VIFL,Food technology service
+5478,VIG,Vanguard specialized fund
+5479,VII,Vicon industries
+5480,VIM,Invesco van kampen tr insd munis
+5481,VIMC,Vimicro international corp
+5482,VIP,Vimpelcom ltd
+5483,VIRC,Virco mfg corp
+5484,VIS,Vanguard sector index funds
+5485,VISN,Visionchina media
+5486,VIST,V i s t finacial corp
+5487,VIT,Vanceinfo technologies
+5488,VITA,Orthovita
+5489,VIVO,Meridian bioscience
+5490,VKI,Invesco van kmp adv mun in tr ii
+5491,VKL,Invesco van kamp sel sec muni tr
+5492,VKQ,Invesco van kampen muni trust
+5493,VLCCF,Knightsbridge tankers ltd
+5494,VLCM,Volcom
+5495,VLGEA,Village super market
+5496,VLNC,Valence technology
+5497,VLO,Valero energy corp new
+5498,VLT,Invesco van kampen high in tr ii
+5499,VLTR,Volterra semiconductor corp
+5500,VLY,Valley national bancorp
+5501,VMC,Vulcan materials co
+5502,VMED,Virgin media
+5503,VMI,Valmont industries
+5504,VMM,Delaware invts minn muni inc ii
+5505,VMO,Invesco van kampen muni opp tr
+5506,VMV,Invesco van kampen ma val mun in
+5507,VMW,Vmware
+5508,VNDA,Vanda pharmaceuticals
+5509,VNO,Vornado realty trust
+5510,VNQ,Vanguard index funds
+5511,VNR,Vanguard natural resources llc
+5512,VO,Vanguard index funds
+5513,VOCS,Vocus
+5514,VOD,Vodafone group plc new
+5515,VOE,Vanguard index funds
+5516,VOL,Volt information sciences
+5517,VOLC,Volcano corp
+5518,VOLT,Voltaire ltd
+5519,VOQ,Invesco van kampen oh qly mun tr
+5520,VOT,Vanguard index funds
+5521,VOX,Vanguard sector index funds
+5522,VOXX,Audiovox corp
+5523,VPF,Valpey fisher corp
+5524,VPFG,Viewpoint financial group
+5525,VPHM,Viropharma
+5526,VPL,Vanguard intl equity index funds
+5527,VPRT,Vistaprint n v
+5528,VPU,Vanguard sector index funds
+5529,VPV,Invesco van kampn pa vl mn in tr
+5530,VQ,Venoco
+5531,VR,Validus holdings ltd
+5532,VRGY,Verigy ltd
+5533,VRNM,Verenium corp
+5534,VRS,Verso paper corp
+5535,VRSN,Verisign
+5536,VRTA,Vestin realty mortgage i
+5537,VRTB,Vestin realty mortgage ii
+5538,VRTS,Virtus investment partners
+5539,VRTU,Virtusa corp
+5540,VRTX,Vertex pharmaceuticals
+5541,VRUS,Pharmasset
+5542,VSAT,Viasat
+5543,VSBN,V s b bancorp inc ny
+5544,VSCI,Vision sciences inc del
+5545,VSCP,Virtualscopics
+5546,VSEA,Varian semiconductor eqp assc in
+5547,VSEC,V s e corp
+5548,VSH,Vishay intertechnology
+5549,VSNT,Versant corp
+5550,VSR,Versar
+5551,VSS,Vanguard intl equity index funds
+5552,VT,Vanguard intl equity index funds
+5553,VTA,Invesco van kampen dyn cr opp fd
+5554,VTAL,Vital images
+5555,VTG,Vantage drilling co
+5556,VTI,Vanguard index funds
+5557,VTJ,Invesco van kamp tr in gr nj mun
+5558,VTN,Invesco van kmp tr inv gr ny mun
+5559,VTNC,Vitran corp
+5560,VTR,Ventas
+5561,VTRO,Vertro
+5562,VTV,Vanguard index funds
+5563,VUG,Vanguard index funds
+5564,VV,Vanguard index funds
+5565,VVC,Vectren corp
+5566,VVI,Viad corp
+5567,VVR,Invesco van kampen sr income tr
+5568,VVTV,Valuevision media
+5569,VVUS,Vivus
+5570,VWO,Vanguard intl equity index funds
+5571,VXF,Vanguard index funds
+5572,VYFC,Valley financial corp va
+5573,VYM,Vanguard whitehall funds
+5574,VZ,Verizon communications
+5575,WAB,Wabtec corp
+5576,WABC,Westamerica bancorporation
+5577,WAC,Walter investment mgmt corp
+5578,WACLY,Wacoal holdings corp
+5579,WAG,Walgreen co
+5580,WAL,Western alliance bancorporation
+5581,WASH,Washington trust bancorp
+5582,WAT,Waters corp
+5583,WATG,Wonder auto technology
+5584,WAVX,Wave systems corp
+5585,WAYN,Wayne savings bancshares inc new
+5586,WBC,Wabco holdings
+5587,WBCO,Washington banking co
+5588,WBD,Wimm bill dann foods o j s c
+5589,WBK,Westpac banking corp
+5590,WBMD,Webmd health corp
+5591,WBNK,Waccamaw bankshares
+5592,WBS,Webster financial corp
+5593,WBSN,Websense
+5594,WCAA,W c a waste corp
+5595,WCBO,West coast bancorp ore new
+5596,WCC,Wesco international
+5597,WCG,Wellcare health plans
+5598,WCN,Waste connections
+5599,WCRX,Warner chilcott plc ireland
+5600,WDC,Western digital corp
+5601,WDFC,Wd 40 co
+5602,WDR,Waddell & reed financial
+5603,WEA,Western asset premier
+5604,WEBM,Webmediabrands
+5605,WEC,Wisconsin energy corp
+5606,WEN,Wendys arbys group
+5607,WERN,Werner enterprises
+5608,WES,Western gas partners lp
+5609,WEX,Winland electronics
+5610,WEYS,Weyco group
+5611,WF,Woori finance holdings co ltd
+5612,WFC,Wells fargo & co new
+5613,WFD,Westfield financial
+5614,WFMI,Whole foods market
+5615,WFR,M e m c electronic materials
+5616,WFSL,Washington federal
+5617,WFT,Weatherford intl ltd new
+5618,WG,Willbros group inc del
+5619,WGA,Wells gardner electrs corp
+5620,WGL,W g l holdings
+5621,WGO,Winnebago industries
+5622,WGOV,Woodward governor co
+5623,WH,W s p holdings ltd
+5624,WHG,Westwood holdings group
+5625,WHR,Whirlpool corp
+5626,WHRT,World heart corp
+5627,WHX,Whiting u s a trust i
+5628,WIA,Western asset claymore inf ln sc
+5629,WIBC,Wilshire bancorp
+5630,WILC,G willi food intl ltd
+5631,WIN,Windstream corp
+5632,WINA,Winmark corp
+5633,WINN,Winn dixie stores
+5634,WIP,Spdr series trust
+5635,WIRE,Encore wire corp
+5636,WIT,Wipro ltd
+5637,WIW,Western asset claymore infl lnkd
+5638,WL,Wilmington trust corp
+5639,WLB,Westmoreland coal co
+5640,WLDN,Willdan group
+5641,WLFC,Willis lease finance corp
+5642,WLK,Westlake chemical corp
+5643,WLL,Whiting petroleum corp new
+5644,WLP,Wellpoint
+5645,WLT,Walter energy
+5646,WMAR,West marine
+5647,WMB,Williams cos
+5648,WMCO,Williams controls
+5649,WMG,Warner music group corp
+5650,WMGI,Wright medical group
+5651,WMH,Wireless holders trust
+5652,WMK,Weis markets
+5653,WMS,W m s industries
+5654,WMT,Wal mart stores
+5655,WNC,Wabash national corp
+5656,WNI,Schiff nutrition intl
+5657,WNR,Western refining
+5658,WNS,W n s holdings ltd
+5659,WOLF,Great wolf resorts
+5660,WOOD,Ishares trust
+5661,WOOF,V c a antech
+5662,WOR,Worthington industries
+5663,WPC,W p carey & co llc
+5664,WPCS,W p c s international
+5665,WPI,Watson pharmaceuticals
+5666,WPO,Washington post co
+5667,WPP,Wausau paper corp
+5668,WPPGY,W p p plc
+5669,WPRT,Westport innovations
+5670,WPS,Ishares trust
+5671,WPZ,Williams partners l p
+5672,WR,Westar energy
+5673,WRB,Berkley w r corp
+5674,WRC,Warnaco group
+5675,WRE,Washington real estate invs tr
+5676,WRES,Warren resources
+5677,WRI,Weingarten realty investors
+5678,WRLD,World acceptance corp
+5679,WRLS,Telular corp
+5680,WSB,W s b holdings
+5681,WSBC,Wesbanco
+5682,WSBF,Waterstone financial
+5683,WSC,Wesco financial corp
+5684,WSCI,W s i industries
+5685,WSFS,Wsfs financial corp
+5686,WSH,Willis group holdings pub ltd co
+5687,WSM,Williams sonoma
+5688,WST,West pharmaceutical services
+5689,WSTG,Wayside technology group
+5690,WSTL,Westell technologies
+5691,WTBA,West bancorporation
+5692,WTFC,Wintrust financial corp
+5693,WTI,W & t offshore
+5694,WTM,White mountains ins group
+5695,WTNY,Whitney holding corp
+5696,WTR,Aqua america
+5697,WTS,Watts water technologies
+5698,WTSLA,Wet seal
+5699,WTT,Wireless telecom group
+5700,WTW,Weight watchers intl inc new
+5701,WU,Western union co
+5702,WUHN,Wuhan general group china
+5703,WVFC,Wvs financial corp
+5704,WVVI,Willamette valley vinyds
+5705,WWE,World wrestling entmt
+5706,WWVY,Warwick valley telephone co
+5707,WWW,Wolverine world wide
+5708,WWWW,Web com group
+5709,WX,Wuxi pharmatech cayman
+5710,WXCO,W h x corp
+5711,WXS,Wright express corp
+5712,WY,Weyerhaeuser co
+5713,WYN,Wyndham worldwide corp
+5714,WYNN,Wynn resorts ltd
+5715,WYY,Widepoint corp
+5716,WZE,Wizzard software corp
+5717,X,United states steel corp new
+5718,XAA,American municipal inc port
+5719,XATA,Xata corp
+5720,XBI,Spdr series trust
+5721,XCO,E x c o resources
+5722,XEC,Cimarex energy co
+5723,XEL,X c e l energy
+5724,XES,Spdr series trust
+5725,XETA,Xeta technologies
+5726,XFN,Xfone
+5727,XGC,Claymore e t f trust
+5728,XHB,Spdr series trust
+5729,XIDE,Exide technologies
+5730,XIN,Xinyuan real estate co ltd
+5731,XING,Qiao xing universal resources in
+5732,XL,X l group plc
+5733,XLB,Select sector spdr trust
+5734,XLE,Select sector spdr trust
+5735,XLF,Select sector spdr trust
+5736,XLG,Rydex e t f trust
+5737,XLI,Select sector spdr trust
+5738,XLK,Select sector spdr trust
+5739,XLNX,Xilinx
+5740,XLP,Select sector spdr trust
+5741,XLU,Select sector spdr trust
+5742,XLV,Select sector spdr trust
+5743,XLY,Select sector spdr trust
+5744,XME,Spdr series trust
+5745,XNPT,Xenoport
+5746,XOM,Exxon mobil corp
+5747,XOMA,Xoma ltd
+5748,XOP,Spdr series trust
+5749,XPH,Spdr series trust
+5750,XPL,Solitario explor & royalty corp
+5751,XPO,Express 1 expedited solution
+5752,XPP,Proshares trust
+5753,XPRT,L e c g corp
+5754,XRA,Exeter resources corp
+5755,XRAY,Dentsply international inc new
+5756,XRIT,X rite
+5757,XRM,Xerium technologies
+5758,XRO,Claymore e t f trust
+5759,XRT,Spdr series trust
+5760,XRTX,Xyratex ltd
+5761,XRU,Currencyshares russian ruble tr
+5762,XRX,Xerox corp
+5763,XSD,Spdr series trust
+5764,XSEL,Xinhua sports & entertainment lt
+5765,XTEX,Crosstex energy lp
+5766,XTXI,Crosstex energy
+5767,XWES,World energy solutions inc de
+5768,XXIA,Ixia
+5769,Y,Alleghany corp de
+5770,YAVY,Yadkin valley financial corp
+5771,YCL,Proshares trust ii
+5772,YCS,Proshares trust ii
+5773,YDNT,Young innovations
+5774,YGE,Yingli green energy hldg co ltd
+5775,YHOO,Yahoo
+5776,YMI,Y m biosciences
+5777,YORW,York water co
+5778,YPF,Y p f sociedad anonima
+5779,YRCW,Y r c worldwide
+5780,YSI,U store it trust
+5781,YTEC,Yucheng technologies ltd
+5782,YUM,Yum brands
+5783,YZC,Yanzhou coal mining co ltd
+5784,ZANE,Zanett
+5785,ZBB,Z b b energy corp
+5786,ZBRA,Zebra technologies corp
+5787,ZEP,Zep
+5788,ZEUS,Olympic steel
+5789,ZF,Zweig fund
+5790,ZHNE,Zhone technologies
+5791,ZIGO,Zygo corp
+5792,ZINC,Horsehead holding corp
+5793,ZION,Zions bancorporation
+5794,ZIOP,Ziopharm oncology
+5795,ZIPR,Ziprealty
+5796,ZIXI,Zix corp
+5797,ZLC,Zale corp new
+5798,ZMH,Zimmer holdings
+5799,ZN,Zion oil & gas
+5800,ZNH,China southern airlines co ltd
+5801,ZOLL,Zoll medical corp
+5802,ZOLT,Zoltek companies
+5803,ZOOM,Zoom technologies
+5804,ZQK,Quiksilver
+5805,ZRAN,Zoran corp
+5806,ZSL,Proshares trust ii
+5807,ZTR,Zweig total return fund
+5808,ZUMZ,Zumiez
+5809,ZZ,Sealy corp
