@@ -39,22 +39,26 @@ data_long <- data_long %>%
   mutate(PARENT_COMPANY = str_replace_all(PARENT_COMPANY, "&", "and")) %>%  # Replace & with and
   mutate(standardized_company = tolower(gsub("[[:punct:]]", "", PARENT_COMPANY))) %>%  # Drop all punctuation
   mutate(standardized_company = gsub("\\s+", "", standardized_company)) %>%  # Remove all spaces
+  mutate(GHG=GHG.QUANTITY..METRIC.TONS.CO2e.*numeric_percentage) %>%
   group_by(standardized_company) %>%
   summarize(
-    GHG_sum = sum(GHG.QUANTITY..METRIC.TONS.CO2e., na.rm = TRUE),
+    GHG_sum = sum(GHG, na.rm = TRUE),
     PARENT_COMPANY = first(PARENT_COMPANY)
   ) %>%
   # Drop the standardized column
   ungroup() %>%
   select(-standardized_company)
 
-# View the summarized data
-print(data_long)
+#feed company name into ticker
+com<-unique(data_long$PARENT_COMPANY)
 
-# Summarize GHG quantities by parent company
-data_summary <- data_long %>%
-  group_by(PARENT_COMPANY) %>%
-  summarize(GHG_sum = sum(GHG_sum, na.rm = TRUE), .groups = 'drop')
+library("httr")
+for (i in 1:length(com)) {
+  print(i)
+  name<-com[i]
+  api<-"67f15f74f937e7f6376252601326b292d0002f7e51431616c2b3a5384329c981"
+  url<-paste0("https://api.sec-api.io/mapping/name/", name, "?token=", api)
+  filename<-paste0("flight_sec/row_", i, ".json")
+  GET(url,write_disk(filename, overwrite = TRUE)) 
+}
 
-# View the final summary
-print(data_summary)
