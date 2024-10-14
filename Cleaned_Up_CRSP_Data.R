@@ -1,15 +1,18 @@
 install.packages("dplyr")
 library(dplyr)
 
-df2<-X200908_201012CRSP_1_%>%
+df<-read.csv("200908-201012CRSP.csv")
+
+df2<-df %>%
   group_by(TICKER, COMNAM) %>%  
   tally() %>%
-  filter(n==18)
+  filter(n>=18)
 
-df3<-X200908_201012CRSP_1_ %>%
-  group_by(TICKER, COMNAM, NAICS) %>%
-  summarize(ASK=mean(PRC))
+df3<-df %>%
+  group_by(TICKER) %>%
+  summarize(ASK=mean(PRC, na.rm = TRUE))
 
-Cleaned_up<-merge(df2, df3, by=c("TICKER", "COMNAM"))
+df4<-df3 %>%
+  filter(TICKER %in% df2$TICKER)
 
-View(Cleaned_up)
+write.csv(df4, "clean_ask.csv", row.names=F)
