@@ -18,35 +18,35 @@ data_long <- new_data %>%
                values_to = "PARENT_COMPANY")
 
 # Extract the percentage from the parent company names
-data_long <- data_long %>%
+data_long2 <- data_long %>%
   mutate(percentage = str_extract(`PARENT_COMPANY`, "\\d+(\\.\\d+)?%"))
 
 # Remove percentage information from the parent company names
-data_long <- data_long %>%
+data_long3 <- data_long2 %>%
   mutate(percentage = str_extract(`PARENT_COMPANY`, "\\d+(\\.\\d+)?%"),
          `PARENT_COMPANY` = str_remove(`PARENT_COMPANY`, "\\s*\\(\\d+(\\.\\d+)?%\\)"))
 
 # Convert percentage to numeric
-data_long <- data_long %>%
+data_long4 <- data_long3 %>%
   mutate(numeric_percentage = as.numeric(gsub("%", "", percentage)) / 100)
 
 # Convert GHG quantity to numeric
-data_long <- data_long %>%
+data_long5 <- data_long4 %>%
   mutate(GHG.QUANTITY..METRIC.TONS.CO2e. = as.numeric(GHG.QUANTITY..METRIC.TONS.CO2e.))
 
 # Replace & with and, drop all punctuation, convert to lowercase, remove all spaces, and standardize company names
-data_long <- data_long %>%
+data_long6 <- data_long5 %>%
   mutate(PARENT_COMPANY = str_replace_all(PARENT_COMPANY, "&", "and")) %>%  # Replace & with and
   mutate(standardized_company = tolower(gsub("[[:punct:]]", "", PARENT_COMPANY))) %>%  # Drop all punctuation
   mutate(standardized_company = gsub("\\s+", "", standardized_company)) %>%  # Remove all spaces
+  filter(PARENT_COMPANY!="") %>%
   group_by(standardized_company) %>%
   summarize(
-    GHG_sum = sum(GHG.QUANTITY..METRIC.TONS.CO2e., na.rm = TRUE),
+    GHG_sum = sum(GHG.QUANTITY..METRIC.TONS.CO2e.*numeric_percentage, na.rm = TRUE),
     PARENT_COMPANY = first(PARENT_COMPANY)
   ) %>%
   # Drop the standardized column
-  ungroup() %>%
-  select(-standardized_company)
+  ungroup() 
 
 # View the summarized data
 print(data_long)
