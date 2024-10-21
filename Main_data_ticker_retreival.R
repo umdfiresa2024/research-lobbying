@@ -9,6 +9,8 @@ main_data<-read.csv("main_data.csv")
 companies<-as.vector(main_data$firm_name)
 companies
 
+write.csv(companies, "meng_cleaned.csv", row.names=F)
+
 # function to look up the ticker symbols from sec data and store the data of companies and symbols as data
 get_sec <- function(i) {
   name<- companies[i]

@@ -53,6 +53,8 @@ data_long6 <- data_long5 %>%
 # View the summarized data
 
 companies<-as.vector(data_long6$PARENT_COMPANY)
+
+write.csv(companies, "flight_cleaned.csv", row.names=F)
 companies
 
 get_sec <- function(i) {
@@ -60,13 +62,13 @@ get_sec <- function(i) {
     #try to do this
     {
       name<- companies[i]
-      api<-"0b2ca623403335d8c3d2e75932b87231a96f7fa6e3d7e68f569edf05fd614e97"
-      url<-paste0("https://api.sec-api.io/mapping/name/", name, "?token=", api)
+      name2<-str_replace_all(name, " ", "%20")
+      api<-"67f15f74f937e7f6376252601326b292d0002f7e51431616c2b3a5384329c981"
+      url<-paste0("https://api.sec-api.io/mapping/name/", name2, "?token=", api)
       
-      filename<-"flight_sec/file.json"
+      filename<-"sec_api/file.json"
       GET(url,write_disk(filename, overwrite = TRUE))
-      
-      data <- fromJSON("flight_sec/file.json")
+      data <- fromJSON("sec_api/file.json")
       
       # if data doesn't have a ticker for a company, make that cell NA
       if (!is.null(data$ticker)) {
@@ -91,25 +93,6 @@ get_sec <- function(i) {
   )
 }
 
-# function to look up the ticker symbols from sec data and store the data of companies and symbols as data
-get_sec <- function(i) {
-  name<- companies[i]
-  api<-"0b2ca623403335d8c3d2e75932b87231a96f7fa6e3d7e68f569edf05fd614e97"
-  url<-paste0("https://api.sec-api.io/mapping/name/", name, "?token=", api)
-  
-  filename<-"flight_sec/file.json"
-  GET(url,write_disk(filename, overwrite = TRUE))
-  
-  data <- fromJSON("flight_sec/file.json")
-  
-  # if data doesn't have a ticker for a company, make that cell NA
-  if (!is.null(data$ticker)) {
-    ticker <- data$ticker[1]
-    print(data$ticker[1])
-  } else {
-    ticker <- NA
-  }
-} 
 
 # make a list of the tickers for all companies with look
 tickers <- c()
