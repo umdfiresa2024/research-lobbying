@@ -9,8 +9,6 @@ main_data<-read.csv("main_data.csv")
 companies<-as.vector(main_data$firm_name)
 companies
 
-write.csv(companies, "meng_cleaned.csv", row.names=F)
-
 # function to look up the ticker symbols from sec data and store the data of companies and symbols as data
 get_sec <- function(i) {
   name<- companies[i]
@@ -36,7 +34,7 @@ get_sec <- function(i) {
 
 # make a list of the tickers for all companies with look
 tickers <- c()
-for (i in 1:length(companies)) {
+for (i in 11:length(companies)) {
   print(i)
   ticker <- get_sec(i)
   tickers<-rbind(tickers, ticker)
@@ -47,13 +45,9 @@ for (i in 1:length(companies)) {
 }
 
 # create dataframe of tickers
-tickers_df2 <- tickers_df[-nrow(tickers_df), ]
 tickers_df <- data.frame(ticker = tickers)
+colnames(tickers_df)[colnames(tickers_df) == "ticker.input_name"] <- "firm_name"
 
 # combine two data frames to make main_data include ticker symbols
-main_data <- rbind(main_data, tickers_df)
-head(main_data)
-
-
-blank <- sum(tickers_df$ticker == "", na.rm = TRUE)
-print(blank)
+merged_df <- merge(tickers_df, main_data, by = "firm_name")
+head(merged_df)
