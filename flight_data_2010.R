@@ -6,8 +6,7 @@ library(jsonlite)
 combined_data <- read.csv("flight_2010.csv")
 
 # Select specific columns
-select_col <- combined_data %>%
-  select(GHG.QUANTITY..METRIC.TONS.CO2e., PARENT.COMPANIES)
+select_col <- combined_data %>% select(GHG.QUANTITY..METRIC.TONS.CO2e., PARENT.COMPANIES)
 
 # Separate parent companies into multiple columns
 new_data <- select_col %>%
@@ -72,10 +71,12 @@ get_sec <- function(i) {
       
       # if data doesn't have a ticker for a company, make that cell NA
       if (!is.null(data$ticker)) {
-        ticker <- data$ticker[1]
-        print(data$ticker[1])
+        ticker <- as.data.frame(cbind(ticker=data$ticker[1],
+                                name=data$name[1],
+                                input_name=companies[i]))
+        print(ticker)
       } else {
-        ticker <- NA
+        ticker <- as.data.frame(cbind(ticker=NA, name=NA, input_name=companies[i]))
       }
       
     },
@@ -96,13 +97,19 @@ get_sec <- function(i) {
 
 # make a list of the tickers for all companies with look
 tickers <- c()
-for (i in 1:5) {
+for (i in 1:2710) {
   print(i)
   ticker <- get_sec(i)
   tickers<-rbind(tickers, ticker)
+  
+  if(i %% 5 == 0){
+    Sys.sleep(20)
+  }
+    
 }
 
 # create dataframe of tickers
 tickers_df <- data.frame(ticker = tickers)
 
 #write.csv(tickers_df, "sec_api/tickers_df_1_5.csv", row.names = F)
+
