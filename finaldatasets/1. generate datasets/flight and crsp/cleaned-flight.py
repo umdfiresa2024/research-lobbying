@@ -1,6 +1,3 @@
-# Takes in the flight data and computes total ghg for each unique company.
-# Some companies appear multiple times under different names, resulting in fuzzy output.
-
 import pandas as pd
 import re
 
@@ -8,19 +5,17 @@ import re
 flight = pd.read_csv('../../../flight_2010.csv')
 
 # Function to process each row and extract the company names and their respective GHG contributions
-
-
 def calculate_ghg(row):
     # Convert to string to avoid float issues
     companies = str(row['PARENT COMPANIES'])
     ghg_quantity = row['GHG QUANTITY (METRIC TONS CO2e)']
 
     # Check if the companies field is valid (not empty or missing)
-    if companies == 'nan':
+    if pd.isna(companies):
         return []
 
-    # Extract company names and percentages using a regular expression
-    pattern = r'([^()]+)\s\((\d+)%\)'
+    # Extract company names and percentages, accounting for the semicolon
+    pattern = r'([^;()]+)\s\((\d+)%\)'
     matches = re.findall(pattern, companies)
 
     # Calculate each company's GHG contribution
@@ -32,7 +27,6 @@ def calculate_ghg(row):
 
     return company_ghg
 
-
 # Initialize a dictionary to accumulate the GHG contributions for each company
 ghg_totals = {}
 
@@ -41,16 +35,15 @@ for index, row in flight.iterrows():
     contributions = calculate_ghg(row)
     for company, ghg in contributions:
         if company in ghg_totals:
-            print(f"adding {ghg} to {company}")
             ghg_totals[company] += ghg
         else:
             ghg_totals[company] = ghg
 
 # Convert the dictionary to a DataFrame
-result_df = pd.DataFrame(list(ghg_totals.items()),
-                         columns=['Company', 'Total GHG'])
+result_df = pd.DataFrame(list(ghg_totals.items()), columns=['Company', 'Total GHG'])
 
 # Display the result
 print(result_df)
 
+# Save the result to a CSV file
 result_df.to_csv("cleaned-flight.csv", index=False)

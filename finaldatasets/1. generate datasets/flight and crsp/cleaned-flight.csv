@@ -1,10 +1,9 @@
-"Company","Total GHG"
+Company,Total GHG
 New York Power Authority,2006646.0
 Williams Partners L.P.,3423677.4
 Archdiocese of Chicago,31718.0
 3M Center,87826.0
-3M Company,36879.0
-3M Company,244835.0
+3M Company,281714.0
 3M COMPANY,28750.0
 3M,28988.0
 Holland Board of Public Works,348591.0
@@ -22,7 +21,7 @@ Glacial Lakes Corn Processors,314039.0
 U.S. Government,113058.0
 "Enbridge Energy Partners, L.P.",687111.0
 "Absolute Energy, L.L.C.",166628.0
-Shell Petroleum Inc.,4686839.0
+Shell Petroleum Inc.,9192937.0
 Acadia Parish Police Jury,46724.0
 Trona Operating Partners,783184.0
 "ACE Ethanol, LLC",71980.0
@@ -64,8 +63,8 @@ Air Products and Chemicals Inc.,789517.0
 "Air Products & Chemicals, Inc.",859226.0
 "Ajinomoto U.S.A., Inc.",111819.0
 AK Steel Corporation,7723313.0
-"Severstal North America, Inc.",1919200.0
-"Waste Management, Inc.",19461893.0
+"Severstal North America, Inc.",1932724.0
+"Waste Management, Inc.",20760486.75
 Al-Corn Clean Fuel,77311.0
 "AL Sandersville, LLC",32748.0
 "Al Turi Landfill, Inc.",9216.0
@@ -190,17 +189,16 @@ Trident Seafoods Corporation,36933.0
 "Mohawk Industries, Inc",33390.0
 Alamance County,103200.0
 Albert Einstein College of Medicine,39444.0
-"FirstEnergy Generation, LLC",50121694.0
+"FirstEnergy Generation, LLC",58991902.370000005
 Monongahela Power Company,11672992.87
 Connecticut Municipal Electric Energy Cooperative,4946.0
 "Algonquin Power Windsor Locks, LLC",183880.0
 "Iberdrola USA, Inc.",29353.0
 Allegheny Energy,8931964.260000002
-"FirstEnergy Generation, LLC",8870208.37
 "Xcel Energy, Inc.",36025439.0
 "Allens, Inc.",25410.0
 Devon Energy,908587.0
-Dairyland Power Cooperative,4226287.0
+Dairyland Power Cooperative,5714007.96
 TURLOCK IRRIGATION DISTRICT,27517.0
 Alon USA,43296.0
 Alphapet Inc.,24607.0
@@ -257,12 +255,12 @@ MACH Gen,2288949.0
 Solid Waste Management Company of Atkinson County,24600.0
 BP America Inc.,21162663.36
 Atmos Energy Corporation,35045.0
-Entergy Corporation,23154218.22
+Entergy Corporation,24908907.799999997
 Calpine Corporation,37113755.0
 Aucilla Area Solid Waste Facility,38259.0
 Auriga Polymers Inc.,117144.0
 "GenOn Energy, Inc",17758867.0
-"PPG Industries, Inc.",1417323.0
+"PPG Industries, Inc.",3684642.75
 Georgia Gulf Corporation,1524206.0
 B.Braun Medical Inc.,53483.0
 CMS Energy,11727196.5
@@ -355,7 +353,7 @@ Brown County Port & Solid Waste Department,9793.0
 Brown County,40293.0
 Brown University,31072.0
 Brown-Forman Corporation,46217.0
-Republic Services,341691.0
+Republic Services,349826.0
 Verso Paper Corp.,1073468.0
 "County of Santa Cruz, Department of Public Works",85158.0
 Doe Run Resources Company,125280.0
@@ -404,7 +402,6 @@ Berry Petroleum Company,1059736.0
 "Public Service Enterprise Group, Inc",5182872.0
 Luminant Generation Company LLC,51103248.0
 "Louisiana Generating, LLC",10778807.42
-Entergy Corporation,1754689.58
 "Western Wisconsin Energy, LLC",83022.0
 Merced County Regional Waste Management,25426.0
 "Standard Binghamton, LLC",3762.0
@@ -412,7 +409,7 @@ GE Energy Financial Services,396094.0
 "J-Power Development Co, LTD.",396094.0
 Jonah Gas Gathering Company,507790.0
 Chevron Corporation,12327321.72
-Dynegy Inc.,181493.5
+Dynegy Inc.,1586059.5
 UniSource Energy Corporation,777389.0
 County of Greenville,188204.0
 "Great Point Power, LLC",1126146.0
@@ -557,7 +554,6 @@ Charlotte Pipe & Foundry Company,29493.0
 Charter Manufacturing,136993.0
 Charter Manufacturing Co. Inc.,96865.0
 City of Mobile Environmental Services Dept.,38080.0
-"Waste Management, Inc.",1298593.75
 "Quantum Resources Management, LLC",129528.0
 E. I duPont de Nemours and Company,5795.0
 E.I. du Pont de Nemours and Company,59183.0
@@ -569,7 +565,7 @@ LSB Chemical Corporation,411709.0
 "Merck & Co., Inc.",241791.0
 Chevron Phillips Chemical Company LP,1846346.0
 CHEVRON CORPORATION,23546.5
-CONOCO PHILLIPS,43920.0
+CONOCO PHILLIPS,166271.0
 City of Cheyenne,71992.0
 Ameresco Chicopee LFGTE,44456.0
 "Ziemax, Inc.",44456.0
@@ -577,7 +573,6 @@ Ameresco Chicopee LFGTE,44456.0
 Childrens Hospital Medical Center,27704.0
 County of Kern,18945.0
 Chippewa Valley Agrafuels Cooperative,72493.0
-CONOCO PHILLIPS,122351.0
 SPECTRA ENERGY CORP,142724.5
 Chrin Brothers Inc.,77979.0
 "O'Brien Industrial Holdings, LLC",28024.0
@@ -587,7 +582,7 @@ National Cooperative Refining Ass,897904.0
 GTL Resources USA Inc,141730.69999999998
 "Chugach Electric Association, Inc.",1326254.0
 CSU Trustees and CSUCI Site Authority,106110.0
-El Paso Corporation,2292359.0
+El Paso Corporation,2339735.0
 "sanofi aventis, Inc.",36553.0
 PDV Holding Inc,1573571.0
 PDV Holding Inc.,6353672.0
@@ -667,7 +662,6 @@ Hopkinsville Elevator Company,55290.0
 ConAgra Foods Inc.,205225.0
 Region 2000 Services Authority,24217.0
 John Sexton Sand & Gravel,8135.0
-Republic Services,8135.0
 "Southcross Gathering, Ltd",79882.0
 EXELON CORP,2076443.0
 Continental Carbon Company,474702.0
@@ -713,7 +707,7 @@ Cumberland County Solid Waste Management,45333.0
 Cumberland County Improvement Authority,55007.0
 "Cutrale Citrus Juices USA, Inc.",120124.0
 Cytec Industries Inc.,398955.0
-"MDU Resources Group, Inc.",1018458.0
+"MDU Resources Group, Inc.",1368925.7
 NRG Energy Inc.,32608359.0
 Southwestern Energy Company,832946.0
 Caesars Entertainment Corporation,73253.0
@@ -754,7 +748,7 @@ The Mosaic Company,1631834.0
 Arkansas Electric Cooperative Corporation,456628.0
 "Zeledyne, LLC",127292.0
 Carmeuse North America,1063632.0
-Calypso Energy Holdings LLC,3346243.0
+Calypso Energy Holdings LLC,3481770.45
 Atlantic Power Generation,574494.0
 Municipality of Carolina,67573.0
 Toolrock Holdings Inc.,68511.0
@@ -802,7 +796,7 @@ Cheney Lime and Cement Company,327727.0
 "Chevron Phillips Chemical Company, LP",822770.0
 Dyno Nobel Inc.,1036215.0
 "Associated Electric Cooperative, Inc.",15899082.0
-NV Energy,8013011.6
+NV Energy,9400046.1
 "Chula Vista Energy Center, LLC",1030.0
 "Mid Kansas Electric Company, LLC",358699.0
 City of Fulton,100.0
@@ -835,7 +829,7 @@ Taunton Municipal Lighting Plant,60044.0
 Cleveland Clinic,60123.0
 Ohio Valley Electric Corporation,13519750.0
 City of Gloversville,50017.0
-Old Dominion Electric Cooperative,3257174.0
+Old Dominion Electric Cooperative,3851059.0
 Chevron Global Power Company,1335408.5
 Edison Mission Energy Company,1335408.5
 "Coastal Carolina Clean Power, LLC",7527.0
@@ -844,9 +838,8 @@ Coffeyville Resources Refining & Marketing,888108.0
 James River Cogeneration Company,700687.0
 Big Rivers Electric Corporation,10438247.0
 "GDF SUEZ Energy North America, Inc.",3522493.0
-City of Columbia Missouri,93850.0
+City of Columbia Missouri,94918.75
 Ameren Energy Generating Company,6566980.010000001
-City of Columbia Missouri,1068.75
 "Inter-Power/AhlCon Partners, L.P.",976733.0
 "Tyr Energy, Inc.",40590.0
 "Kinder Morgan Energy Partners, L.P.",163136.0
@@ -866,14 +859,12 @@ El Paso Electric Company,1711544.0
 "Berkshire Hathaway, Inc.",542587.8
 Cornell University,155773.0
 SABIC Innovative Plastics Holding US LP,620956.5
-"TOTAL Holdings USA, Inc.",193294.5
+"TOTAL Holdings USA, Inc.",1797761.5
 Sacramento Municipal Utility District Financing Authority,1404544.0
-Calypso Energy Holdings LLC,135527.44999999998
 NRG Energy,1329983.0
 Otter Tail Corporation,2248635.95
 Northern Municipal Power Agency,1051403.0999999999
 NorthWestern Corporation DBA NorthWestern Energy,876169.25
-"MDU Resources Group, Inc.",350467.7
 "QEP Resources, Inc.",203168.0
 Crisp County Board of Commissioners,38825.0
 "Millennium Inorganic Chemicals, Inc.",460133.0
@@ -986,7 +977,7 @@ Performance Fibers Operations Inc,30150.0
 Solid Waste Authority of Palm Beach County,432928.0
 E & J Gallo Winery,31207.0
 "E Energy Adams, LLC",82738.0
-National Grid Generation LLC,1583546.0
+National Grid Generation LLC,1663310.0
 Eagle County Solid Waste and Recycling,45817.0
 Advanced Disposal Services,612797.0
 REPUBLIC SERVICES INC,199772.0
@@ -995,7 +986,7 @@ Harsco,3910.0
 "City of Jacksonville, Florida",88041.0
 "East Kansas Agri-Energy, LLC",51747.0
 "East Penn Manufacturing co., inc.",99765.0
-ConocoPhillips Company,9258356.68
+ConocoPhillips Company,9374928.18
 "WTG Gas Processing, L.P.",146194.0
 "Lion Copolymer, LLC",61745.0
 "City of Birmingham, AL",282640.0
@@ -1054,7 +1045,6 @@ Exxon Mobil Corporation,7560353.0
 ExxonMobil Corporation,2511106.0
 SUNOCO INC,103964.0
 PHH,241847.44
-"PPG Industries, Inc.",2267319.75
 RS Co Gen,513925.81000000006
 "Energy Partners of Delaware, Ltd.",33687.0
 The Dayton Power & Light Company,1286719.79
@@ -1073,7 +1063,6 @@ Effingham County Power,838558.0
 "El Cajon Energy, LP",5143.0
 IMPERIAL IRRIGATION DISTRICT,351418.0
 Dairland Power Cooperative,10310.0
-El Paso Corporation,47376.0
 "W.E. Power, LLC",3126460.4
 Madison Gas and Electric,192598.80000000002
 Wisconsin Public Power Inc.,192598.80000000002
@@ -1427,7 +1416,7 @@ Hardin County Fiscal Court,110347.0
 Northeast Maryland Waste Disposal Authority,69341.0
 Chesapeake Energy Corporation,280560.0
 Northeast Texas Electric Cooperative,245408.90000000002
-"East Texas Electric Cooperative, Inc.",200789.1
+"East Texas Electric Cooperative, Inc.",311772.1
 City of Tucson,56353.0
 DCO Energy,41668.0
 SOUTH JERSEY INDUSTRIES INC,41668.0
@@ -1444,7 +1433,6 @@ Hoosier Energy,148641.0
 Wabash Valley Power,148641.0
 Hollingsworth & Vose,38458.0
 KeySpan Gas East Corporation,2857480.0
-National Grid Generation LLC,79764.0
 EDISON INTERNATIONAL,10172492.0
 "KPAQ Industries, LLC",49115.0
 IPR-GDF Suez Energy North America,629216.0
@@ -1498,8 +1486,7 @@ Iowa State University,331111.0
 IPSCO Tubulars Inc.,99398.0
 Iredell County,86828.0
 City of Johnson City,67288.0
-Pinal County,34206.0
-Pinal County,34206.0
+Pinal County,68412.0
 "Iroquois Gas Transmission System, LP",61216.0
 Isolatek International,25901.0
 ISP CHEMCO LLC,100046.0
@@ -1512,10 +1499,9 @@ Indeck Energy Services Inc.,128058.0
 Indeck-Oswego Limited Partnership,4629.0
 "Indeck Energy Services of Silver Springs, Inc.",6179.0
 Indeck-Yerkes Limited Partnership,35093.0
-Dynegy Inc.,1404566.0
 SunCoke Energy,818994.0
 CALYPSO ENERGY HOLDING LLC,1517864.0
-Diamond Generating Corporation,63808.0
+Diamond Generating Corporation,803760.75
 "Corn Prodcuts International, Inc.",34576.0
 Corn Products International,1012486.0
 "Inland Empire Energy Center, LLC",1312275.0
@@ -1671,7 +1657,7 @@ Lincoln County,41580.0
 "Lincoln Paper and Tissue, LLC",52499.0
 "Lincolnland Agri-Energy, LLC",70308.0
 "Lincolnway Energy, LLC",168067.0
-"Linde Gas North America, LLC",1146886.0
+"Linde Gas North America, LLC",1147502.65
 Linde Gas North America LLC,1370763.0
 "Linde North America, Inc",564507.0
 City of Linden,28047.0
@@ -1682,7 +1668,7 @@ City of Little Rock,52464.0
 Live Oak Ltd.,186615.0
 Lockheed Martin Corporation,76558.0
 ARCO Aluminun,100851.59999999999
-Novelis Corporation,67234.40000000001
+Novelis Corporation,219600.40000000002
 Plains LPG Services,64424.0
 "Buzzi Unicem USA, Inc",289197.0
 Buzzi Unicem USA Inc,1742096.0
@@ -1706,7 +1692,6 @@ Lucite International,62204.0
 Lyon County,21845.0
 La Paloma Generating Company LLC,2041937.0
 Lyondell Basell,3494.35
-"Linde Gas North America, LLC",616.65
 City of Lacy Lakeview,103461.0
 "Atlantic Power Holdings, Inc",274927.0
 North American Energy Alliance,363180.1
@@ -1748,7 +1733,6 @@ Los Gatos Tomato Products,50698.0
 GenTex Power Corporation,1189089.0
 "Bershire Hathaway, Inc.",4313822.48
 Alliant Energy,196082.84
-Old Dominion Electric Cooperative,593885.0
 MINNESOTA POLLUTION CONTROL AGENCY,11799.0
 "Lowell Cogeneration Company, L.P.",997.0
 County of Lycoming,83004.0
@@ -1985,7 +1969,6 @@ Northwestern University,102220.0
 Novartis Pharmaceuticals Corporation,29552.0
 Novelis Incorporation,48858.0
 Novelis Inc.,34160.0
-Novelis Corporation,152366.0
 NORTHERN CALIFORNIA POWER AGENCY,5558.0
 NRG Energy INC,131453.0
 Energy Systems Co.,57741.0
@@ -2025,7 +2008,6 @@ North American Stainless,268024.0
 "FPL Energy Operation Services, Inc",224500.0
 "Suez Energy Generation NA, Inc",224500.0
 "IDACORP, Inc",1387034.5
-NV Energy,1387034.5
 Northeast Missouri Grain LLC dba Poet Biorefining-Macon,83630.0
 Chesterfield County,13726.0
 Northern Border Pipeline Company,1131954.0
@@ -2346,9 +2328,8 @@ City of Salina,81003.0
 Salt Lake County,59509.5
 "Sampson County Disposal, LLC",339490.0
 City of San Angelo,78901.0
-"San Joaquin Refining Company, Inc.",86746.0
+"San Joaquin Refining Company, Inc.",88984.5
 BP America Production Company,116571.5
-ConocoPhillips Company,116571.5
 San Diego County Department of Public Works,9578.0
 Sanders Lead Company,182555.0
 Sanimax USA Inc.,26572.0
@@ -2385,7 +2366,6 @@ City of Shelby,96842.0
 "Shell Petroleum, Inc.",1029112.0
 Shell Chemical LP,10132.0
 Deer Park Refining Limited Partnership,4506098.0
-Shell Petroleum Inc.,4506098.0
 Shell Oil Products US,2048229.0
 Sherwin Alumina Company LLC,195252.0
 C-K Tech Inc.,139563.0
@@ -2438,7 +2418,6 @@ Buckeye Pollution Control Corporation,36023.0
 Southwire Company,27721.0
 SP Newsprint Holding LLC,316191.0
 "Worthington Steel of Michigan, Inc.",14651.0
-"Severstal North America, Inc.",13524.0
 "Minerals Technologies, Inc.",170290.0
 "Spirit AeroSystems Holdings, Inc.",91889.0
 "SSAB Enterprises, LLC",688076.0
@@ -2490,7 +2469,6 @@ Municipality of Salinas,60061.0
 Salt River Pima Maricopa Indian Community,63195.0
 Lower Colorado River Authority,12346331.0
 Sampson County,7421.0
-"East Texas Electric Cooperative, Inc.",110983.0
 Municipality of San Juan,105909.0
 "San Miguel Electric Cooperative, Inc.",3217704.0
 "Sandoval County, New Mexico",58602.0
@@ -2582,7 +2560,7 @@ Thiele Kaolin Company,141665.0
 PACKAGING DYNAMICS CORPORATION,385954.0
 Three Rivers Solid Waste Authority,71948.0
 Three Rivers Solid Waste Management Authority,164942.0
-United States Steel Corporation,178591.05
+United States Steel Corporation,21343722.05
 Timbalier Bay Production Complex,26537.0
 Escambia County Environmental Corporation,108640.0
 The Timken Company,441120.0
@@ -2590,7 +2568,6 @@ The Timken Company,441120.0
 Titan International Inc.,36777.0
 Titan International,53718.0
 EXXON MOBIL CORPORATION,2952713.0
-"TOTAL Holdings USA, Inc.",1604467.0
 "Toyota Motor North America, Inc",95770.0
 "Toyota Motor North America, Inc.",60449.0
 TPC Group Inc.,628962.0
@@ -2598,7 +2575,6 @@ TRADEMARK NITROGEN CORPORATION,59815.0
 "City of Jacksonville, FL",136590.0
 Trans-Jordan Cities,31087.0
 TRC Cypress Group,37805.0
-"San Joaquin Refining Company, Inc.",2238.5
 "Veolia Environnment North America Operations, Inc.",121059.0
 Triumph Group Inc.,27.0
 Oldcastle Building Products,132150.0
@@ -2623,12 +2599,10 @@ Vesco Energy Services LLC,188991.0
 Partners,1229673.75
 "Tate & Lyle Ingredients America, LLC",1115864.0
 Tazewell County Board of Supervisors,44592.0
-"Tenaska Energy, Inc. and Tenaska Energy Holdings, LLC",1446939.1999999997
+"Tenaska Energy, Inc. and Tenaska Energy Holdings, LLC",1572502.2999999998
 "Tyr Energy, Inc. and Chubu Electric Power Co., Inc.",1198286.25
-Diamond Generating Corporation,739952.75
 "J-POWER USA Generation, L.P.",1317395.5
 "Osaka Gas Gateway Power, LLC",502252.4
-"Tenaska Energy, Inc. and Tenaska Energy Holdings, LLC",125563.1
 Hawker Beechcraft Corporation,31626.0
 The Children's Hospital of Philadelphia,27516.0
 "The Goodyear Tire & Rubber Co, Inc",49652.0
@@ -2709,7 +2683,6 @@ THE RENCO GROUP INC,319300.0
 US DEPT OF THE ARMY,42061.0
 MAGTFTC MCAGCC Twentynine Palms,36191.0
 United States Steel corporation,25673.0
-United States Steel Corporation,21165131.0
 U. S. Steel Corporation,5496606.0
 U.S. Department of Agriculture,28167.0
 United States Steel,27213.5
@@ -2813,8 +2786,7 @@ Traxys North America LLC,34719.95
 County of Whiteside,74491.0
 "Exterran Holdins, Inc.",25909.0
 William Beaumont Hospital,28159.0
-Williamson County,27450.0
-Williamson County,81536.0
+Williamson County,108986.0
 "Williams Partners, L.P.",181775.0
 Illinois Tool Works,26522.0
 Town of Windsor,86166.0
@@ -2857,7 +2829,6 @@ ROCK-TENN COMPANY,38380.0
 SP Newsprint Co. LLC,33376.0
 Simpson Investment Company,155798.0
 Westmoreland Coal Company,1346296.0
-Dairyland Power Cooperative,1487720.96
 Waste Management Inc,520279.0
 Eastern Connecticut Resource Recovery Authority,72363.0
 Artistic Carton Company,25.0
