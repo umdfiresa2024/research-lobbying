@@ -2,26 +2,37 @@ import pandas as pd
 import numpy as np
 
 # Load the CSV files
-flight_tickers = pd.read_csv('flight_tickers.csv')
-cleaned_flight = pd.read_csv('../1. generate datasets/flight and crsp/cleaned-flight.csv')
+company2ticker = pd.read_csv('company2ticker.csv')
+cleaned_flight = pd.read_csv(
+    '../1. generate datasets/flight and crsp/cleaned-flight.csv')
 
-# Merge the ticker column from flight_tickers to the right of cleaned_flight.
-# Keep only existing tickers
-flight_tickers["Ticker"] = flight_tickers["Ticker"].replace("None", np.nan)
 
-cleaned_flight = cleaned_flight.merge(flight_tickers, on='Company')
-cleaned_flight['Ticker'] = cleaned_flight['Ticker'].fillna('N/A')
+cleaned_flight['Company'] = cleaned_flight['Company'].apply(
+    lambda s: str(s).upper())
 
-# Drop rows where Ticker is 'N/A'
-cleaned_flight = cleaned_flight[cleaned_flight['Ticker'] != 'N/A']
+cleaned_flight = cleaned_flight.merge(company2ticker, on='Company')
 
 # Clean up any double quotes in Ticker
-cleaned_flight["Ticker"] = cleaned_flight["Ticker"].apply(lambda s: s.replace('"', ""))
+cleaned_flight["Ticker"] = cleaned_flight["Ticker"].apply(
+    lambda s: s.replace('"', ""))
 
-# Group by "Ticker" and sum "Total GHG", then reset the index to get a DataFrame
-cleaned_flight = cleaned_flight.groupby("Ticker", as_index=False)['Total GHG'].sum()
+# Calculate grouped sums
+grouped_sums = cleaned_flight.groupby("Ticker")['Total GHG'].sum()
 
-# Save the merged data to a new CSV file
-cleaned_flight.to_csv('cleaned_flight_no_NA.csv', index=False)
+# Get the first occurrence of each ticker
+first_occurrences = cleaned_flight.groupby("Ticker", as_index=False).first()
 
-print("File saved with columns 'Ticker' and 'Total GHG'")
+# Merge the grouped sums into the first occurrences DataFrame
+first_occurrences = first_occurrences.merge(
+    grouped_sums, on='Ticker', suffixes=('', '_Sum'))
+
+# Replace the original 'Total GHG' with the summed value
+first_occurrences['Total GHG'] = first_occurrences['Total GHG_Sum']
+
+# Drop the now redundant '_Sum' column
+first_occurrences.drop(columns=['Total GHG_Sum'], inplace=True)
+
+# Save the result
+first_occurrences.to_csv('cleaned_flight_no_NA.csv', index=False)
+
+print(first_occurrences)
