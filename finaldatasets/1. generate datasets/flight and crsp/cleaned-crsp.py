@@ -18,7 +18,7 @@ filtered_crsp = filtered_crsp.sort_values(
 most_recent_companies = filtered_crsp.groupby('TICKER').last().reset_index()
 
 # Select only the ticker and most recent company name
-result_df = most_recent_companies[['TICKER', 'COMNAM']]
+result_df = most_recent_companies[['TICKER', 'COMNAM', 'NAICS']]
 
 # Display the result
 print(result_df)

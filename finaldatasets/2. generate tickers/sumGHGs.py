@@ -33,6 +33,6 @@ first_occurrences['Total GHG'] = first_occurrences['Total GHG_Sum']
 first_occurrences.drop(columns=['Total GHG_Sum'], inplace=True)
 
 # Save the result
-first_occurrences.to_csv('cleaned_flight_no_NA.csv', index=False)
+first_occurrences.to_csv('SummedGHGs.csv', index=False)
 
 print(first_occurrences)
