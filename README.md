@@ -173,14 +173,23 @@ where $i$ represents each company
 ## References
 
 Bogardus, K., & Reilly , A. (2016, June 27). 7 years later, failed Waxman-Markey bill still makes waves. E&E News by POLITICO. http://www.eenews.net/articles/7-years-later-failed-waxman-markey-bill-still-makes-waves/
+
 Brock, C. Partisan polarization and corporate lobbying: information, demand, and conflict. Int Groups Adv 10, 95–113 (2021). https://doi.org/10.1057/s41309-021-00112-5
+
 Brulle, R.J. The climate lobby: a sectoral analysis of lobbying spending on climate change in the USA, 2000 to 2016. Climatic Change 149, 289–303 (2018). https://doi.org/10.1007/s10584-018-2241-z
+
 Butler, D. M., & Miller, D. R. (2022). Does Lobbying Affect Bill Advancement? Evidence from Three State Legislatures. Political Research Quarterly, 75(3), 547-561. https://doi.org/10.1177/10659129211012481
+
 Chen, J. (2024, August 28). Lobby: What it is, how it works, examples. Investopedia. https://www.investopedia.com/terms/l/lobby.asp 
+
 Hill, M.D., Kelly, G.W., Lockhart, G.B. and Van Ness, R.A. (2013), Determinants and Effects of Corporate Lobbying. Financial Management, 42: 931-957. https://doi.org/10.1111/fima.12032
+
 Meng, Kyle C.; Rode, Ashwin (2019). Data from: The social cost of lobbying over climate policy [Dataset]. Dryad. https://doi.org/10.5061/dryad.gg4pk7d
+
 Segal, T. (2022, July 20). Bribery vs. lobbying: What’s the difference? Investopedia. https://www.investopedia.com/financial-edge/0912/the-differences-between-bribery-and-lobbying.aspx#:~:text=Bribery%20is%20considered%20an%20effort,illegal%2C%20while%20lobbying%20is%20not 
+
 Slobozhan, I., Ormosi, P., Sharma, R. (2020). Which Bills Are Lobbied? Predicting and Interpreting Lobbying Activity in the US. In: Song, M., Song, IY., Kotsis, G., Tjoa, A.M., Khalil, I. (eds) Big Data Analytics and Knowledge Discovery. DaWaK 2020. Lecture Notes in Computer Science(), vol 12393. Springer, Cham. https://doi.org/10.1007/978-3-030-59065-9_23
+
 Slobozhan, I., Ormosi, P., & Sharma, R. (2022). Detecting shadow lobbying. Social Network Analysis and Mining, 12(1), 48.
 
 
