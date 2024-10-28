@@ -1,6 +1,5 @@
 library(tidyverse)
-library(httr)
-library(jsonlite)
+library(stringdist)
 
 # Read the CSV file
 combined_data <- read.csv("flight_2010.csv")
@@ -46,70 +45,42 @@ data_long6 <- data_long5 %>%
     GHG_sum = sum(GHG.QUANTITY..METRIC.TONS.CO2e.*numeric_percentage, na.rm = TRUE),
     PARENT_COMPANY = first(PARENT_COMPANY)
   ) %>%
+  mutate(PARENT_COMPANY=toupper(PARENT_COMPANY)) %>%
+  mutate(PARENT_COMPANY=str_remove_all(PARENT_COMPANY,"COMPANY")) %>%
+  mutate(PARENT_COMPANY=str_remove_all(PARENT_COMPANY,"CORPORATION")) %>%
+  mutate(PARENT_COMPANY=str_remove_all(PARENT_COMPANY,", INC")) %>%
+  mutate(PARENT_COMPANY=str_remove_all(PARENT_COMPANY,"INC.")) %>%
   # Drop the standardized column
   ungroup() 
 
-# View the summarized data
-
-companies<-as.vector(data_long6$PARENT_COMPANY)
-
 write.csv(companies, "flight_cleaned.csv", row.names=F)
-companies
 
-get_sec <- function(i) {
-  tryCatch(
-    #try to do this
-    {
-      name<- companies[i]
-      name2<-str_replace_all(name, " ", "%20")
-      api<-"67f15f74f937e7f6376252601326b292d0002f7e51431616c2b3a5384329c981"
-      url<-paste0("https://api.sec-api.io/mapping/name/", name2, "?token=", api)
-      
-      filename<-"sec_api/file.json"
-      GET(url,write_disk(filename, overwrite = TRUE))
-      data <- fromJSON("sec_api/file.json")
-      
-      # if data doesn't have a ticker for a company, make that cell NA
-      if (!is.null(data$ticker)) {
-        ticker <- as.data.frame(cbind(ticker=data$ticker[1],
-                                name=data$name[1],
-                                input_name=companies[i]))
-        print(ticker)
-      } else {
-        ticker <- as.data.frame(cbind(ticker=NA, name=NA, input_name=companies[i]))
-      }
-      
-    },
-    #if an error occurs, tell me the error
-    error=function(e) {
-      message('An Error Occurred')
-      print(e)
-    },
-    #if a warning occurs, tell me the warning
-    warning=function(w) {
-      message('A Warning Occurred')
-      print(w)
-      return(NA)
-    }
-  )
-}
+#####Fuzzy Merge#############################################################
 
+flight.name = data_long6$PARENT_COMPANY
 
-# make a list of the tickers for all companies with look
-tickers <- c()
-for (i in 1:2710) {
+flight.name<-as.data.frame(flight.name)
+
+tickers<-read.csv("finaldatasets/3. join naics with ghgs/final.csv")
+
+com_w_ticks<-tickers$Company
+
+flight_output<-c()
+
+for(i in 1:nrow(flight.name)) {
   print(i)
-  ticker <- get_sec(i)
-  tickers<-rbind(tickers, ticker)
   
-  if(i %% 5 == 0){
-    Sys.sleep(20)
-  }
-    
+  distmatrix <- stringdist::stringdistmatrix(flight.name[i,],com_w_ticks,method='lcs',p=0.1)
+  best_fit <- apply(distmatrix,1,which.min) %>% as.integer()
+  similarity <- apply(distmatrix,1,min)
+  output<-as.data.frame(cbind(flight.name[i,], com_w_ticks[best_fit], round(similarity,3)))
+  flight_output<-rbind(flight_output, output)
+                      
 }
 
-# create dataframe of tickers
-tickers_df <- data.frame(ticker = tickers)
+flight<-flight_output %>%
+  mutate(V3=as.numeric(V3))
 
-#write.csv(tickers_df, "sec_api/tickers_df_1_5.csv", row.names = F)
+
+
 
