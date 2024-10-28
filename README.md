@@ -1,7 +1,4 @@
-# Q1: How can we best predict each firm’s lobbying spending on the
-Waxman-Markey bill? Q2: How do certain characteristics of a company
-predict how much money they’ll spend on lobbying for the Waxman-Markey
-bill?
+# Q1: How can we best predict each firm’s lobbying spending on the Waxman-Markey bill? Q2: How do certain characteristics of a company predict how much money they’ll spend on lobbying for the Waxman-Markey bill?
 
 ## Introduction
 
