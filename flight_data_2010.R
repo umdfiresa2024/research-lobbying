@@ -56,6 +56,7 @@ data_long6 <- data_long5 %>%
 write.csv(companies, "flight_cleaned.csv", row.names=F)
 
 #####Fuzzy Merge#############################################################
+library(stringdist)
 
 flight.name = data_long6$PARENT_COMPANY
 
