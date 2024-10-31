@@ -68,10 +68,14 @@ com_w_ticks<-tickers$Company
 
 flight_output<-c()
 
-for(i in 1:nrow(flight.name)) {
+#for(i in 1:nrow(flight.name)) {
+for(i in 1:100) {
   print(i)
   
-  distmatrix <- stringdist::stringdistmatrix(flight.name[i,],com_w_ticks,method='lcs',p=0.1)
+  distmatrix <- stringdist::stringdistmatrix(flight.name[i,],
+                                             com_w_ticks,
+                                             method='lcs',
+                                             p=0.1)
   best_fit <- apply(distmatrix,1,which.min) %>% as.integer()
   similarity <- apply(distmatrix,1,min)
   output<-as.data.frame(cbind(flight.name[i,], com_w_ticks[best_fit], round(similarity,3)))
