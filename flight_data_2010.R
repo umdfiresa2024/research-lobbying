@@ -68,8 +68,8 @@ com_w_ticks<-tickers$Company
 
 flight_output<-c()
 
-#for(i in 1:nrow(flight.name)) {
-for(i in 1:100) {
+for(i in 1:nrow(flight.name)) {
+#for(i in 1:100) {
   print(i)
   
   distmatrix <- stringdist::stringdistmatrix(flight.name[i,],
@@ -84,8 +84,40 @@ for(i in 1:100) {
 }
 
 flight<-flight_output %>%
-  mutate(V3=as.numeric(V3))
+  mutate(V3=as.numeric(V3)) |>
+  arrange(V3) 
 
+flight_match<-flight |>
+  filter(V3<=1)
 
+flight_match2<-flight |>
+  filter(V3>1 &V3<=5) |>
+  group_by(V2) |>
+  mutate(obs=n()) |>
+  arrange(obs, V2) |>
+  filter(V2!="CMS ENERGY") |>
+  filter(V2!="CVR ENERGY") |>
+  filter(V2!="NV ENERGY") |>
+  filter(V2!="VALE SA") |>
+  filter(V2 !="DTE ENERGY") |>
+  filter(V2 !="AMEREN") |>
+  filter(V2 != "GEVO")
 
+flight_match3<-bind_rows(flight_match, flight_match2) |>
+  rename(PARENT_COMPANY=V1) |>
+  rename(Company=V2)
 
+#################merge data back################################################
+flight_tick<-merge(flight_match3, tickers, by="Company")  |>
+  select(Company, PARENT_COMPANY, Ticker)
+
+flight_tick2<-merge(flight_tick, data_long6, by="PARENT_COMPANY") |>
+  group_by(Ticker) |>
+  summarise(GHG_TR=sum(GHG_sum))
+
+#check tickers GHG
+check<-merge(flight_tick2, tickers, by="Ticker") |>
+  mutate(pct_df=(Total.GHG-GHG_TR)*100 / GHG_TR) |>
+  filter(abs(pct_df)<20)
+
+#124 out of 182 has less than 20 percent difference
