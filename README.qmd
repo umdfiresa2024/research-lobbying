@@ -12,8 +12,8 @@ editor: visual
 Step 1. Install necessary packages.
 
 ```{r}
-install.packages("tidyverse")
-install.packages("kableExtra")
+#install.packages("tidyverse")
+#install.packages("kableExtra")
 ```
 
 Step 2. Declare that you will use these packages in this session.
