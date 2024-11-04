@@ -2,9 +2,11 @@ import pandas as pd
 import re
 
 # Load the flight data
-flight = pd.read_csv('../../../flight_2010.csv')
+flight = pd.read_csv('flight_2010.csv')
 
 # Function to process each row and extract the company names and their respective GHG contributions
+
+
 def calculate_ghg(row):
     # Convert to string to avoid float issues
     companies = str(row['PARENT COMPANIES'])
@@ -27,6 +29,7 @@ def calculate_ghg(row):
 
     return company_ghg
 
+
 # Initialize a dictionary to accumulate the GHG contributions for each company
 ghg_totals = {}
 
@@ -40,7 +43,8 @@ for index, row in flight.iterrows():
             ghg_totals[company] = ghg
 
 # Convert the dictionary to a DataFrame
-result_df = pd.DataFrame(list(ghg_totals.items()), columns=['Company', 'Total GHG'])
+result_df = pd.DataFrame(list(ghg_totals.items()),
+                         columns=['Company', 'Total GHG'])
 
 # Display the result
 print(result_df)

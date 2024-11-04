@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the CRSP data
-crsp = pd.read_csv('../../../200908-201012CRSP.csv')
+crsp = pd.read_csv('200908-201012CRSP.csv')
 
 # Filter companies whose ticker appears exactly 18 times
 ticker_counts = crsp['TICKER'].value_counts()

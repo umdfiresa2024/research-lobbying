@@ -11,4 +11,4 @@ naics_mapping = dict(zip(cleanedCRSP['TICKER'], cleanedCRSP['NAICS']))
 # Use the mapping to efficiently assign NAICS values
 summedGHG['NAICS'] = summedGHG['Ticker'].map(naics_mapping).fillna(np.nan)
 
-summedGHG.to_csv("final.csv", index=False)
+summedGHG.to_csv("naics_ghgs.csv", index=False)
