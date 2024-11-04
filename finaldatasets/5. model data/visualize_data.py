@@ -5,52 +5,32 @@ from sklearn.preprocessing import OneHotEncoder
 import numpy as np
 
 # Load the dataset
-data = pd.read_csv('../4. merge with meng/merged_meng.csv')
-
-# Select relevant columns
-columns = ['Total GHG', 'NAICS', 'lobby_amount']
-data = data[columns]
-
-# Drop rows with missing values
-data = data.dropna()
-
-# One-hot encode the 'NAICS' column
-# Handle unseen NAICS in test set
-encoder = OneHotEncoder(handle_unknown='ignore')
-encoded_naics = encoder.fit_transform(
-    data[['NAICS']]).toarray()  # Convert to dense array
-
-# Create a DataFrame with the encoded columns
-encoded_naics_df = pd.DataFrame(
-    encoded_naics, columns=encoder.get_feature_names_out(['NAICS']))
-
-# Concatenate the encoded columns with the original DataFrame
-data = pd.concat([data.drop('NAICS', axis=1), encoded_naics_df], axis=1)
-
-# Apply log transformation to Total GHG and lobby_amount
-data['Total GHG'] = np.log1p(data['Total GHG'])
-data['lobby_amount'] = np.log1p(data['lobby_amount'])
-
-# Define the independent variables (X) and the dependent variable (y)
-X = data.drop('lobby_amount', axis=1)
-y = data['lobby_amount']
-
-print(X.head())
-print(y.head())
+data = pd.read_csv('training_data.csv')
+data['NAICS'] = data['NAICS'].astype(str)
 
 # Create a figure with subplots
-fig, axes = plt.subplots(1, len(columns) - 1, figsize=(15, 5))
-axes = axes.ravel()  # Flatten axes array for easier iteration
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 4))
 
-# Plot each feature against lobby_amount
-for idx, col in enumerate(columns[:-1]):  # Exclude lobby_amount
-    if col == 'NAICS':
-        continue
-    axes[idx].scatter(data[col], y, alpha=0.5)
-    axes[idx].set_xlabel(col)
-    axes[idx].set_ylabel('Lobbying Amount')
-    axes[idx].set_title(f'{col} vs Lobbying Amount')
-    axes[idx].grid(True)
+# Plot 1: Total GHG vs Lobbying Amount
+ax1.scatter(data['log_GHG'], data['log_lobby_amount'], alpha=0.5)
+ax1.set_xlabel('log_GHG')
+ax1.set_ylabel('Lobbying Amount')
+ax1.set_title('Total GHG vs Lobbying Amount')
+ax1.grid(True)
 
-plt.tight_layout()  # Adjust spacing between subplots
+# Plot 2: NAICS (first 2 digits) vs Lobbying Amount
+# Extract first 2 digits of NAICS and calculate mean lobby amount for each
+naics_mean = data[['NAICS', 'log_lobby_amount']].groupby('NAICS')[
+    'log_lobby_amount'].mean()
+
+print(naics_mean)
+
+ax2.bar(naics_mean.index, naics_mean.values)
+ax2.set_xlabel('NAICS (First 2 Digits)')
+ax2.set_ylabel('Average Log Lobbying Amount')
+ax2.set_title('Average Log Lobbying Amount by Industry Sector')
+ax2.tick_params(axis='x', rotation=45)
+ax2.grid(True)
+
+plt.tight_layout()
 plt.show()

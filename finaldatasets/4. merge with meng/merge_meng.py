@@ -20,4 +20,6 @@ merged_df['lobby_amount'] = merged_df['lobby']
 
 merged_df = merged_df.drop(columns=['ticker.ticker', 'lobby'])
 
+print(merged_df.describe())
+
 merged_df.to_csv('merged_meng.csv', index=False)

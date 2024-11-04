@@ -7,32 +7,11 @@ from sklearn.preprocessing import OneHotEncoder
 import numpy as np
 
 # Load the dataset
-data = pd.read_csv('../4. merge with meng/merged_meng.csv')
-
-# Select relevant columns
-columns = ['Total GHG', 'NAICS', 'US_revenue_share',
-           'carbon_intensity', 'lobby_amount']
-data = data[columns]
-
-# Drop rows with missing values
-data = data.dropna()
-
-# One-hot encode the 'NAICS' column
-# Handle unseen NAICS in test set
-encoder = OneHotEncoder(handle_unknown='ignore')
-encoded_naics = encoder.fit_transform(
-    data[['NAICS']]).toarray()  # Convert to dense array
-
-# Create a DataFrame with the encoded columns
-encoded_naics_df = pd.DataFrame(
-    encoded_naics, columns=encoder.get_feature_names_out(['NAICS']))
-
-# Concatenate the encoded columns with the original DataFrame
-data = pd.concat([data.drop('NAICS', axis=1), encoded_naics_df], axis=1)
+data = pd.read_csv('training_data.csv')
 
 # Define the independent variables (X) and the dependent variable (y)
-X = data.drop('lobby_amount', axis=1)
-y = data['lobby_amount']
+X = data.drop('log_lobby_amount', axis=1)
+y = data['log_lobby_amount']
 
 print(X.head())
 print(y.head())
