@@ -28,7 +28,7 @@ Step 3. Upload the dataframe that you have created in Spring 2024 into the repos
 Step 4. Open the dataframe into the RStudio Environment.
 
 ```{r}
-df<-read.csv("main_data.csv")
+df<-read.csv("finaldatasets/4. merge with meng/merged_meng.csv")
 ```
 
 Step 5. Use the **head** and **kable** function showcase the first 10 rows of the dataframe to the reader.
@@ -39,7 +39,7 @@ kable(head(df))
 
 ## Question 1: What is the frequency of this data frame?
 
-Answer: N/A
+Answer: 0, data tacken during the waxman markey bill period
 
 ## Question 2: What is the cross-sectional (geographical) unit of this data frame?
 
@@ -53,16 +53,17 @@ names(df)
 
 ## Question 3: Which column represents the explanatory variable of interest?
 
-Answer: US_revenue_share, carbon_intensity, naics2, naics3, naics4
+Answer: Total.GHG and NAICS
 
 ## Question 4: Which column represents the outcome variable of interest?
 
-Answer: lobby
+Answer: lobby_amount
 
 Step 7: Fit a regression model $y=\beta_0 + \beta_1 x + \epsilon$ where $y$ is the outcome variable and $x$ is the treatment variable. Use the **summary** function to display the results.
 
 ```{r}
-model1<-lm(lobby ~ US_revenue_share + carbon_intensity + as.factor(naics2), data=df)
+table(df$NAICS)
+model1<-lm(lobby_amount ~ Total.GHG + as.factor(NAICS), data=df)
 
 summary(model1)
 ```
@@ -70,12 +71,14 @@ summary(model1)
 ## Question 5: What is the equation that describes the linear regression above? Please include an explanation of the variables and subscripts.
 
 $$
-lobby_i = \beta_0 + \beta_1 \times RevShare_i + \beta_2 \times CarbonIntensity_i + \sigma_{naic} + \epsilon_i
+lobby_i = \beta_0 + \beta_1 \times Total.GHG_i + \beta_2 \times \delta_{NAIC} +  \epsilon_i
 $$
 
-where $i$ represents each company 
+where $i$ represents each company
 
 ## Question 6: What fixed effects can be included in the regression? What does each fixed effects control for? Please include a new equation that incorporates the fixed effects.
+
+We already included a fixed effect which was a dummie variable for NAICS336411 after finding it to be the only significant NAICS sector predictor.
 
 ## Question 7: Run a new regression with the fixed effects. Does the RMSE improve?
 

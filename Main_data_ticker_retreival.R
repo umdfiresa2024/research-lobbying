@@ -51,3 +51,4 @@ colnames(tickers_df)[colnames(tickers_df) == "ticker.input_name"] <- "firm_name"
 # combine two data frames to make main_data include ticker symbols
 merged_df <- merge(tickers_df, main_data, by = "firm_name")
 head(merged_df)
+write.csv(merged_df, "meng_with_tickers.csv")
