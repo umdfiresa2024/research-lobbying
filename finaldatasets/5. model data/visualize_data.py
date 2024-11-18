@@ -41,7 +41,6 @@ ax2.set_title('Average Lobbying Amount by Industry Sector')
 ax2.tick_params(axis='x', rotation=45)
 ax2.grid(True)
 
-plt.savefig('data_visualization.png')
-
 plt.tight_layout()
+plt.savefig('data_visualization.png')
 plt.show()
