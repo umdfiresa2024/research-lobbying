@@ -2,6 +2,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import OneHotEncoder
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import r2_score
 import numpy as np
 
 # Load the dataset
@@ -12,7 +14,14 @@ data['NAICS'] = data['NAICS'].astype(str)
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 4))
 
 # Plot 1: Total GHG vs Lobbying Amount
+model = LinearRegression()
+model.fit(data[['log_GHG']], data['log_lobby_amount'])
+y_pred = model.predict(data[['log_GHG']])
+r2 = r2_score(data['log_lobby_amount'], y_pred)
+print('R^2:', r2)
+
 ax1.scatter(data['log_GHG'], data['log_lobby_amount'], alpha=0.5)
+ax1.plot(data['log_GHG'], y_pred, color='red')
 ax1.set_xlabel('log_GHG')
 ax1.set_ylabel('Lobbying Amount')
 ax1.set_title('Total GHG vs Lobbying Amount')
