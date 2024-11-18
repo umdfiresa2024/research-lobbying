@@ -29,15 +29,15 @@ ax1.grid(True)
 
 # Plot 2: NAICS (first 2 digits) vs Lobbying Amount
 # Extract first 2 digits of NAICS and calculate mean lobby amount for each
-naics_mean = data[['NAICS', 'log_lobby_amount']].groupby('NAICS')[
-    'log_lobby_amount'].mean()
+naics_mean = data[['NAICS', 'lobby_amount']].groupby('NAICS')[
+    'lobby_amount'].mean()
 
 print(naics_mean)
 
 ax2.bar(naics_mean.index, naics_mean.values)
 ax2.set_xlabel('NAICS (First 2 Digits)')
-ax2.set_ylabel('Average Log Lobbying Amount')
-ax2.set_title('Average Log Lobbying Amount by Industry Sector')
+ax2.set_ylabel('Average Lobbying Amount')
+ax2.set_title('Average Lobbying Amount by Industry Sector')
 ax2.tick_params(axis='x', rotation=45)
 ax2.grid(True)
 
