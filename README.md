@@ -383,7 +383,7 @@ summary(model1)
 ## Question 5: What is the equation that describes the linear regression above? Please include an explanation of the variables and subscripts.
 
 $$
-lobby_i = \beta_0 + \beta_1 \times Total.GHG_i + \beta_2 \times \delta_{NAIC} +  \epsilon_i
+lobby_i = \beta_0 + \beta_1 \times Total.GHG_i + \epsilon_i
 $$
 
 where $i$ represents each company
