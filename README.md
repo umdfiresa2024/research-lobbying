@@ -191,7 +191,10 @@ in the dataframe.
 
 ``` r
 names(df)
+df <- df %>%
+    mutate(NAIC2 = substr(NAICS, 1, 2))
 ```
+
 
     [1] "Ticker"           "Company"          "Total.GHG"        "NAICS"           
     [5] "US_revenue_share" "carbon_intensity" "lobby_amount"    
