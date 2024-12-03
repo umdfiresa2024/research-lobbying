@@ -1,5 +1,6 @@
 # Lobbying Markdown
 
+
 ## Title
 
 Q1: How can we best predict each firm’s lobbying spending on the
@@ -10,17 +11,111 @@ they’ll spend on lobbying for the Waxman-Markey bill?
 
 ## Introduction
 
-Lobbying is one of the most important facets of the political process. In particular, it has a significant impact on the legislative process. Essentially, lobbying is the act of communicating directly with a politician in the hopes of influencing future policy (Chen, 2024). While lobbying is protected under our constitutional rights, many critics notice that it has historically been used as a tool by large businesses to pass or halt legislation that impacts their profit margins (Weiser, 2024). These companies may hire lobbyists to advocate to lawmakers their support for or opposition against a bill. Our research aims to estimate corporate spending on lobbying and promote transparency within the lobbying sector.
-Our research focuses on the Waxman-Markey Bill, a 2009 climate bill that sought to establish measures to control U.S. carbon emissions (Bogardus et al, 2016). The bill narrowly passed the House and was never brought to the Senate due to opposition control of the chamber. Since then, multiple other bills regarding greenhouse gas emissions have reached the house floor, such as the Energy Innovation and Carbon Dividend Act, which charge companies for their carbon pollution (H.R.5744 - 118th Congress (2023-2024): Energy Innovation and Carbon Dividend Act of 2023, 2023). Corporations that lose value from these implementations are more likely to lobby against these bills, since stopping the legislation can be more cost-effective than complying with the bill. 
-Our goal was to create a model that estimates how much money a company may spend on lobbying for the Waxman-Markey Bill. We utilized R programming to aggregate company data and developed a linear model to estimate corporate spending on lobbying. The model considered a company’s gas emissions, sector, and stock value and output an estimate for the dollar amount spent on lobbying by the company. This model can be used in future applications of legislative analysis. In particular, this method can be used to predict the public reaction to certain legislation or estimate the effectiveness of mandatory reporting measures. For instance, the model’s estimate of a particular company’s lobbying spending may aid detection of underreporting lobbying by highlighting the gap between a company’s actual and estimated spending. Similarly, it can prevent shadow lobbying and lobbying done by individuals not registered as lobbyists (Slobozhan et al, 2022). 
-
+Lobbying is an important feature of representation in the US government
+as it can help those without voices be reached. In the corporate world,
+lobbying can also be used by businesses to support or oppose bills and
+legislation that improve or harm their profit margins. These companies
+may employ lobbyists to work on their behalf, or they can hire a
+lobbying firm to act on their behalf and make their case to legislators
+for why a bill should be supported or opposed. Because of the influence
+lobbying can hold over politics, the process has multiple rules and
+policies in place to insure that misconduct is not jeopardizing this
+feature of government representation. Organizations must register if
+they employ a lobbyist, and lobbyists must register when they meet
+certain requirements. The Lobbying Disclosure Act of 1995 mandated that
+lobbying is publicly registered, and much of this data is available on
+OpenSecrets.org. Despite these policies, many Americans believe that
+lobbying is a feature of government corruption that sways laws and
+politicians into the pockets of wealthy business owners. The importance
+of our research and project is to verify these concerns and allow for a
+more transparent review of the lobbying sector. The relevant bill our
+study focuses on is the Waxman-Markey Bill. The goal of the bill was to
+establish limits on emissions for several greenhouse gasses. On June
+26th, 2009, the bill narrowly passed the House, but, due to a special
+election in 2010 as well as other factors, the Senate majority leader
+never brought it to the Senate for a vote and it was ultimately never
+implemented. Since then, multiple other bills related to limiting
+greenhouse gas emissions have reached the house floor, such as the
+Energy Innovation and Carbon Dividend Act, which suggests charging
+companies for their carbon pollution. If implementing these measures
+would cost a company money and/or potential revenue, it is logical to
+assume, then, that these corporations could be incentivized to lobby
+against these bills, as doing so would ultimately be less expensive than
+implementing the bill and losing revenue. As it turns out, lobbying is
+not immune to corruption. “Shadow lobbying” is lobbying done by people
+who are not registered as lobbyists. People can seek to influence
+politicians’ stances on issues without being technically “lobbyists.”
+This creates huge problems for tracking the money in politics. Slobozhan
+et al. (2022) investigated the prominence of shadow lobbying. The paper
+collected a list of all bills after and including the year 2000 and
+subtracted all bills that were registered to have been lobbied for or
+against on OpenSecrets. The researchers then analyzed the remaining
+bills to examine the probability that they were lobbied but not
+reported, or if they were simply not lobbied. The paper states that it
+infers that a significant amount of bills had lobbying activity that was
+not reported properly. We strive to build further on this research. One
+problem is that, while a bill might have technically reported lobbying,
+the actual amount spent may be underreported. This problem was not
+investigated in the prior study because they only looked at bills
+without any reported lobbying. Our research will create a model that
+develops a theoretical amount spent on lobbying for a climate bill
+similar to Waxman-Markey, then will compare to the actual amount,
+allowing us to assess the likelihood that a bill’s lobbying was
+underreported. We will create a model that will predict lobbying
+expenditure for a company–theoretically, how much money a company will
+spend on lobbying for the Waxman-Markey Bill. Greenhouse gas emissions ,
+sector, and stock value will be the inputs that will be used to generate
+the output value. The model will be trained with data from the
+Waxman-Markey bill, then applied to similar bills that aimed to reduce
+GHG emissions. Another hope is that this model can help prevent
+underreporting of lobbying, as, if there is a severe disparity between
+the predicted number and reported amount of money spent on policies
+related to climate change, the bill and its related parties can be
+investigated further for potential lobbying misconduct.
 
 ## Literature Review
 
-The concept for our data model was based on prior research predicting corporate lobbying (Meng & Rode, 2019). Research by Meng and Rode used regression modeling systems to predict company values, serving to uncover relationships between lobbying expenditures and whether or not a bill has been passed (Meng & Rode, 2019). Additionally, research by Brulle (2016) used sectoral analysis to predict lobbying expenditures, resulting in findings that indicate that fossil fuel industries lobby the most, especially in comparison to renewable energy companies and environmental advocacy organizations. Such research establishes correlations between company spending on lobbying and certain factors of the company. 
-It’s worth noting that climate lobbying only accounts for 2.9% of lobbying in the United States. Despite this, billions of dollars are spent annually in lobbying efforts to deter policy implementation. In addition, some of these lobbying efforts routinely go unaccounted for as a result of shadow lobbying, as the Lobbying Disclosure Act is only required to account for bills lobbied by registered lobbyists. Similarly to prior analysis of the Waxman-Markey bill, regression modeling can be used to predict whether or not a bill has been secretly lobbied (Slobozhan et al., 2020)	
-	Our research expanded on sectoral analysis as a determiner of similarly researched explanatory variables (e.g., revenue share).We utilized additional data on companies whose carbon emissions greatly differed from the companies included in prior datasets. For example, our dataset includes firms that did not lobby against the Waxman-Markey bill. This allows us to more accurately estimate lobbying expenditure correlations by reducing the inflation in our response variable that comes with only including data from companies that lobby. As mentioned in the introduction, our desired accuracy will come at the forefront in future goals of estimating lobbying expenditures of the Waxman-Markey bill and predicting implementations of similar environmental policy bills, such as the priorly mentioned Energy Innovation Act, to further analyze social costs. We wanted to explore whether or not the fate of environmental policy not only poses consequences to society but consequences to lobbying firms, corporations, and Congress. Ultimately, our research built upon prior analysis of climate lobbying’s social costs to explore the benefits firms receive from lobbying and use this to analyze the ongoing climate crisis and debate.  
-
+Our predictive modeling was inherited from research done that similarly
+predicted the lobbying behavior of corporations (Meng & Rode, 2019).
+Previous research used regression modeling systems to predict company
+values, serving to uncover relationships between lobbying expenditures
+and whether or not a bill has been passed (Meng & Rode, 2019).
+Additionally, Brulle (2016) used sectoral analysis to predict lobbying
+expenditures, resulting in findings which indicate that fossil fuel
+industries lobby the most, especially in comparison to renewable energy
+companies and environmental advocacy organizations. This, alongside
+previous research from Meng & Rode (2019), establishes correlations to
+fossil fuel lobbying expenditures and the failure of policy. It’s worth
+noting that climate lobbying only accounts for 2.9% of lobbying in the
+United States (Brulle 2016). Despite this, billions of dollars are spent
+annually in lobbying efforts to deter policy implementation. In
+addition, some of these lobbying efforts routinely go unaccounted for as
+a result of shadow lobbying, as the Lobbying Disclosure Act is only
+required to account for bills lobbied by registered lobbyists. Similarly
+to prior analysis of the Waxman-Markey bill, regression modeling can be
+used to predict whether or not a bill has been secretly lobbied
+(Slobozhan et al., 2020) These parallels help set the foundations for
+what we wish to build off as it comes to expanding our research. For
+example, our research still relies on sectoral analysis as a determiner
+of similarly researched explanatory variables (e.g. revenue share). In
+this case, our desired expansion involves providing additional data on
+companies whose carbon emissions greatly differ from the companies
+included in prior datasets. For example, our dataset includes firms that
+did not lobby against the Waxman-Markey bill. This allows us to more
+accurately predict lobbying expenditure correlations by including more
+zeroes, reducing inflation in our initial dataset. This accuracy will
+come at the forefront in our goal of not only predicting the
+implementation of the Waxman-Markey bill, but predicting implementations
+of similar environmental policy bills, such as the priorly mentioned
+Energy Innovation Act, as a model in analyzing social costs. Our desired
+accuracy also allows our research to extend beyond typical social cost
+nomenclature and to an approach that analyzes both private costs and
+benefits. We want to explore whether or not the fate of environmental
+policy not only poses consequences to society, but consequences to
+lobbying firms, corporations, and Congress. Ultimately, our research
+will build upon prior analysis of climate lobbying’s social costs into
+an exploration of the benefits firms receive from lobbying and extend
+that to societal determinants and implications.
 
 ## Data Description
 
@@ -35,29 +130,8 @@ Step 2. Declare that you will use these packages in this session.
 
 ``` r
 library("tidyverse")
-```
-
-    ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-    ✔ dplyr     1.1.4     ✔ readr     2.1.5
-    ✔ forcats   1.0.0     ✔ stringr   1.5.1
-    ✔ ggplot2   3.5.1     ✔ tibble    3.2.1
-    ✔ lubridate 1.9.3     ✔ tidyr     1.3.1
-    ✔ purrr     1.0.2     
-    ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-    ✖ dplyr::filter() masks stats::filter()
-    ✖ dplyr::lag()    masks stats::lag()
-    ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
-
-``` r
 library("kableExtra")
 ```
-
-
-    Attaching package: 'kableExtra'
-
-    The following object is masked from 'package:dplyr':
-
-        group_rows
 
 Step 3. Upload the dataframe that you have created in Spring 2024 into
 the repository.
@@ -75,14 +149,14 @@ rows of the dataframe to the reader.
 kable(head(df))
 ```
 
-| Ticker | Company                    | Total.GHG |  NAICS | US_revenue_share | carbon_intensity | lobby_amount |
-|:-------|:---------------------------|----------:|-------:|-----------------:|-----------------:|-------------:|
-| AA     | ALCOA INC                  |   9665558 | 331312 |        0.5101266 |            1.054 |      3240000 |
-| ABT    | ABBOTT LABORTORIES         |    271109 | 325412 |               NA |               NA |            0 |
-| ADM    | ARCHER DANIELS MIDLAND CO. |  11145390 | 311222 |               NA |               NA |            0 |
-| AEE    | AMEREN                     |  58893386 | 221210 |        1.0000000 |            0.000 |      3090000 |
-| AEP    | AMERICAN ELECTRIC POWER    | 112654854 | 221112 |               NA |            0.000 |     14100663 |
-| AES    | AES CORPORATION            |  19935187 | 551112 |        0.1584387 |               NA |        11250 |
+| Ticker | Company | Total.GHG | NAICS | US_revenue_share | carbon_intensity | lobby_amount |
+|:---|:---|---:|---:|---:|---:|---:|
+| AA | ALCOA INC | 9665558 | 331312 | 0.5101266 | 1.054 | 3240000 |
+| ABT | ABBOTT LABORTORIES | 271109 | 325412 | NA | NA | 0 |
+| ADM | ARCHER DANIELS MIDLAND CO. | 11145390 | 311222 | NA | NA | 0 |
+| AEE | AMEREN | 58893386 | 221210 | 1.0000000 | 0.000 | 3090000 |
+| AEP | AMERICAN ELECTRIC POWER | 112654855 | 221112 | NA | 0.000 | 14100663 |
+| AES | AES CORPORATION | 19935187 | 551112 | 0.1584387 | NA | 11250 |
 
 ## Question 1: What is the frequency of this data frame?
 
@@ -97,10 +171,7 @@ in the dataframe.
 
 ``` r
 names(df)
-df <- df %>%
-    mutate(NAIC2 = substr(NAICS, 1, 2))
 ```
-
 
     [1] "Ticker"           "Company"          "Total.GHG"        "NAICS"           
     [5] "US_revenue_share" "carbon_intensity" "lobby_amount"    
@@ -113,37 +184,15 @@ Answer: Total.GHG and NAICS
 
 Answer: lobby_amount
 
-Step 7: Fit a regression model $y=\beta_0 + \beta_1 x + \epsilon$ where
-$y$ is the outcome variable and $x$ is the treatment variable. Use the
-**summary** function to display the results.
+## Results
 
-``` r
-table(df$NAICS)
-```
+$$
+lobby_i = \beta_0 + \beta_1 \times Total.GHG_i + \beta_2 \times \delta_{NAIC} +  \epsilon_i
+$$
 
+where $i$ represents each company
 
-    113310 211111 211112 212210 212221 212312 213112 221111 221112 221113 221119 
-         1     17      3      2      3      1      2      9      2      1     16 
-    221121 221122 221210 311222 311230 311421 311422 311611 311615 311942 312111 
-         7      1     12      2      2      2      1      4      1      1      1 
-    312140 312221 312229 314110 322110 322121 322122 322130 322211 322291 324110 
-         1      1      1      1      1      5      1      1      1      1     11 
-    325110 325120 325181 325182 325188 325193 325199 325211 325311 325312 325320 
-         1      4      1      1      1      1      1      4      3      1      1 
-    325412 325414 325510 325611 325612 325998 326192 326211 327213 327310 327320 
-         9      1      1      2      1      2      1      2      1      1      1 
-    327420 331111 331112 331221 331311 331312 331524 332311 332312 332313 332911 
-         1      3      1      5      1      1      1      1      1      1      1 
-    332991 333111 333120 333132 333611 333618 333923 333993 334111 334119 334220 
-         1      1      1      2      1      1      1      1      1      1      2 
-    334412 334413 335224 335921 336111 336211 336330 336399 336411 336412 336413 
-         1      4      1      2      1      1      1      1      1      2      1 
-    336414 336415 337214 337910 339112 339113 423930 424510 448120 453998 481111 
-         1      1      1      1      2      1      1      1      1      1      1 
-    482111 483111 483113 486110 486210 486990 488119 488330 525920 525990 531190 
-         1      1      1      1     10      1      1      1      1      5      1 
-    541711 551112 562212 562219 562920 611310 713110 713990 721120 
-         1      1      1      2      1      1      1      1      1 
+**Results with 6-digit NAIC fixed effects.**
 
 ``` r
 model1<-lm(lobby_amount ~ Total.GHG + as.factor(NAICS), data=df)
@@ -289,49 +338,99 @@ summary(model1)
     Multiple R-squared:  0.359, Adjusted R-squared:  -0.2324 
     F-statistic: 0.607 on 119 and 129 DF,  p-value: 0.997
 
-## Question 5: What is the equation that describes the linear regression above? Please include an explanation of the variables and subscripts.
+**Results with 2-digit NAIC fixed effects.**
 
-$$
-lobby_i = \beta_0 + \beta_1 \times Total.GHG_i + \epsilon_i
-$$
+``` r
+df2<-df %>%
+  mutate(NAICS2=substr(NAICS,1,2))
 
-where $i$ represents each company
+model2<-lm(lobby_amount ~ Total.GHG + as.factor(NAICS2), data=df2)
 
-## Question 6: What fixed effects can be included in the regression? What does each fixed effects control for? Please include a new equation that incorporates the fixed effects.
+summary(model2)
+```
 
-We already included a fixed effect which was a dummie variable for
-NAICS336411 after finding it to be the only significant NAICS sector
-predictor.
 
-## Question 7: Run a new regression with the fixed effects. Does the RMSE improve?
+    Call:
+    lm(formula = lobby_amount ~ Total.GHG + as.factor(NAICS2), data = df2)
 
-Step 9: Change the document format to gfm
+    Residuals:
+         Min       1Q   Median       3Q      Max 
+    -6734772 -1168793  -780145  -583043 48301117 
 
-Step 10: Change the filename to README.qmd. Render the document
+    Coefficients:
+                          Estimate Std. Error t value Pr(>|t|)   
+    (Intercept)          3.699e+06  4.585e+06   0.807  0.42067   
+    Total.GHG            5.555e-02  2.110e-02   2.633  0.00904 **
+    as.factor(NAICS2)21 -2.851e+06  4.667e+06  -0.611  0.54186   
+    as.factor(NAICS2)22 -2.445e+06  4.650e+06  -0.526  0.59959   
+    as.factor(NAICS2)31 -3.030e+06  4.711e+06  -0.643  0.52074   
+    as.factor(NAICS2)32 -2.969e+06  4.622e+06  -0.642  0.52128   
+    as.factor(NAICS2)33 -2.535e+06  4.629e+06  -0.548  0.58446   
+    as.factor(NAICS2)42 -3.703e+06  5.616e+06  -0.659  0.51026   
+    as.factor(NAICS2)44 -3.757e+06  6.485e+06  -0.579  0.56294   
+    as.factor(NAICS2)45 -3.711e+06  6.485e+06  -0.572  0.56767   
+    as.factor(NAICS2)48 -3.000e+06  4.711e+06  -0.637  0.52485   
+    as.factor(NAICS2)52 -3.703e+06  4.953e+06  -0.748  0.45544   
+    as.factor(NAICS2)53 -3.700e+06  6.485e+06  -0.571  0.56880   
+    as.factor(NAICS2)54 -3.702e+06  6.485e+06  -0.571  0.56865   
+    as.factor(NAICS2)55 -4.795e+06  6.498e+06  -0.738  0.46126   
+    as.factor(NAICS2)56 -4.064e+06  5.128e+06  -0.792  0.42891   
+    as.factor(NAICS2)61 -3.712e+06  6.485e+06  -0.572  0.56757   
+    as.factor(NAICS2)71 -3.735e+06  5.616e+06  -0.665  0.50662   
+    as.factor(NAICS2)72 -3.706e+06  6.485e+06  -0.572  0.56820   
+    ---
+    Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
-Step 11: Push the document back to GitHub and observe your beautiful
-document in your repository!
+    Residual standard error: 4585000 on 230 degrees of freedom
+      (56 observations deleted due to missingness)
+    Multiple R-squared:  0.0507,    Adjusted R-squared:  -0.02359 
+    F-statistic: 0.6824 on 18 and 230 DF,  p-value: 0.8271
 
-## Sources in APA
+## Conclusion and Future Work
+
+We find that firms with higher GHGs tend to spend more amount on
+lobbying for the Waxman-Markey Bill. An increase in total GHG by 55 tons
+is correlated with an increase spending of 100 dollars.
+
+## References
 
 Bogardus, K., & Reilly , A. (2016, June 27). 7 years later, failed
 Waxman-Markey bill still makes waves. E&E News by POLITICO.
 http://www.eenews.net/articles/7-years-later-failed-waxman-markey-bill-still-makes-waves/
 
+Brock, C. Partisan polarization and corporate lobbying: information,
+demand, and conflict. Int Groups Adv 10, 95–113 (2021).
+https://doi.org/10.1057/s41309-021-00112-5
+
 Brulle, R.J. The climate lobby: a sectoral analysis of lobbying spending
-on climate change in the USA, 2000 to 2016. Climatic Change 149, 289–303
-(2018). https://doi.org/10.1007/s10584-018-2241-z
+on climate change in the USA, 2000 to 2016. *Climatic Change* 149,
+289–303 (2018). https://doi.org/10.1007/s10584-018-2241-z
+
+Butler, D. M., & Miller, D. R. (2022). Does Lobbying Affect Bill
+Advancement? Evidence from Three State Legislatures. Political Research
+Quarterly, 75(3), 547-561. https://doi.org/10.1177/10659129211012481
+
+Cabral, S., Krasner, D., & Doubledee, R. (2023, May 2). Calls for
+transparency around corporate political spend are growing louder. Just
+31% of America’s largest companies currently disclose. JUST Capital.
+https://justcapital.com/news/31-percent-of-americas-largest-companies-disclose-lobbying-political-contributions/#:~:text=The%20state%20of%20political%20spend,the%20companies%20in%20our%20Rankings
 
 Chen, J. (2024, August 28). Lobby: What it is, how it works, examples.
 Investopedia. https://www.investopedia.com/terms/l/lobby.asp
 
-H.R.5744 - 118th Congress (2023-2024): Energy Innovation and Carbon Dividend Act of 2023. (2023, September 29). https://www.congress.gov/bill/118th-congress/house-bill/5744
+Hill, M.D., Kelly, G.W., Lockhart, G.B. and Van Ness, R.A. (2013),
+Determinants and Effects of Corporate Lobbying. *Financial Management*,
+42: 931-957. https://doi.org/10.1111/fima.12032
 
 Meng, Kyle C.; Rode, Ashwin (2019). Data from: The social cost of
 lobbying over climate policy \[Dataset\]. Dryad.
 https://doi.org/10.5061/dryad.gg4pk7d Polluters pay. people get a carbon
 cashback. Energy Innovation and Carbon Dividend Act. (2023, September
 28). https://energyinnovationact.org/
+
+Segal, T. (2022, July 20). Bribery vs. lobbying: What’s the difference?
+Investopedia.
+https://www.investopedia.com/financial-edge/0912/the-differences-between-bribery-and-lobbying.aspx#:~:text=Bribery%20is%20considered%20an%20effort,illegal%2C%20while%20lobbying%20is%20not
 
 Slobozhan, I., Ormosi, P., Sharma, R. (2020). Which Bills Are Lobbied?
 Predicting and Interpreting Lobbying Activity in the US. In: Song, M.,
@@ -341,6 +440,8 @@ Science(), vol 12393. Springer, Cham.
 https://doi.org/10.1007/978-3-030-59065-9_23
 
 Slobozhan, I., Ormosi, P., & Sharma, R. (2022). Detecting shadow
-lobbying. Social Network Analysis and Mining, 12(1), 48.
+lobbying. *Social Network Analysis and Mining*, 12(1), 48.
 
-Weiser, D. (2024, September 20). Why lobbying is legal and important in the U.S. Investopedia. https://www.investopedia.com/articles/investing/043015/why-lobbying-legal-and-important-us.asp#:~:text=Lobbying%20is%20an%20integral%20part,participation%20in%20our%20democratic%20environment
+Weiser, D. (2024, September 20). Why lobbying is legal and important in
+the U.S. Investopedia.
+https://www.investopedia.com/articles/investing/043015/why-lobbying-legal-and-important-us.asp#:~:text=Lobbying%20is%20an%20integral%20part,participation%20in%20our%20democratic%20environment

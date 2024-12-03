@@ -30,6 +30,7 @@ Step 1. Install necessary packages.
 Step 2. Declare that you will use these packages in this session.
 
 ```{r}
+#| warning: false
 library("tidyverse")
 library("kableExtra")
 ```
@@ -70,16 +71,7 @@ Answer: Total.GHG and NAICS
 
 Answer: lobby_amount
 
-Step 7: Fit a regression model $y=\beta_0 + \beta_1 x + \epsilon$ where $y$ is the outcome variable and $x$ is the treatment variable. Use the **summary** function to display the results.
-
-```{r}
-table(df$NAICS)
-model1<-lm(lobby_amount ~ Total.GHG + as.factor(NAICS), data=df)
-
-summary(model1)
-```
-
-## Question 5: What is the equation that describes the linear regression above? Please include an explanation of the variables and subscripts.
+## Results
 
 $$
 lobby_i = \beta_0 + \beta_1 \times Total.GHG_i + \beta_2 \times \delta_{NAIC} +  \epsilon_i
@@ -87,25 +79,36 @@ $$
 
 where $i$ represents each company
 
-## Question 6: What fixed effects can be included in the regression? What does each fixed effects control for? Please include a new equation that incorporates the fixed effects.
+**Results with 6-digit NAIC fixed effects.**
 
-We already included a fixed effect which was a dummie variable for NAICS336411 after finding it to be the only significant NAICS sector predictor.
+```{r}
+model1<-lm(lobby_amount ~ Total.GHG + as.factor(NAICS), data=df)
 
-## Question 7: Run a new regression with the fixed effects. Does the RMSE improve?
+summary(model1)
+```
 
-Step 9: Change the document format to gfm
+**Results with 2-digit NAIC fixed effects.**
 
-Step 10: Change the filename to README.qmd. Render the document
+```{r}
+df2<-df %>%
+  mutate(NAICS2=substr(NAICS,1,2))
 
-Step 11: Push the document back to GitHub and observe your beautiful document in your repository!
+model2<-lm(lobby_amount ~ Total.GHG + as.factor(NAICS2), data=df2)
 
-## Sources in APA
+summary(model2)
+```
+
+## Conclusion and Future Work
+
+We find that firms with higher GHGs tend to spend more amount on lobbying for the Waxman-Markey Bill. An increase in total GHG by 55 tons is correlated with an increase spending of 100 dollars.
+
+## References
 
 Bogardus, K., & Reilly , A. (2016, June 27). 7 years later, failed Waxman-Markey bill still makes waves. E&E News by POLITICO. http://www.eenews.net/articles/7-years-later-failed-waxman-markey-bill-still-makes-waves/
 
 Brock, C. Partisan polarization and corporate lobbying: information, demand, and conflict. Int Groups Adv 10, 95–113 (2021). https://doi.org/10.1057/s41309-021-00112-5
 
-Brulle, R.J. The climate lobby: a sectoral analysis of lobbying spending on climate change in the USA, 2000 to 2016. Climatic Change 149, 289–303 (2018). https://doi.org/10.1007/s10584-018-2241-z
+Brulle, R.J. The climate lobby: a sectoral analysis of lobbying spending on climate change in the USA, 2000 to 2016. *Climatic Change* 149, 289–303 (2018). https://doi.org/10.1007/s10584-018-2241-z
 
 Butler, D. M., & Miller, D. R. (2022). Does Lobbying Affect Bill Advancement? Evidence from Three State Legislatures. Political Research Quarterly, 75(3), 547-561. https://doi.org/10.1177/10659129211012481
 
@@ -113,7 +116,7 @@ Cabral, S., Krasner, D., & Doubledee, R. (2023, May 2). Calls for transparency a
 
 Chen, J. (2024, August 28). Lobby: What it is, how it works, examples. Investopedia. https://www.investopedia.com/terms/l/lobby.asp
 
-Hill, M.D., Kelly, G.W., Lockhart, G.B. and Van Ness, R.A. (2013), Determinants and Effects of Corporate Lobbying. Financial Management, 42: 931-957. https://doi.org/10.1111/fima.12032
+Hill, M.D., Kelly, G.W., Lockhart, G.B. and Van Ness, R.A. (2013), Determinants and Effects of Corporate Lobbying. *Financial Management*, 42: 931-957. https://doi.org/10.1111/fima.12032
 
 Meng, Kyle C.; Rode, Ashwin (2019). Data from: The social cost of lobbying over climate policy \[Dataset\]. Dryad. https://doi.org/10.5061/dryad.gg4pk7d Polluters pay. people get a carbon cashback. Energy Innovation and Carbon Dividend Act. (2023, September 28). https://energyinnovationact.org/
 
@@ -121,6 +124,6 @@ Segal, T. (2022, July 20). Bribery vs. lobbying: What’s the difference? Invest
 
 Slobozhan, I., Ormosi, P., Sharma, R. (2020). Which Bills Are Lobbied? Predicting and Interpreting Lobbying Activity in the US. In: Song, M., Song, IY., Kotsis, G., Tjoa, A.M., Khalil, I. (eds) Big Data Analytics and Knowledge Discovery. DaWaK 2020. Lecture Notes in Computer Science(), vol 12393. Springer, Cham. https://doi.org/10.1007/978-3-030-59065-9_23
 
-Slobozhan, I., Ormosi, P., & Sharma, R. (2022). Detecting shadow lobbying. Social Network Analysis and Mining, 12(1), 48.
+Slobozhan, I., Ormosi, P., & Sharma, R. (2022). Detecting shadow lobbying. *Social Network Analysis and Mining*, 12(1), 48.
 
 Weiser, D. (2024, September 20). Why lobbying is legal and important in the U.S. Investopedia. https://www.investopedia.com/articles/investing/043015/why-lobbying-legal-and-important-us.asp#:\~:text=Lobbying%20is%20an%20integral%20part,participation%20in%20our%20democratic%20environment
