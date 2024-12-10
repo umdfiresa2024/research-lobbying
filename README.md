@@ -11,111 +11,17 @@ they’ll spend on lobbying for the Waxman-Markey bill?
 
 ## Introduction
 
-Lobbying is an important feature of representation in the US government
-as it can help those without voices be reached. In the corporate world,
-lobbying can also be used by businesses to support or oppose bills and
-legislation that improve or harm their profit margins. These companies
-may employ lobbyists to work on their behalf, or they can hire a
-lobbying firm to act on their behalf and make their case to legislators
-for why a bill should be supported or opposed. Because of the influence
-lobbying can hold over politics, the process has multiple rules and
-policies in place to insure that misconduct is not jeopardizing this
-feature of government representation. Organizations must register if
-they employ a lobbyist, and lobbyists must register when they meet
-certain requirements. The Lobbying Disclosure Act of 1995 mandated that
-lobbying is publicly registered, and much of this data is available on
-OpenSecrets.org. Despite these policies, many Americans believe that
-lobbying is a feature of government corruption that sways laws and
-politicians into the pockets of wealthy business owners. The importance
-of our research and project is to verify these concerns and allow for a
-more transparent review of the lobbying sector. The relevant bill our
-study focuses on is the Waxman-Markey Bill. The goal of the bill was to
-establish limits on emissions for several greenhouse gasses. On June
-26th, 2009, the bill narrowly passed the House, but, due to a special
-election in 2010 as well as other factors, the Senate majority leader
-never brought it to the Senate for a vote and it was ultimately never
-implemented. Since then, multiple other bills related to limiting
-greenhouse gas emissions have reached the house floor, such as the
-Energy Innovation and Carbon Dividend Act, which suggests charging
-companies for their carbon pollution. If implementing these measures
-would cost a company money and/or potential revenue, it is logical to
-assume, then, that these corporations could be incentivized to lobby
-against these bills, as doing so would ultimately be less expensive than
-implementing the bill and losing revenue. As it turns out, lobbying is
-not immune to corruption. “Shadow lobbying” is lobbying done by people
-who are not registered as lobbyists. People can seek to influence
-politicians’ stances on issues without being technically “lobbyists.”
-This creates huge problems for tracking the money in politics. Slobozhan
-et al. (2022) investigated the prominence of shadow lobbying. The paper
-collected a list of all bills after and including the year 2000 and
-subtracted all bills that were registered to have been lobbied for or
-against on OpenSecrets. The researchers then analyzed the remaining
-bills to examine the probability that they were lobbied but not
-reported, or if they were simply not lobbied. The paper states that it
-infers that a significant amount of bills had lobbying activity that was
-not reported properly. We strive to build further on this research. One
-problem is that, while a bill might have technically reported lobbying,
-the actual amount spent may be underreported. This problem was not
-investigated in the prior study because they only looked at bills
-without any reported lobbying. Our research will create a model that
-develops a theoretical amount spent on lobbying for a climate bill
-similar to Waxman-Markey, then will compare to the actual amount,
-allowing us to assess the likelihood that a bill’s lobbying was
-underreported. We will create a model that will predict lobbying
-expenditure for a company–theoretically, how much money a company will
-spend on lobbying for the Waxman-Markey Bill. Greenhouse gas emissions ,
-sector, and stock value will be the inputs that will be used to generate
-the output value. The model will be trained with data from the
-Waxman-Markey bill, then applied to similar bills that aimed to reduce
-GHG emissions. Another hope is that this model can help prevent
-underreporting of lobbying, as, if there is a severe disparity between
-the predicted number and reported amount of money spent on policies
-related to climate change, the bill and its related parties can be
-investigated further for potential lobbying misconduct.
+Lobbying is one of the most important facets of the political process. In particular, it has a significant impact on the legislative process. Essentially, lobbying is the act of communicating directly with a politician in the hopes of influencing future policy (Chen, 2024). While lobbying is protected under our constitutional rights, many critics notice that it has historically been used as a tool by large businesses to pass or halt legislation that impacts their profit margins (Wallach, 2015). These companies may hire lobbyists to advocate to lawmakers their support for or opposition against a bill. Climate lobbying only accounts for 2.9% of lobbying in the United States (Brulle 2016). Despite this, billions of dollars are spent annually in lobbying efforts to deter policy implementation. In addition, some of these lobbying efforts routinely go unaccounted for as a result of shadow lobbying, as the Lobbying Disclosure Act is only required to account for bills lobbied by registered lobbyists. Our research aims to estimate corporate spending on lobbying and promote transparency within the lobbying sector.
+Our research focuses on the Waxman-Markey Bill, a 2009 climate bill that sought to establish measures to control U.S. carbon emissions (Bogardus et al, 2016). The bill narrowly passed the House and was never brought to the Senate due to opposition control of the chamber. Since then, multiple other bills regarding greenhouse gas emissions have reached the house floor, such as the Energy Innovation and Carbon Dividend Act, which charge companies for their carbon pollution (H.R.5744 - 118th Congress (2023-2024): Energy Innovation and Carbon Dividend Act of 2023, 2023). Corporations that lose value from these implementations are more likely to lobby against these bills, since stopping the legislation can be more cost-effective than complying with the bill. 
+Our goal was to create a model that estimates how much money a company may spend on lobbying for the Waxman-Markey Bill. We utilized R programming to aggregate company data and developed a linear model to estimate corporate spending on lobbying. The model considered a company’s gas emissions, sector, and stock value and output an estimate for the dollar amount spent on lobbying by the company. This model can be used in future applications of legislative analysis. In particular, this method can be used to predict the public reaction to certain legislation or estimate the effectiveness of mandatory reporting measures. For instance, the model’s estimate of a particular company’s lobbying spending may aid detection of underreporting lobbying by highlighting the gap between a company’s actual and estimated spending. Similarly, it can prevent shadow lobbying and lobbying done by individuals not registered as lobbyists (Slobozhan et al, 2022).
+
 
 ## Literature Review
 
-Our predictive modeling was inherited from research done that similarly
-predicted the lobbying behavior of corporations (Meng & Rode, 2019).
-Previous research used regression modeling systems to predict company
-values, serving to uncover relationships between lobbying expenditures
-and whether or not a bill has been passed (Meng & Rode, 2019).
-Additionally, Brulle (2016) used sectoral analysis to predict lobbying
-expenditures, resulting in findings which indicate that fossil fuel
-industries lobby the most, especially in comparison to renewable energy
-companies and environmental advocacy organizations. This, alongside
-previous research from Meng & Rode (2019), establishes correlations to
-fossil fuel lobbying expenditures and the failure of policy. It’s worth
-noting that climate lobbying only accounts for 2.9% of lobbying in the
-United States (Brulle 2016). Despite this, billions of dollars are spent
-annually in lobbying efforts to deter policy implementation. In
-addition, some of these lobbying efforts routinely go unaccounted for as
-a result of shadow lobbying, as the Lobbying Disclosure Act is only
-required to account for bills lobbied by registered lobbyists. Similarly
-to prior analysis of the Waxman-Markey bill, regression modeling can be
-used to predict whether or not a bill has been secretly lobbied
-(Slobozhan et al., 2020) These parallels help set the foundations for
-what we wish to build off as it comes to expanding our research. For
-example, our research still relies on sectoral analysis as a determiner
-of similarly researched explanatory variables (e.g. revenue share). In
-this case, our desired expansion involves providing additional data on
-companies whose carbon emissions greatly differ from the companies
-included in prior datasets. For example, our dataset includes firms that
-did not lobby against the Waxman-Markey bill. This allows us to more
-accurately predict lobbying expenditure correlations by including more
-zeroes, reducing inflation in our initial dataset. This accuracy will
-come at the forefront in our goal of not only predicting the
-implementation of the Waxman-Markey bill, but predicting implementations
-of similar environmental policy bills, such as the priorly mentioned
-Energy Innovation Act, as a model in analyzing social costs. Our desired
-accuracy also allows our research to extend beyond typical social cost
-nomenclature and to an approach that analyzes both private costs and
-benefits. We want to explore whether or not the fate of environmental
-policy not only poses consequences to society, but consequences to
-lobbying firms, corporations, and Congress. Ultimately, our research
-will build upon prior analysis of climate lobbying’s social costs into
-an exploration of the benefits firms receive from lobbying and extend
-that to societal determinants and implications.
+The concept for our data model was based on prior research predicting corporate lobbying (Meng & Rode, 2019). Research by Meng and Rode (2019) used regression modeling systems to predict whether or not a company would gain or lose value, serving as a step to uncover the relationships between a firm’s lobbying expense and the fate of climate policy. Their empirically driven analysis was clear: firms that were expected to lose value were more likely to spend money against the Waxman-Markey bill in comparison with firms that were expected to gain value. Additionally, research by Brulle (2016) used sectoral analysis to predict lobbying expenditures, resulting in findings that indicate that fossil fuel industries lobby the most, especially in comparison to renewable energy companies and environmental advocacy organizations. 
+Such research allows us to give a general hypothesis that sector is a significant variable in predicting lobbying expenditures. For example, Brulle (2019) notes that the fossil fuel sector is the second highest industry in lobbying expenditures as policies like the Waxman-Markey Bill can significantly impact their operational practices. Any regulations set forth by policy can have significant effects on the market value of a company, leading them to spend money that can inhibit its success. Our hypothesis asserts these practices aren’t solely conducted by individual firms but are conducted on the premise of sector-wide fears. In Meng & Rode’s case these fears were driven by market value, but previous research, such as Slobozhan et al. (2020) which uses regression modeling as an analytical basis, allows us to further hypothesize that these fears are also driven by greenhouse gas emissions. Certain sectors emit more carbon than others, and firms wish to deter regulations that climate policy would invoke. Sectors that emit more carbon, such as the carbon industry, are more likely to have the necessary amount of money to spend on lobbying in comparison to environmentally advocacy or wildlife preservation organizations which may find climate policy’s successes more appealing to their outcomes. 
+	Our research expanded on sectoral analysis as a determiner of similarly researched explanatory variables (e.g., revenue share).We utilized additional data on companies whose carbon emissions greatly differed from the companies included in prior datasets. For example, our dataset includes firms that did not lobby against the Waxman-Markey bill. This allows us to more accurately estimate lobbying expenditure correlations by reducing the inflation in our response variable that comes with only including data from companies that lobby. As mentioned in the introduction, our desired accuracy will come at the forefront in future goals of estimating lobbying expenditures of the Waxman-Markey bill and predicting implementations of similar environmental policy bills, such as the priorly mentioned Energy Innovation Act, to further analyze social costs. Eventually, we hope our research helps future explorations in whether or not the fate of environmental policy not only poses consequences to society but consequences to lobbying firms, corporations, and Congress. Ultimately, we hope our research, originally built from prior analysis of climate lobbying’s social costs, can more accurately predict lobbying expenditures. We hope our estimations can rationally define the successes and failures of climate policy.
+
 
 ## Data Description
 
@@ -184,7 +90,7 @@ Answer: Total.GHG and NAICS
 
 Answer: lobby_amount
 
-## Results
+## Question 5: What is the equation that describes the linear regression above? Please include an explanation of the variables and subscripts.
 
 $$
 lobby_i = \beta_0 + \beta_1 \times Total.GHG_i + \beta_2 \times \delta_{NAIC} +  \epsilon_i
@@ -385,12 +291,23 @@ summary(model2)
       (56 observations deleted due to missingness)
     Multiple R-squared:  0.0507,    Adjusted R-squared:  -0.02359 
     F-statistic: 0.6824 on 18 and 230 DF,  p-value: 0.8271
+    
+## Question 6: What fixed effects can be included in the regression? What does each fixed effects control for? Please include a new equation that incorporates the fixed effects.
+
+We already included a fixed effect which was a dummie variable for NAICS336411 after finding it to be the only significant NAICS sector predictor.
+
 
 ## Conclusion and Future Work
 
-We find that firms with higher GHGs tend to spend more amount on
-lobbying for the Waxman-Markey Bill. An increase in total GHG by 55 tons
-is correlated with an increase spending of 100 dollars.
+At a significance level of 0.05, a company’s total greenhouse gas emissions is a significant predictor for the company’s lobbying spending. A company’s NAICS sector is not a significant predictor. 
+
+Companies that produce more GHG emissions have a higher likelihood of lobbying against the Waxman-Markey bill. This is because it affects their profits by forcing them to significantly change their operational methods to be more environmentally friendly. Likewise, companies that have lower GHG emissions have more incentive to lobby for the bill because it increases costs for their competitors. 
+
+This project can be improved by trying more robust models for the data  or by collecting more data since the current dataset is small and missing values for some explanatory variables.
+
+These findings confirm previous research that GHG emissions is a significant predictor of lobbying spending but suggest that the relationship between GHG emissions and lobbying spending may not be as strong as past research implied, depending on the model used.
+
+
 
 ## References
 
