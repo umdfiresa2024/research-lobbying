@@ -77,10 +77,9 @@ in the dataframe.
 
 ``` r
 names(df)
+df <- df %>% 
+  mutate(NAIC2 = substr(NAICS, 1, 2))
 ```
-
-    [1] "Ticker"           "Company"          "Total.GHG"        "NAICS"           
-    [5] "US_revenue_share" "carbon_intensity" "lobby_amount"    
 
 ## Question 3: Which column represents the explanatory variable of interest?
 
@@ -90,211 +89,33 @@ Answer: Total.GHG and NAICS
 
 Answer: lobby_amount
 
+Step 7: Fit a regression model $y=\beta_0 + \beta_1 x + \epsilon$ where $y$ is the outcome variable and $x$ is the treatment variable. Use the summary function to display the results.
+
+
+``` r
+names(df)
+table(df$NAIC2)
+model1<-lm(lobby_amount ~ Total.GHG + as.factor(NAIC2), data=df)
+
+summary(model1)
+
+library(ggplot2)
+ggplot(df, aes(x = log(Total.GHG), y = log(lobby_amount))) +
+  geom_point()
+```
+
 ## Question 5: What is the equation that describes the linear regression above? Please include an explanation of the variables and subscripts.
 
 $$
-lobby_i = \beta_0 + \beta_1 \times Total.GHG_i + \beta_2 \times \delta_{NAIC} +  \epsilon_i
+lobby_i = \beta_0 + \beta_1 \times Total.GHG_i  +  \epsilon_i
 $$
 
 where $i$ represents each company
 
-**Results with 6-digit NAIC fixed effects.**
-
-``` r
-model1<-lm(lobby_amount ~ Total.GHG + as.factor(NAICS), data=df)
-
-summary(model1)
-```
-
-
-    Call:
-    lm(formula = lobby_amount ~ Total.GHG + as.factor(NAICS), data = df)
-
-    Residuals:
-         Min       1Q   Median       3Q      Max 
-    -9238278  -287599        0     1367 44033144 
-
-    Coefficients:
-                             Estimate Std. Error t value Pr(>|t|)    
-    (Intercept)             3.709e+06  5.031e+06   0.737 0.462333    
-    Total.GHG               3.732e-02  2.773e-02   1.346 0.180711    
-    as.factor(NAICS)211111 -2.920e+06  5.177e+06  -0.564 0.573757    
-    as.factor(NAICS)211112 -5.112e+05  5.810e+06  -0.088 0.930022    
-    as.factor(NAICS)212210 -3.745e+06  6.162e+06  -0.608 0.544407    
-    as.factor(NAICS)212221 -3.506e+06  5.810e+06  -0.603 0.547277    
-    as.factor(NAICS)212312 -3.539e+06  7.115e+06  -0.497 0.619790    
-    as.factor(NAICS)213112 -3.425e+06  6.162e+06  -0.556 0.579329    
-    as.factor(NAICS)221111  1.847e+06  5.335e+06   0.346 0.729671    
-    as.factor(NAICS)221112  2.670e+05  6.566e+06   0.041 0.967624    
-    as.factor(NAICS)221113  1.929e+06  7.117e+06   0.271 0.786738    
-    as.factor(NAICS)221119 -3.295e+06  5.227e+06  -0.630 0.529598    
-    as.factor(NAICS)221121 -3.674e+06  5.392e+06  -0.681 0.496851    
-    as.factor(NAICS)221122 -3.709e+06  7.115e+06  -0.521 0.603037    
-    as.factor(NAICS)221210 -3.142e+06  5.240e+06  -0.600 0.549884    
-    as.factor(NAICS)311222 -3.202e+06  6.164e+06  -0.519 0.604303    
-    as.factor(NAICS)311230 -3.713e+06  6.162e+06  -0.602 0.547905    
-    as.factor(NAICS)311421 -3.712e+06  6.162e+06  -0.602 0.548020    
-    as.factor(NAICS)311422 -3.609e+06  7.115e+06  -0.507 0.612871    
-    as.factor(NAICS)311611 -3.482e+06  5.625e+06  -0.619 0.537052    
-    as.factor(NAICS)311615 -2.477e+06  7.115e+06  -0.348 0.728304    
-    as.factor(NAICS)311942 -3.711e+06  7.115e+06  -0.522 0.602870    
-    as.factor(NAICS)312111  2.754e+06  7.115e+06   0.387 0.699400    
-    as.factor(NAICS)312140 -3.712e+06  7.115e+06  -0.522 0.602799    
-    as.factor(NAICS)312221 -3.751e+06  7.115e+06  -0.527 0.598935    
-    as.factor(NAICS)312229 -1.046e+06  7.115e+06  -0.147 0.883353    
-    as.factor(NAICS)314110 -3.716e+06  7.115e+06  -0.522 0.602422    
-    as.factor(NAICS)322110 -3.725e+06  7.115e+06  -0.524 0.601489    
-    as.factor(NAICS)322121 -3.778e+06  5.512e+06  -0.685 0.494293    
-    as.factor(NAICS)322122 -3.718e+06  7.115e+06  -0.523 0.602207    
-    as.factor(NAICS)322130 -3.740e+06  7.115e+06  -0.526 0.600078    
-    as.factor(NAICS)322211 -3.743e+06  7.115e+06  -0.526 0.599759    
-    as.factor(NAICS)322291 -3.378e+06  7.115e+06  -0.475 0.635783    
-    as.factor(NAICS)324110  5.848e+05  5.273e+06   0.111 0.911861    
-    as.factor(NAICS)325110 -3.715e+06  7.115e+06  -0.522 0.602457    
-    as.factor(NAICS)325120 -3.838e+06  5.626e+06  -0.682 0.496327    
-    as.factor(NAICS)325181 -3.710e+06  7.115e+06  -0.521 0.602961    
-    as.factor(NAICS)325182 -3.770e+06  7.115e+06  -0.530 0.597146    
-    as.factor(NAICS)325188 -3.712e+06  7.115e+06  -0.522 0.602764    
-    as.factor(NAICS)325193 -3.771e+06  7.115e+06  -0.530 0.597074    
-    as.factor(NAICS)325199 -3.740e+06  7.115e+06  -0.526 0.600034    
-    as.factor(NAICS)325211 -3.929e+06  5.631e+06  -0.698 0.486518    
-    as.factor(NAICS)325311 -3.871e+06  5.811e+06  -0.666 0.506455    
-    as.factor(NAICS)325312 -3.770e+06  7.115e+06  -0.530 0.597131    
-    as.factor(NAICS)325320 -3.727e+06  7.115e+06  -0.524 0.601285    
-    as.factor(NAICS)325412 -3.716e+06  5.304e+06  -0.701 0.484814    
-    as.factor(NAICS)325414 -3.711e+06  7.115e+06  -0.521 0.602929    
-    as.factor(NAICS)325510 -2.596e+06  7.122e+06  -0.364 0.716094    
-    as.factor(NAICS)325611 -6.490e+05  6.162e+06  -0.105 0.916279    
-    as.factor(NAICS)325612 -3.861e+06  7.116e+06  -0.543 0.588325    
-    as.factor(NAICS)325998 -3.715e+06  6.162e+06  -0.603 0.547624    
-    as.factor(NAICS)326192 -3.717e+06  7.115e+06  -0.522 0.602257    
-    as.factor(NAICS)326211 -3.725e+06  6.162e+06  -0.604 0.546623    
-    as.factor(NAICS)327213 -3.753e+06  7.115e+06  -0.527 0.598790    
-    as.factor(NAICS)327310 -3.770e+06  7.115e+06  -0.530 0.597141    
-    as.factor(NAICS)327320 -4.146e+06  7.122e+06  -0.582 0.561516    
-    as.factor(NAICS)327420 -3.742e+06  7.115e+06  -0.526 0.599895    
-    as.factor(NAICS)331111 -3.812e+06  5.810e+06  -0.656 0.512963    
-    as.factor(NAICS)331112 -3.711e+06  7.115e+06  -0.522 0.602856    
-    as.factor(NAICS)331221 -3.907e+06  5.529e+06  -0.707 0.481041    
-    as.factor(NAICS)331311 -3.720e+06  7.115e+06  -0.523 0.601954    
-    as.factor(NAICS)331312 -8.299e+05  7.120e+06  -0.117 0.907391    
-    as.factor(NAICS)331524 -3.729e+06  7.115e+06  -0.524 0.601164    
-    as.factor(NAICS)332311 -3.710e+06  7.115e+06  -0.521 0.602954    
-    as.factor(NAICS)332312 -3.711e+06  7.115e+06  -0.521 0.602916    
-    as.factor(NAICS)332313 -3.709e+06  7.115e+06  -0.521 0.603045    
-    as.factor(NAICS)332911 -3.715e+06  7.115e+06  -0.522 0.602515    
-    as.factor(NAICS)332991 -3.013e+06  7.115e+06  -0.424 0.672623    
-    as.factor(NAICS)333111 -2.114e+06  7.115e+06  -0.297 0.766842    
-    as.factor(NAICS)333120 -3.754e+06  7.115e+06  -0.528 0.598682    
-    as.factor(NAICS)333132 -2.858e+06  6.162e+06  -0.464 0.643627    
-    as.factor(NAICS)333611 -3.837e+06  7.116e+06  -0.539 0.590673    
-    as.factor(NAICS)333618 -3.710e+06  7.115e+06  -0.521 0.602957    
-    as.factor(NAICS)333923 -1.843e+05  7.115e+06  -0.026 0.979381    
-    as.factor(NAICS)333993 -3.710e+06  7.115e+06  -0.521 0.602963    
-    as.factor(NAICS)334111 -3.713e+06  7.115e+06  -0.522 0.602684    
-    as.factor(NAICS)334119 -3.711e+06  7.115e+06  -0.521 0.602920    
-    as.factor(NAICS)334220 -3.711e+06  6.162e+06  -0.602 0.548110    
-    as.factor(NAICS)334412 -3.731e+06  7.115e+06  -0.524 0.600929    
-    as.factor(NAICS)334413 -3.491e+06  5.625e+06  -0.621 0.535950    
-    as.factor(NAICS)335224 -3.713e+06  7.115e+06  -0.522 0.602659    
-    as.factor(NAICS)335921 -3.482e+06  6.162e+06  -0.565 0.572975    
-    as.factor(NAICS)336111 -3.737e+06  7.115e+06  -0.525 0.600383    
-    as.factor(NAICS)336211 -3.302e+06  7.115e+06  -0.464 0.643362    
-    as.factor(NAICS)336330 -3.711e+06  7.115e+06  -0.522 0.602864    
-    as.factor(NAICS)336399 -3.711e+06  7.115e+06  -0.522 0.602895    
-    as.factor(NAICS)336411  2.402e+07  7.115e+06   3.376 0.000972 ***
-    as.factor(NAICS)336412  4.397e+05  6.162e+06   0.071 0.943234    
-    as.factor(NAICS)336413 -3.713e+06  7.115e+06  -0.522 0.602725    
-    as.factor(NAICS)336414 -3.710e+06  7.115e+06  -0.521 0.602968    
-    as.factor(NAICS)336415  1.253e+07  7.115e+06   1.761 0.080661 .  
-    as.factor(NAICS)337214 -3.710e+06  7.115e+06  -0.521 0.602932    
-    as.factor(NAICS)337910 -3.713e+06  7.115e+06  -0.522 0.602705    
-    as.factor(NAICS)339112 -3.732e+06  6.162e+06  -0.606 0.545861    
-    as.factor(NAICS)339113 -3.710e+06  7.115e+06  -0.521 0.603008    
-    as.factor(NAICS)423930 -3.712e+06  7.115e+06  -0.522 0.602802    
-    as.factor(NAICS)424510 -3.712e+06  7.115e+06  -0.522 0.602737    
-    as.factor(NAICS)448120 -3.748e+06  7.115e+06  -0.527 0.599282    
-    as.factor(NAICS)453998 -3.717e+06  7.115e+06  -0.522 0.602258    
-    as.factor(NAICS)481111 -4.332e+05  7.115e+06  -0.061 0.951545    
-    as.factor(NAICS)482111  6.232e+06  7.115e+06   0.876 0.382710    
-    as.factor(NAICS)483111 -3.712e+06  7.115e+06  -0.522 0.602799    
-    as.factor(NAICS)483113 -3.715e+06  7.115e+06  -0.522 0.602531    
-    as.factor(NAICS)486110 -3.717e+06  7.115e+06  -0.522 0.602260    
-    as.factor(NAICS)486210 -3.749e+06  5.277e+06  -0.710 0.478731    
-    as.factor(NAICS)486990 -3.712e+06  7.115e+06  -0.522 0.602765    
-    as.factor(NAICS)488119 -3.722e+06  7.115e+06  -0.523 0.601850    
-    as.factor(NAICS)488330 -3.710e+06  7.115e+06  -0.521 0.602951    
-    as.factor(NAICS)525920 -3.710e+06  7.115e+06  -0.521 0.602976    
-    as.factor(NAICS)525990 -3.712e+06  5.512e+06  -0.674 0.501823    
-    as.factor(NAICS)531190 -3.710e+06  7.115e+06  -0.521 0.602964    
-    as.factor(NAICS)541711 -3.711e+06  7.115e+06  -0.522 0.602872    
-    as.factor(NAICS)551112 -4.442e+06  7.136e+06  -0.622 0.534716    
-    as.factor(NAICS)562212 -3.978e+06  7.118e+06  -0.559 0.577220    
-    as.factor(NAICS)562219 -4.017e+06  6.166e+06  -0.652 0.515858    
-    as.factor(NAICS)562920 -3.805e+06  7.116e+06  -0.535 0.593784    
-    as.factor(NAICS)611310 -3.718e+06  7.115e+06  -0.523 0.602195    
-    as.factor(NAICS)713110 -3.720e+06  7.115e+06  -0.523 0.602008    
-    as.factor(NAICS)713990 -3.747e+06  7.115e+06  -0.527 0.599343    
-    as.factor(NAICS)721120 -3.714e+06  7.115e+06  -0.522 0.602587    
-    ---
-    Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-
-    Residual standard error: 5031000 on 129 degrees of freedom
-      (56 observations deleted due to missingness)
-    Multiple R-squared:  0.359, Adjusted R-squared:  -0.2324 
-    F-statistic: 0.607 on 119 and 129 DF,  p-value: 0.997
-
-**Results with 2-digit NAIC fixed effects.**
-
-``` r
-df2<-df %>%
-  mutate(NAICS2=substr(NAICS,1,2))
-
-model2<-lm(lobby_amount ~ Total.GHG + as.factor(NAICS2), data=df2)
-
-summary(model2)
-```
-
-
-    Call:
-    lm(formula = lobby_amount ~ Total.GHG + as.factor(NAICS2), data = df2)
-
-    Residuals:
-         Min       1Q   Median       3Q      Max 
-    -6734772 -1168793  -780145  -583043 48301117 
-
-    Coefficients:
-                          Estimate Std. Error t value Pr(>|t|)   
-    (Intercept)          3.699e+06  4.585e+06   0.807  0.42067   
-    Total.GHG            5.555e-02  2.110e-02   2.633  0.00904 **
-    as.factor(NAICS2)21 -2.851e+06  4.667e+06  -0.611  0.54186   
-    as.factor(NAICS2)22 -2.445e+06  4.650e+06  -0.526  0.59959   
-    as.factor(NAICS2)31 -3.030e+06  4.711e+06  -0.643  0.52074   
-    as.factor(NAICS2)32 -2.969e+06  4.622e+06  -0.642  0.52128   
-    as.factor(NAICS2)33 -2.535e+06  4.629e+06  -0.548  0.58446   
-    as.factor(NAICS2)42 -3.703e+06  5.616e+06  -0.659  0.51026   
-    as.factor(NAICS2)44 -3.757e+06  6.485e+06  -0.579  0.56294   
-    as.factor(NAICS2)45 -3.711e+06  6.485e+06  -0.572  0.56767   
-    as.factor(NAICS2)48 -3.000e+06  4.711e+06  -0.637  0.52485   
-    as.factor(NAICS2)52 -3.703e+06  4.953e+06  -0.748  0.45544   
-    as.factor(NAICS2)53 -3.700e+06  6.485e+06  -0.571  0.56880   
-    as.factor(NAICS2)54 -3.702e+06  6.485e+06  -0.571  0.56865   
-    as.factor(NAICS2)55 -4.795e+06  6.498e+06  -0.738  0.46126   
-    as.factor(NAICS2)56 -4.064e+06  5.128e+06  -0.792  0.42891   
-    as.factor(NAICS2)61 -3.712e+06  6.485e+06  -0.572  0.56757   
-    as.factor(NAICS2)71 -3.735e+06  5.616e+06  -0.665  0.50662   
-    as.factor(NAICS2)72 -3.706e+06  6.485e+06  -0.572  0.56820   
-    ---
-    Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-
-    Residual standard error: 4585000 on 230 degrees of freedom
-      (56 observations deleted due to missingness)
-    Multiple R-squared:  0.0507,    Adjusted R-squared:  -0.02359 
-    F-statistic: 0.6824 on 18 and 230 DF,  p-value: 0.8271
-    
 ## Question 6: What fixed effects can be included in the regression? What does each fixed effects control for? Please include a new equation that incorporates the fixed effects.
 
 We already included a fixed effect which was a dummie variable for NAICS336411 after finding it to be the only significant NAICS sector predictor.
+
 
 
 ## Conclusion and Future Work
